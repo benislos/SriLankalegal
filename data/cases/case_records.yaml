@@ -1,0 +1,215 @@
+# FULL CASE RECORDS (brief s.6: 16 fields)
+# One record per case node in data/taxonomy/authorities.yaml (same id).
+# field_status gives verification per field. Default for an unlisted field = the node's overall
+# status. "pending" means the field is intentionally empty until the judgment text is read.
+# NO verbatim quotations are recorded until a field is verified_primary.
+# Treatment fields (followed/distinguished/overruled_by) are typed edges and are loaded into
+# kms.edges; each needs its own source.
+
+records:
+  - id: CASE-LIYANAGE-1965
+    application_no: "Privy Council Appeal (Ceylon)"
+    bench: []
+    material_facts: "After the abortive coup of January 1962, Parliament enacted the Criminal Law (Special Provisions) Act 1962, applying retrospectively to the accused, altering rules of evidence, arrest and punishment, and providing for trial by judges nominated by the Minister of Justice. The appellants were convicted by a Supreme Court bench constituted under the Act."
+    legal_issues:
+      - "Did the Soulbury Constitution, though silent, vest judicial power exclusively in the judicature?"
+      - "Was legislation directed at the particular accused in pending proceedings a usurpation of judicial power?"
+    decision: "Convictions quashed; the impugned legislation was ultra vires as an interference with judicial power."
+    ratio: "The structure of the Constitution implies a separation of judicial power; legislation that is ad hominem and designed to secure the conviction of particular persons in pending proceedings usurps that power and is invalid."
+    obiter: []
+    principles: ["Implied separation of powers", "Judicial power cannot be usurped by legislature or executive"]
+    subsequent_treatment: "Relied on by Ceylon courts to hold that executive officers cannot exercise judicial power; foundational to S-CON-03."
+    field_status: {material_facts: unverified, ratio: corroborated, application_no: unverified}
+    edges: []
+
+  - id: CASE-PREMACHANDRA-1994
+    application_no: "SC References 2/93 and 3/93"
+    bench: ["G.P.S. de Silva CJ", "Bandaranayake J", "Fernando J"]
+    material_facts: "Rival claims to appointment as Chief Minister made to the Governors of two provinces after provincial council elections; the Governors' appointments were challenged."
+    legal_issues:
+      - "Is the Governor's power to appoint a Chief Minister under Art 154F an unreviewable discretion?"
+    decision: "Governors' discretion held subject to legal limits and judicial review (orders: pending verification)."
+    ratio: "Every power has legal limits however wide the empowering language; there are no absolute or unfettered discretions in public law, and powers are held in trust for the public."
+    obiter: []
+    principles: ["No unfettered discretion", "Public trust in exercise of public power"]
+    subsequent_treatment: "Cited in later SC decisions on public trust (e.g. alongside Bulankulama in a 2008 judgment) and at pp. 101-102 for discretion."
+    field_status: {decision: unverified, ratio: corroborated}
+    edges: []
+
+  - id: CASE-BANDARA-1994
+    application_no: pending
+    bench: []
+    material_facts: pending
+    legal_issues: []
+    decision: pending
+    ratio: "Cited as an early articulation of the public trust doctrine in public administration."
+    obiter: []
+    principles: ["Public trust doctrine"]
+    subsequent_treatment: pending
+    field_status: {ratio: corroborated}
+    edges: []
+
+  - id: CASE-BULANKULAMA-2000
+    application_no: "SC (FR) 884/99"
+    bench: []
+    material_facts: "Residents of the Eppawela area challenged a proposed mineral investment agreement between the State and a foreign company for large-scale phosphate mining, which would displace residents and affect land, water and archaeological sites."
+    legal_issues:
+      - "Can a proposed (not yet concluded) agreement amount to an imminent infringement of fundamental rights?"
+      - "What is the State's responsibility in disposing of natural resources?"
+    decision: "Imminent infringement of the petitioners' fundamental rights established; the State directed to desist from entering into the agreement until environmental and other legal requirements were met."
+    ratio: "Natural resources are held by the State in trust for the People; disposal must comply with environmental law and principles of sustainable development, and a proposed agreement threatening rights can be restrained as an imminent infringement."
+    obiter: ["Reference to international environmental principles (precautionary principle, intergenerational equity) as guides though not binding instruments."]
+    principles: ["Public trust over natural resources", "Sustainable development", "Precautionary principle", "Intergenerational equity", "Imminent infringement under Art 126"]
+    subsequent_treatment: "Cited in later SC decisions on public trust (2008 judgment; Azath Salley v CMC [2009] 1 Sri LR) - details pending."
+    field_status: {material_facts: corroborated, decision: corroborated, ratio: corroborated, obiter: unverified}
+    edges:
+      - {to: CASE-PREMACHANDRA-1994, type: CITES, basis: judicial, note: "Public trust lineage - confirm citation in text", sources: []}
+
+  - id: CASE-SRIYANI-SILVA-2003
+    application_no: "SC (FR) 471/2000"
+    decided_on: 2003-08-08
+    bench: ["Fernando J", "Yapa J", "J.A.N. de Silva J"]
+    material_facts: "The petitioner's husband was arrested by Paiyagala police, allegedly tortured in custody, and died. His widow petitioned on his behalf."
+    legal_issues:
+      - "Does the Constitution protect a right to life though not expressly enumerated?"
+      - "May heirs/dependants invoke Art 126 when the victim has died?"
+    decision: "Infringement of fundamental rights declared; compensation awarded (amounts pending)."
+    ratio: "Art 126(2) is construed purposively so that the lawful heirs and/or dependants of a person who died as a result of torture or unlawful executive action may bring the complaint; Arts 11 and 13(4) imply protection of the right to life."
+    obiter: []
+    principles: ["Implied right to life", "Standing of heirs/dependants", "Purposive construction of Art 126(2)"]
+    subsequent_treatment: "Followed widely on standing of heirs (e.g. 2019 and 2021 SC FR judgments); qualifies the strict approach in Somawathie v Weerasinghe (to verify)."
+    field_status: {decision: unverified, ratio: corroborated, citation: requires_investigation}
+    edges:
+      - {to: CASE-SOMAWATHIE-1990, type: QUALIFIES, basis: suggested, note: "Widened standing beyond Somawathie - verify whether expressly discussed", sources: []}
+
+  - id: CASE-SINGARASA-2006
+    application_no: "SC Spl (LA) 182/99"
+    decided_on: 2006-09-15
+    bench: ["S.N. Silva CJ (presiding) - full bench to verify"]
+    material_facts: "Singarasa, convicted largely on a confession under the PTA, obtained a UN Human Rights Committee view that his ICCPR rights were violated, and sought revision of his conviction in reliance on it."
+    legal_issues:
+      - "Are ICCPR obligations and Human Rights Committee views enforceable in Sri Lankan courts?"
+      - "Was the President's accession to the First Optional Protocol constitutional?"
+    decision: "Application dismissed; accession to the Optional Protocol held unconstitutional and without legal effect domestically."
+    ratio: "The ICCPR binds Sri Lanka internationally but creates no domestically justiciable rights without enabling legislation; the President's accession to OP1 was an impermissible exercise of legislative and judicial power."
+    obiter: []
+    principles: ["Dualism", "Treaty-making as executive act requiring legislation for domestic effect"]
+    subsequent_treatment: "Prompted the ICCPR Act 2007 and a 2008 SC advisory opinion (to verify); widely criticised (e.g. that OP1 validity was not argued)."
+    field_status: {material_facts: unverified, decision: corroborated, ratio: corroborated, bench: unverified}
+    edges: []
+
+  - id: CASE-SAMPANTHAN-2018
+    application_no: "SC FR 351/2018 (and 352-361/2018)"
+    decided_on: 2018-12-13
+    bench: ["Nalin Perera CJ (presiding) - 7-judge bench"]
+    material_facts: "On 9 November 2018 President Sirisena issued a proclamation dissolving Parliament less than four and a half years after its first sitting, in the midst of the October 2018 constitutional crisis."
+    legal_issues:
+      - "Does Art 33(2)(c) confer a dissolution power independent of Art 70?"
+      - "Is the proclamation justiciable in FR proceedings against the AG?"
+    decision: "Proclamation declared void ab initio; FR (Art 12(1)) infringed. Unanimous."
+    ratio: "The President's power to dissolve Parliament must be exercised in conformity with Art 70 as amended, which bars dissolution before four and a half years absent a parliamentary resolution."
+    obiter: []
+    principles: ["Constitution read as a whole", "Justiciability of presidential acts after 19A"]
+    subsequent_treatment: pending
+    field_status: {ratio: corroborated, decision: corroborated}
+    edges: []
+
+  - id: CASE-RE-13A-1987
+    application_no: "SC Determinations on the 13th Amendment Bill and Provincial Councils Bill"
+    bench: ["Sharvananda CJ et al. - split bench to verify"]
+    material_facts: "Following the Indo-Lanka Accord (July 1987), the Thirteenth Amendment Bill and Provincial Councils Bill were challenged under Art 121 as requiring a referendum because they would alter the unitary State."
+    legal_issues:
+      - "Does devolution to provincial councils violate the unitary State (Art 2) or sovereignty (Art 3), so requiring a referendum under Art 83?"
+    decision: "Neither Bill required approval at a referendum (majority view); Ranasinghe J would have required a referendum for parts of clause 154G."
+    ratio: "Devolution within the framework of a unitary constitution, with Parliament retaining supremacy and the centre retaining control, does not alter the unitary character of the State."
+    obiter: []
+    principles: ["Devolution compatible with unitary State"]
+    subsequent_treatment: "Treated as settling that 13A devolution is within a unitary framework (CPA Working Paper 1)."
+    field_status: {ratio: corroborated, bench: unverified}
+    edges: []
+
+  - id: CASE-RE-19A-2002
+    application_no: "SC Determination(s) on the Nineteenth Amendment to the Constitution Bill (2002)"
+    bench: []
+    material_facts: "A 2002 Bill to amend the Constitution (appointment of PM, dissolution of Cabinet and related matters) was challenged under Art 121(1)."
+    legal_issues:
+      - "Does reallocation of executive powers between organs require a referendum under Arts 3, 4 and 83?"
+    decision: "Clauses inconsistent with Art 4(b) required approval at a referendum; substituted clauses could pass by special majority under Art 84(2)."
+    ratio: "Art 3 read with Art 4: transfer, relinquishment or removal of a power attributed to one organ of government to another organ or body is inconsistent with the sovereignty of the People."
+    obiter: []
+    principles: ["Balance of power", "Sovereignty includes powers of government"]
+    subsequent_treatment: "Central to 2015 19A Bill determination and later amendment Bills; breadth contested by commentators."
+    field_status: {ratio: corroborated, decision: corroborated}
+    edges:
+      - {to: CASE-RE-13A-1987, type: RELATED_TO, basis: academic, note: "Both define referendum thresholds under Art 83", sources: []}
+
+  - id: CASE-KARUNATHILAKA-1999
+    application_no: "SC App 509/98"
+    bench: []
+    material_facts: "Elections to five provincial councils were postponed by the Commissioner of Elections acting under emergency regulations; voters and candidates challenged the postponement."
+    legal_issues:
+      - "Does Art 35 (presidential immunity) oust FR jurisdiction where the postponement flowed from presidential emergency regulations?"
+      - "Does postponement infringe Arts 12(1) and 14(1)(a)?"
+    decision: "Postponement held unlawful; the Commissioner directed (27 Jan 1999) to fix a new date; a later order ([1999] 1 Sri LR 183, 16 Mar 1999) required a date by 27 Apr 1999."
+    ratio: "Art 35 prohibits only the institution of proceedings against the President personally while in office; it does not oust the Court's Art 126 jurisdiction over the acts of others, including acts done under presidential regulations."
+    obiter: []
+    principles: ["Limits of presidential immunity", "Franchise and freedom of expression", "Court may enforce its FR judgments"]
+    subsequent_treatment: pending
+    field_status: {ratio: corroborated, decision: corroborated, material_facts: unverified}
+    edges:
+      - {to: CASE-MALLIKARACHCHI-1985, type: DISTINGUISHES, basis: suggested, note: "Confines immunity to the President personally - verify express treatment", sources: []}
+
+  - id: CASE-JOSEPH-PERERA-1992
+    application_no: "SC 107-109/86"
+    bench: []
+    material_facts: "The petitioner, an organiser of the 'Young Socialist' and member of the Revolutionary Communist League, was arrested for distributing leaflets without police permission required by Emergency Regulation 28 (1986)."
+    legal_issues:
+      - "Was Regulation 28 ultra vires the Public Security Ordinance and inconsistent with Art 14(1)(a)?"
+      - "Were the arrests lawful?"
+    decision: "Regulation 28(1) held ultra vires; arrests illegal; regulation subsequently replaced."
+    ratio: "Emergency regulations are reviewable for consistency with the Constitution; a restriction on speech is not validated merely by the President's opinion that it is necessary."
+    obiter: ["Freedom of speech is the natural right of a free society to impart and acquire information, though not absolute."]
+    principles: ["Reviewability of emergency regulations", "Freedom of speech and restrictions"]
+    subsequent_treatment: "Cited in Karunathilaka (1999) and Saranapala v Solangaarachchi (1999)."
+    field_status: {ratio: corroborated, decision: corroborated, obiter: corroborated}
+    edges:
+      - {to: CASE-KARUNATHILAKA-1999, type: INFLUENCES, basis: judicial, note: "Cited in Karunathilaka", sources: [SRC-0034]}
+
+  - id: CASE-SAMAN-LEELADASA-1989
+    application_no: "SC App 4/88"
+    bench: ["Ranasinghe CJ", "Fernando J", "Amerasinghe J"]
+    material_facts: pending
+    legal_issues: ["When is the State liable for FR infringements committed by its officers?"]
+    decision: pending
+    ratio: "Cited under 'Compensation for infringement - liability of State and public officer'; exact holding pending."
+    obiter: []
+    principles: ["State liability for FR infringements"]
+    subsequent_treatment: "Cited 1991 onward on compensation; pin-page variants (1, 7, 10)."
+    field_status: {ratio: requires_investigation}
+    edges: []
+
+  - id: CASE-FAIZ-1995
+    application_no: "SC App 89/91"
+    bench: ["Fernando J", "Goonewardena J", "Perera J"]
+    material_facts: "The petitioner was arrested and detained (26-27 April 1991) and alleged ill-treatment by police."
+    legal_issues: ["Did the arrest, detention and treatment infringe Arts 11, 13(1) and 13(2)?"]
+    decision: "Arrest and detention held unwarranted in law and violative of Arts 13(1) and 13(2) (Art 11 finding pending)."
+    ratio: pending
+    obiter: []
+    principles: ["Executive or administrative action (scope - pending)"]
+    subsequent_treatment: "Cited 1999 at p. 383 on suspension of public servant (proposition pending)."
+    field_status: {decision: corroborated, ratio: pending}
+    edges: []
+
+  - id: CASE-NANAYAKKARA-CHOKSY-2008
+    application_no: pending
+    bench: []
+    material_facts: "Challenge to the privatisation of Lanka Marine Services to John Keells Holdings."
+    legal_issues: ["Was the privatisation consistent with Art 12(1) and the public trust?"]
+    decision: pending
+    ratio: pending
+    obiter: []
+    principles: ["Public trust over state assets"]
+    subsequent_treatment: pending
+    field_status: {material_facts: corroborated}
+    edges: []

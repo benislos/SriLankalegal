@@ -235,3 +235,47 @@ sources:
     source_class: ngo_ig
     accessed_via: search_index
     accessed: 2026-11-19
+
+  - id: SRC-0032
+    title: "Faiz v Attorney General [1995] 1 Sri LR 372 - LawNet SLLR PDF (SC App 89/91; Fernando, Goonewardena, Perera JJ)"
+    url: https://www.lawnet.gov.lk/wp-content/uploads/2016/11/035-SLLR-SLLR-1995-V-1-FAIZ-v.-ATTORNEY-GENERAL-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0033
+    title: "Karunathilaka v Dayananda Dissanayake [1999] 1 Sri LR 157 (SC App 509/98) and follow-up [1999] 1 Sri LR 183 - LankaLaw SLLR PDFs"
+    url: https://lankalaw.net/wp-content/uploads/2024/12/020-SLLR-SLLR-1999-V-1-KARUNATHILAKA-AND-ANOTHER-v.-DAYANANDA-DISSANAYAKE-COMMISSIONER-OF-ELECTI.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0034
+    title: "Joseph Perera alias Bruten Perera v AG [1992] 1 Sri LR 199 (SC 107-109/86) - LawNet SLLR PDF"
+    url: https://www.lawnet.gov.lk/wp-content/uploads/2016/11/027-SLLR-SLLR-1992-V-1-JOSEPH-PERERA-ALIAS-BRUTEN-PERERA-v.-THE-ATTORNEY-GENERAL-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0035
+    title: "Saman v Leeladasa [1989] 1 Sri LR 1 (SC App 4/88; Ranasinghe CJ, Fernando, Amerasinghe JJ) - LawNet SLLR PDF"
+    url: https://www.lawnet.gov.lk/wp-content/uploads/2016/11/001-SLLR-SLLR-1989-V-1-SAMAN-v.-LEELADASA-AND-ANOTHER.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "Some later judgments cite first page as 7 or 10."
+
+  - id: SRC-0036
+    title: "In re the Thirteenth Amendment and the Provincial Councils Bill [1987] 2 Sri LR 312 - LankaLaw SLLR PDF; CPA Working Paper 1"
+    url: https://lankalaw.net/wp-content/uploads/2024/12/029-SLLR-SLLR-1987-2-IN-THE-THIRTEENTH-AMENDMENT-TO-THE-CONSTITIUTION-AND-THE-PROVINCIAL-COUNCILS.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0037
+    title: "In re the Nineteenth Amendment to the Constitution [2002] 3 Sri LR 85 - LawNet SLLR PDF; Verite Research analysis of 19A Bill ruling"
+    url: https://www.lawnet.gov.lk/wp-content/uploads/2016/11/011-SLLR-SLLR-2002-3-IN-RE-THE-NINETEENTH-AMENDMENT-TO-THE-CONSTITUTION.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "parliament.lk hosts SC determinations at /uploads/bills/gbills/scdet/<id>.pdf - use for Bill determinations."

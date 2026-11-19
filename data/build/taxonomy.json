@@ -45,8 +45,8 @@
         "corroborated": 2
       },
       "case": {
-        "corroborated": 8,
-        "unverified": 30,
+        "corroborated": 14,
+        "unverified": 24,
         "requires_investigation": 3
       }
     },
@@ -55,7 +55,7 @@
       "tier_2": 23,
       "tier_3": 10
     },
-    "sources": 31,
+    "sources": 37,
     "watch_items": 11
   },
   "nodes": [
@@ -1105,8 +1105,11 @@
       "court": "Supreme Court",
       "year": 1987,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "13th Amendment did not alter the unitary character of the State (split bench); no referendum required."
+      "verification_status": "corroborated",
+      "sources": [
+        "SRC-0036"
+      ],
+      "point": "Neither the 13th Amendment Bill nor the PC Bill required a referendum under Art 83; devolution held compatible with the unitary State. Ranasinghe J would have required a referendum for cl. 154G(2)(b) and (3)(b) (sub-clause lettering varies across sources)."
     },
     {
       "id": "CASE-RE-19A-2002",
@@ -1116,8 +1119,11 @@
       "court": "Supreme Court",
       "year": 2002,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Art 3/4 read together: transferring or relinquishing a power of one organ to another violates sovereignty and requires a referendum ('balance of power')."
+      "verification_status": "corroborated",
+      "sources": [
+        "SRC-0037"
+      ],
+      "point": "Art 3 read with Art 4: transfer, relinquishment or removal of a power of one organ to another is inconsistent with sovereignty; clauses inconsistent with Art 4(b) required a referendum. Breadth disputed: whether every Art 4 inconsistency attracts a referendum (Verite) - contested."
     },
     {
       "id": "CASE-SAMPANTHAN-2018",
@@ -1148,11 +1154,14 @@
       "id": "CASE-KARUNATHILAKA-1999",
       "type": "case",
       "name": "Karunathilaka v Dayananda Dissanayake, Commissioner of Elections",
-      "citation": "[1999] 1 Sri LR 157",
+      "citation": "[1999] 1 Sri LR 157 (SC App 509/98); enforcement order [1999] 1 Sri LR 183",
       "court": "Supreme Court",
       "year": 1999,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
+      "verification_status": "corroborated",
+      "sources": [
+        "SRC-0033"
+      ],
       "point": "Postponement of provincial council elections violated Art 12(1)/14(1)(a); Art 35 immunity is personal and does not shield the act of others."
     },
     {
@@ -1209,11 +1218,15 @@
       "id": "CASE-SAMAN-LEELADASA-1989",
       "type": "case",
       "name": "Saman v Leeladasa",
-      "citation": "[1989] 1 Sri LR 1",
+      "citation": "[1989] 1 Sri LR 1 (SC App 4/88)",
       "court": "Supreme Court",
       "year": 1989,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
+      "verification_status": "corroborated",
+      "sources": [
+        "SRC-0035"
+      ],
+      "notes": "Precise holding on officer vs State liability not visible in search records - confirm from text.",
       "point": "State liability for FR infringements by officers (executive or administrative action) even if act not authorised."
     },
     {
@@ -1242,12 +1255,15 @@
       "id": "CASE-JOSEPH-PERERA-1992",
       "type": "case",
       "name": "Joseph Perera v Attorney General",
-      "citation": "[1992] 1 Sri LR 199",
+      "citation": "[1992] 1 Sri LR 199 (SC 107-109/86)",
       "court": "Supreme Court",
       "year": 1992,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Emergency regulation requiring police permission for distribution of leaflets struck down; freedom of speech; reviewability of emergency regulations."
+      "verification_status": "corroborated",
+      "sources": [
+        "SRC-0034"
+      ],
+      "point": "Emergency Regulation 28 (police permission for leaflets/posters) ultra vires the Public Security Ordinance; arrests illegal; freedom of speech not absolute but presidential opinion of necessity does not alone validate a regulation."
     },
     {
       "id": "CASE-VISUVALINGAM-1983",
@@ -1275,12 +1291,15 @@
       "id": "CASE-FAIZ-1995",
       "type": "case",
       "name": "Faiz v Attorney General",
-      "citation": "[1995] 1 Sri LR 372",
+      "citation": "[1995] 1 Sri LR 372 (SC App 89/91)",
       "court": "Supreme Court",
       "year": 1995,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "'Executive or administrative action' includes acts of private persons done with the authority, connivance or acquiescence of the State."
+      "verification_status": "corroborated",
+      "sources": [
+        "SRC-0032"
+      ],
+      "point": "Arrest, detention and ill-treatment by police held violative of Arts 11/13(1)/13(2) (corroborated). The proposition that private acts done with State authority, connivance or acquiescence are executive action is attributed to this case from memory - UNVERIFIED, confirm from text."
     },
     {
       "id": "CASE-GUNARATNE-PB-1986",

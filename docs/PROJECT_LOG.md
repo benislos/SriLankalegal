@@ -8,3 +8,10 @@
 - Built the taxonomy (8 active and 6 planned disciplines, 55 subjects, 128 doctrines), the authorities register (183 L4 records), the source register (31), the watch list (11), verification framework v0.1, and the validator/builder.
 - Corrected a relationship: Art 14A → *Fernando v SLBC* changed from OVERRULES to MODIFIES (legislative), since legislation does not overrule judgments.
 - Decisions: YAML is the source of truth, compiled to a graph; IDs are stable across phases; PostgreSQL is preferred over Neo4j (see Phase 1 report §6).
+
+## 2026-11-19: Session 1 (Phase 2 start)
+
+- User asked me to continue with minimal input.
+- Official hosts still unreachable (DNS); GitHub token invalid, no account linked. Backed up to Google Drive ("SL Legal KMS - backups").
+- Corroborated 6 more cases (13A, 19A-2002, Karunathilaka, Joseph Perera, Saman, Faiz), bringing the total to 14. Downgraded the Faiz "acquiescence" proposition to unverified.
+- Built PostgreSQL schema, loader, export/backup, and 8 integration tests (all pass); verified a pg_dump restore.

@@ -7,7 +7,7 @@ A long-term research, education and knowledge-graph project mapping Sri Lankan l
 | Phase | Scope | Status |
 |---|---|---|
 | 1 | Legal landscape and master taxonomy | **Done (structural)**: see `docs/PHASE_1_REPORT.md` |
-| 2 | Case law, legislation and doctrine databases | Next |
+| 2 | Case law, legislation and doctrine databases | **In progress**: database built and tested; verification ongoing (`docs/PHASE_2_PROGRESS.md`) |
 | 3 | Knowledge graph and relationship architecture | Not started |
 | 4 | Functional dashboard | Not started |
 | 5 | Curriculum and daily briefing protocol | Not started |
@@ -36,3 +36,11 @@ This validates every ID, reference, relationship type and verification label, th
 ## Integrity rules (summary)
 
 Every authority carries a `verification_status`: `verified_primary`, `corroborated`, `unverified`, or `requires_investigation`. Unverified material is never quoted or pinpoint-cited. See `docs/VERIFICATION_FRAMEWORK.md`.
+
+## Database (Phase 2)
+
+```bash
+python3 scripts/load_db.py        # rebuild PostgreSQL from data/ (runs the taxonomy build first)
+python3 -m pytest -q tests/       # integration tests
+python3 scripts/export_db.py      # JSON + CSV + Markdown + pg_dump into exports/<date>/
+```
