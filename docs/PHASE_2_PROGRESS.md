@@ -92,7 +92,7 @@ All 29 reported Sri Lankan Tier 1 cases were read from LankaLaw reproductions of
    - an authority on the negative freedom of association.
 
 ## Blockers
-- **GitHub push refused (403):** "Claude doesn't have GitHub access to benislos/SriLankalegal". History is committed locally on `main` and `claude/keen-ptolemy-47njdn`, and backed up to Drive.
+- **GitHub:** resolved in session 3. The full history is pushed to `benislos/SriLankalegal` (`main`; the first push attempt returned 403, a later retry succeeded).
 - **Hosting decision pending:** Supabase + Vercel, or the user's own computer. This determines Phase 4 and the daily brief (dashboard plus email).
 
 ## Rebuilding the database in a new container

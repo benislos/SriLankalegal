@@ -18,7 +18,7 @@
 
 ## 2026-11-19: Session 3 (Phase 2 verification)
 
-- Restored the project from the Drive backup `sl-legal-kms-backup-2026-11-19-phase2-db.tgz` (branch `master`, 2 commits) into this repository as `main`. The push to GitHub was refused (403, no app access).
+- Restored the project from the Drive backup `sl-legal-kms-backup-2026-11-19-phase2-db.tgz` (branch `master`, 2 commits) into this repository as `main`. The first push was refused (403); a retry later in the session succeeded, so `main` is now on GitHub.
 - Network: parliament.lk and lankalaw.net reachable; supremecourt.lk behind a Cloudflare bot challenge; documents.gov.lk is now a client-rendered app; LawNet reachable only over plain HTTP, and its old PDF paths return 404.
 - Read the official consolidated Constitution (to 21A). 44/46 `CP-` records now `verified_primary`; 6 corrections, 7 open questions resolved. 22A status confirmed from parliament.lk; Judicature (Amendment) Act No. 23 of 2026.
 - Read 29 Tier 1 judgments (LankaLaw SLLR/NLR reproductions). All 29 now `verified_primary`. 12 substantive corrections, including Bandara (no public trust), Gunaratne (1972 Constitution, positive association), Faiz (acquiescence confirmed, so the session 2 downgrade is reversed) and Joseph Perera (arrests held lawful). Resolved the Sriyani Silva, Visuvalingam, Liyanage and Choksy citation conflicts.
