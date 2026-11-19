@@ -23,3 +23,4 @@
 - Read the official consolidated Constitution (to 21A). 44/46 `CP-` records now `verified_primary`; 6 corrections, 7 open questions resolved. 22A status confirmed from parliament.lk; Judicature (Amendment) Act No. 23 of 2026.
 - Read 29 Tier 1 judgments (LankaLaw SLLR/NLR reproductions). All 29 now `verified_primary`. 12 substantive corrections, including Bandara (no public trust), Gunaratne (1972 Constitution, positive association), Faiz (acquiescence confirmed, so the session 2 downgrade is reversed) and Joseph Perera (arrests held lawful). Resolved the Sriyani Silva, Visuvalingam, Liyanage and Choksy citation conflicts.
 - Removed Bandara from the public-trust doctrines; corrected the T-CON-04-06 summary; used the schema's existing `full_text` access value; made one test independent of fixture data. 8/8 tests pass.
+- Decision (user): hosting on **Supabase + Vercel**; daily brief delivered to the dashboard plus email.

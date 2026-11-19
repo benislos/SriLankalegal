@@ -93,7 +93,7 @@ All 29 reported Sri Lankan Tier 1 cases were read from LankaLaw reproductions of
 
 ## Blockers
 - **GitHub:** resolved in session 3. The full history is pushed to `benislos/SriLankalegal` (`main`; the first push attempt returned 403, a later retry succeeded).
-- **Hosting decision pending:** Supabase + Vercel, or the user's own computer. This determines Phase 4 and the daily brief (dashboard plus email).
+- **Hosting decided (19 Nov 2026): Supabase + Vercel.** Postgres on Supabase (the existing `db/schema.sql` ports directly), dashboard on Vercel, daily brief delivered to the dashboard plus email by a scheduled cloud session. Phase 4 needs Supabase and Vercel project keys and an email sender.
 
 ## Rebuilding the database in a new container
 ```bash
