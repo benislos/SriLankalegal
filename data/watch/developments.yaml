@@ -14,17 +14,17 @@ developments:
     sources: [SRC-0004, SRC-0005, SRC-0006, SRC-0007]
     settled_effect: in_force
     verification_status: corroborated
-    follow_up: "Obtain certified text and SC determination; record exact certification date; update CP-ART-107 text."
+    follow_up: "DONE 19 Nov 2026: certification 25 Sep 2026 and SC determination summary confirmed on parliament.lk (SRC-0039 to SRC-0041); CJ six-year term limit and Art 137 change recorded. STILL OPEN: read the certified Act text and full determination (Hansard 22 Sep 2026)."
 
   - id: DEV-2026-002
     date: 2026-09-25
     kind: act
-    title: "Judicature (Amendment) Act 2026 - lower court retirement ages (HC 63; DJ/Magistrates 62)"
+    title: "Judicature (Amendment) Act, No. 23 of 2026 - lower court retirement ages (HC 63; DJ/Magistrates 62); max HC judges 120"
     affects: [ACT-JUDICATURE-1978, ACT-JUDICATURE-AMD-2026]
-    sources: [SRC-0006]
+    sources: [SRC-0006, SRC-0041]
     settled_effect: in_force
     verification_status: corroborated
-    follow_up: "Confirm Act number."
+    follow_up: "DONE 19 Nov 2026: Act No. 23 of 2026 (SRC-0041). Read the Act text when documents.gov.lk access is solved."
 
   - id: DEV-2026-003
     date: 2026-10-06

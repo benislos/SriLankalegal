@@ -39,8 +39,9 @@ sources:
     title: "Parliament of Sri Lanka - news item: Twenty-Second Amendment to the Constitution presented to Parliament"
     url: https://www.parliament.lk/en/home/parliament-news/view/5355
     source_class: primary_official
-    accessed_via: search_index
+    accessed_via: direct_fetch
     accessed: 2026-11-19
+    notes: "Read in full (session 3). Bill presented 18 Aug 2026 with the Judicature (Amendment) Bill; 14-day Art 121 petition window and 21-day determination period stated."
 
   - id: SRC-0005
     title: "Ada Derana - Sri Lanka's Parliament approves 22nd Amendment to Constitution"
@@ -279,3 +280,38 @@ sources:
     accessed_via: search_index
     accessed: 2026-11-19
     notes: "parliament.lk hosts SC determinations at /uploads/bills/gbills/scdet/<id>.pdf - use for Bill determinations."
+
+  # --- Session 3 (19 Nov 2026): first direct reads of official hosts ---
+  # accessed_via: direct_fetch = the full document was downloaded and read in this project.
+
+  - id: SRC-0038
+    title: "The Constitution of the Democratic Socialist Republic of Sri Lanka (as amended up to 31st October 2022), Revised Edition 2023, Parliament Secretariat"
+    url: https://www.parliament.lk/files/pdf/constitution.pdf
+    source_class: primary_official
+    accessed_via: direct_fetch
+    accessed: 2026-11-19
+    notes: "306 pp, text layer; server Last-Modified 5 Feb 2025; sha256 4ff29ec67b4a27fe9a66636bb65ca06e75dc228cc3b915a5c8817665cb23e2ac. Consolidated to the 21st Amendment; does NOT include the 22nd Amendment (2026). Footnotes identify the amending section for each change."
+
+  - id: SRC-0039
+    title: "Parliament of Sri Lanka - Announcements by the Hon. Speaker, 22.09.2026: Supreme Court determination on the Twenty-Second Amendment to the Constitution and Judicature (Amendment) Bills"
+    url: https://www.parliament.lk/en/home/parliament-news/view/5415
+    source_class: primary_official
+    accessed_via: direct_fetch
+    accessed: 2026-11-19
+    notes: "No referendum required under Art 83. Clause 2 proviso wording changed (attainment of 67), and a second proviso added exempting the sitting Chief Justice from the six-year term limit. Judicature (Amendment) Bill: not inconsistent, simple majority. Full determination ordered printed in Hansard of 22 Sep 2026 (not yet read)."
+
+  - id: SRC-0040
+    title: "Parliament of Sri Lanka - news: Twenty Second Amendment to the Constitution Bill passed with a special majority (25 Sep 2026)"
+    url: https://www.parliament.lk/en/home/parliament-news/view/5432
+    source_class: primary_official
+    accessed_via: direct_fetch
+    accessed: 2026-11-19
+    notes: "Second and third readings 158-63; committee-stage amendments to Clause 2 passed 158-63. Judicature (Amendment) Bill passed (third reading 158-62)."
+
+  - id: SRC-0041
+    title: "Parliament of Sri Lanka - news: Speaker endorses the Twenty Second Amendment to the Constitution Bill and Judicature (Amendment) Bill (25 Sep 2026)"
+    url: https://www.parliament.lk/en/home/parliament-news/view/5433
+    source_class: primary_official
+    accessed_via: direct_fetch
+    accessed: 2026-11-19
+    notes: "Certificate endorsed 25 Sep 2026. 22A: SC 65 to 67, CA 63 to 65; amends Art 137 (CA judges 19 to 24). Judicature (Amendment) Act No. 23 of 2026: HC 61 to 63; District Judges and Magistrates 60 to 62; max HC judges 110 to 120."
