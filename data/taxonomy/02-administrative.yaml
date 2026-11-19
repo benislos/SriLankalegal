@@ -19,13 +19,13 @@ subjects:
       foundations: "Rule of law; no unfettered discretion; public trust; sovereignty of the People."
       practice: "Framing a challenge: public-law character of the decision, forum, grounds, remedy."
     legislative_basis: [CP-ART-140, CP-ART-126, CP-ART-003, CP-ART-004]
-    key_authorities: [CASE-PREMACHANDRA-1994, CASE-BANDARA-1994, CASE-BULANKULAMA-2000]
+    key_authorities: [CASE-PREMACHANDRA-1994, CASE-BULANKULAMA-2000]
     connections: [S-CON-03, S-CON-04, T-FND-02-02]
     open_questions: ["Is the public trust doctrine a free-standing ground of review or a gloss on Art 12 and ultra vires?"]
     doctrines:
       - {id: T-ADM-01-01, name: "Legality vs merits distinction", summary: "Courts do not substitute their decision for the administrator's.", basis: [CP-ART-140], authorities: [], related: [T-ADM-03-03]}
       - {id: T-ADM-01-02, name: "Rule of law and no unfettered discretion", summary: "Every power has legal limits however widely expressed.", basis: [CP-ART-004], authorities: [CASE-PREMACHANDRA-1994, CASE-PADFIELD-1968], related: [T-CON-03-04]}
-      - {id: T-ADM-01-03, name: "Public trust doctrine", summary: "Public power and resources are held in trust for the People; decisions must serve public purposes.", basis: [CP-ART-003, CP-ART-012], authorities: [CASE-BANDARA-1994, CASE-PREMACHANDRA-1994, CASE-BULANKULAMA-2000, CASE-SUGATHAPALA-2008, CASE-NANAYAKKARA-CHOKSY-2008], related: [{to: T-EMR-02-01, type: INFLUENCES, basis: judicial, note: "Eppawela extended public trust to natural resources"}, T-ADM-07-01]}
+      - {id: T-ADM-01-03, name: "Public trust doctrine", summary: "Public power and resources are held in trust for the People; decisions must serve public purposes.", basis: [CP-ART-003, CP-ART-012], authorities: [CASE-PREMACHANDRA-1994, CASE-BULANKULAMA-2000, CASE-SUGATHAPALA-2008, CASE-NANAYAKKARA-CHOKSY-2008], related: [{to: T-EMR-02-01, type: INFLUENCES, basis: judicial, note: "Eppawela extended public trust to natural resources"}, T-ADM-07-01]}
       - {id: T-ADM-01-04, name: "Constitutionalisation of administrative law through Art 12(1)", summary: "Arbitrary, unreasonable or unfair administrative action treated as denial of equality, making Art 126 a review forum.", basis: [CP-ART-012, CP-ART-126], authorities: [CASE-WICKRAMATUNGA-1998], related: [T-CON-04-04]}
 
   - id: S-ADM-02

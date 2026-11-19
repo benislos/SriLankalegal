@@ -56,7 +56,12 @@ def test_history_is_preserved(cur):
 
 
 def test_cannot_mark_verified_without_source(cur):
-    cur.execute("UPDATE nodes SET verification_status='verified_primary' WHERE id='CASE-GUNARATNE-PB-1986'")
+    # Pick any case node that still has no source (fixtures change as records are verified).
+    cur.execute("""SELECT n.id FROM nodes n WHERE n.id LIKE 'CASE-%'
+                   AND NOT EXISTS (SELECT 1 FROM node_sources s WHERE s.node_id = n.id) LIMIT 1""")
+    row = cur.fetchone()
+    assert row, "no unsourced case node left to test against"
+    cur.execute("UPDATE nodes SET verification_status='verified_primary' WHERE id=%s", (row[0],))
     with pytest.raises(psycopg.errors.RaiseException):
         cur.execute("SET CONSTRAINTS ALL IMMEDIATE")
 

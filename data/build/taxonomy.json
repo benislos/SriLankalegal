@@ -12,13 +12,13 @@
       "subject": 55,
       "doctrine": 128
     },
-    "edges": 974,
+    "edges": 971,
     "edges_by_type": {
       "HAS_BASIS": 372,
       "PART_OF": 183,
       "RELATED_TO": 254,
       "QUALIFIES": 3,
-      "KEY_AUTHORITY": 157,
+      "KEY_AUTHORITY": 154,
       "CONTRADICTS": 1,
       "DERIVES_FROM": 1,
       "MODIFIES": 1,
@@ -44,9 +44,10 @@
         "corroborated": 2
       },
       "case": {
-        "corroborated": 14,
-        "unverified": 24,
-        "requires_investigation": 3
+        "verified_primary": 29,
+        "corroborated": 2,
+        "requires_investigation": 2,
+        "unverified": 8
       }
     },
     "subjects_by_tier": {
@@ -54,7 +55,7 @@
       "tier_2": 23,
       "tier_3": 10
     },
-    "sources": 41,
+    "sources": 75,
     "watch_items": 11
   },
   "nodes": [
@@ -1280,13 +1281,15 @@
       "citation": "(1965) 68 NLR 265 (PC); [1967] 1 AC 259",
       "court": "Privy Council",
       "year": 1965,
+      "decided_on": "1965-12-02",
       "authority_weight": "binding_pc_historical",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0020"
+        "SRC-0020",
+        "SRC-0042"
       ],
       "point": "Implied separation of judicial power under the Soulbury Constitution; ad hominem retroactive legislation directed at pending trials usurped judicial power.",
-      "notes": "Judgment date given variously as 1965/1966."
+      "notes": "RESOLVED date conflict: delivered 2 Dec 1965 by Lord Pearce; reported 68 NLR 265. Appeals allowed, convictions quashed. Headnote: Part 6 of the Soulbury Constitution shows an intention to keep judicial power in the judicature; an Act usurping it without recourse to s.29(4) is ultra vires. The AC citation was not checked (foreign report)."
     },
     {
       "id": "CASE-RANASINGHE-1964",
@@ -1295,9 +1298,14 @@
       "citation": "(1964) 66 NLR 73 (PC); [1965] AC 172",
       "court": "Privy Council",
       "year": 1964,
+      "decided_on": "1964-05-05",
       "authority_weight": "binding_pc_historical",
-      "verification_status": "unverified",
-      "point": "Legislature must comply with manner-and-form requirements of the Constitution; appointment of judicial officers."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0043"
+      ],
+      "point": "Bribery Tribunal members appointed otherwise than by the Judicial Service Commission (s.55 Soulbury) invalidly appointed; an Act amending the Constitution without the s.29(4) Speaker's certificate (two-thirds) is invalid - courts must look for the certificate (manner and form).",
+      "notes": "Delivered 5 May 1964 by Lord Pearce; appeal dismissed. 'Judicial officers' in s.55 not limited to judges of ordinary courts. The AC citation was not checked."
     },
     {
       "id": "CASE-IBRALEBBE-1963",
@@ -1306,9 +1314,14 @@
       "citation": "(1963) 65 NLR 433 (PC); [1964] AC 900",
       "court": "Privy Council",
       "year": 1963,
+      "decided_on": "1963-11-06",
       "authority_weight": "binding_pc_historical",
-      "verification_status": "unverified",
-      "point": "Retention of Privy Council appeals compatible with Ceylon's sovereignty."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0044"
+      ],
+      "point": "Privy Council jurisdiction to entertain criminal appeals from Ceylon survived independence (not abrogated unless the sovereign legislature ends it); the Order in Council implementing a decision is a judicial act.",
+      "notes": "CORRECTION of framing: the earlier point ('retention compatible with sovereignty') was loose. The Board held its jurisdiction subsisted and granted special leave; delivered 6 Nov 1963 by Viscount Radcliffe. Reported 65 NLR 433. Note a separate CCA judgment The Queen v Ibralebbe (1963) 65 NLR 472 (joinder of charges) - not this case."
     },
     {
       "id": "CASE-KODAKAN-PILLAI-1953",
@@ -1317,9 +1330,14 @@
       "citation": "(1953) 54 NLR 433 (PC)",
       "court": "Privy Council",
       "year": 1953,
+      "decided_on": "1953-05-11",
       "authority_weight": "binding_pc_historical",
-      "verification_status": "unverified",
-      "point": "Citizenship legislation and s.29 Soulbury Constitution (minority protection) - disenfranchisement of Indian Tamils upheld."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0045"
+      ],
+      "point": "Citizenship Act No. 18 of 1948 ss.4-5 and the Parliamentary Elections Amendment Act No. 48 of 1949 are citizenship legislation, not discriminatory legislation contrary to s.29(2)(b) Soulbury Constitution; colourable legislation achieving a forbidden result indirectly would be ultra vires.",
+      "notes": "Delivered 11 May 1953 by Lord Oaksey; appeal dismissed."
     },
     {
       "id": "CASE-RE-13A-1987",
@@ -1329,11 +1347,13 @@
       "court": "Supreme Court",
       "year": 1987,
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0036"
+        "SRC-0036",
+        "SRC-0047"
       ],
-      "point": "Neither the 13th Amendment Bill nor the PC Bill required a referendum under Art 83; devolution held compatible with the unitary State. Ranasinghe J would have required a referendum for cl. 154G(2)(b) and (3)(b) (sub-clause lettering varies across sources)."
+      "point": "Neither Bill required a referendum under Art 83 (Sharvananda CJ, Colin-Thome, Atukorale, Tambiah JJ); unitary character unaffected - Provincial Councils are subordinate bodies exercising limited legislative power; devolution without relinquishing supremacy. Ranasinghe J concurred save that proposed Art 154G(2)(b) and (3)(b) required a referendum; Wanasundera, de Alwis, Seneviratne and H. A. G. de Silva JJ dissented (both Bills required a referendum in toto).",
+      "notes": "RESOLVED lettering: the judgment text refers to clause 154G(2)(b) and (3)(b) (the headnote OCR drops the G). Hearings 22-30 Oct 1987. Effectively a 5-4 division on the referendum question."
     },
     {
       "id": "CASE-RE-19A-2002",
@@ -1343,11 +1363,13 @@
       "court": "Supreme Court",
       "year": 2002,
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0037"
+        "SRC-0037",
+        "SRC-0048"
       ],
-      "point": "Art 3 read with Art 4: transfer, relinquishment or removal of a power of one organ to another is inconsistent with sovereignty; clauses inconsistent with Art 4(b) required a referendum. Breadth disputed: whether every Art 4 inconsistency attracts a referendum (Verite) - contested."
+      "point": "Organs of government exercise power in trust for the People; transfer, relinquishment or removal of a power attributed to one organ is an alienation of sovereignty inconsistent with Art 3 read with Art 4. Clauses removing the President's dissolution discretion (Art 70) and compelling dissolution on a no-confidence vote required a referendum; clause 6 (conscience vote immune from Art 99(13)) could not be enacted in view of Art 75. Extending the Art 70(1)(a) one-year bar to not more than three years would need only a special majority.",
+      "notes": "Hearings 1 and 3 Oct 2002. The 'breadth' dispute (whether every Art 4 inconsistency attracts a referendum) remains an academic question; the Court framed the test as alienation by transfer, relinquishment or removal."
     },
     {
       "id": "CASE-SAMPANTHAN-2018",
@@ -1361,7 +1383,8 @@
       "sources": [
         "SRC-0022"
       ],
-      "point": "Presidential power of dissolution under Art 33(2)(c) is subject to Art 70; proclamation dissolving Parliament quashed; justiciability of presidential acts via Art 35 proviso."
+      "point": "Presidential power of dissolution under Art 33(2)(c) is subject to Art 70; proclamation dissolving Parliament quashed; justiciability of presidential acts via Art 35 proviso.",
+      "notes": "Construed the 19A text: Art 33(2)(c) and the Art 70(1)(a) bar of four and a half years. After 20A (2020) Art 33 has no dissolution power and the Art 70 bar is two and a half years (CP-ART-033, CP-ART-070, verified 19 Nov 2026), so the case's holding is tied to repealed wording. Judgment text not yet read: supremecourt.lk is behind a Cloudflare bot challenge."
     },
     {
       "id": "CASE-MALLIKARACHCHI-1985",
@@ -1370,9 +1393,14 @@
       "citation": "[1985] 1 Sri LR 74",
       "court": "Supreme Court",
       "year": 1985,
+      "decided_on": "1985-02-11",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Absolute presidential immunity under the original Art 35 (pre-19A position)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0049"
+      ],
+      "point": "Under the original Art 35(1) the President was absolutely immune from proceedings in any capacity; the immunity is personal. Only Art 35(3) matters (functions under Art 44(2)) may be brought against the Attorney-General; an FR challenge to a presidential proscription order (JVP) could not be brought against the AG and failed in limine.",
+      "notes": "Decided 11 Feb 1985 (hearings Nov 1984); leave to proceed refused. Pre-19A position; contrast current Art 35(1) proviso (CP-ART-035)."
     },
     {
       "id": "CASE-KARUNATHILAKA-1999",
@@ -1381,12 +1409,16 @@
       "citation": "[1999] 1 Sri LR 157 (SC App 509/98); enforcement order [1999] 1 Sri LR 183",
       "court": "Supreme Court",
       "year": 1999,
+      "decided_on": "1999-01-27",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0033"
+        "SRC-0033",
+        "SRC-0051",
+        "SRC-0052"
       ],
-      "point": "Postponement of provincial council elections violated Art 12(1)/14(1)(a); Art 35 immunity is personal and does not shield the act of others."
+      "point": "Postponement of provincial council elections violated Art 12(1)/14(1)(a); Art 35 immunity is personal and does not shield the act of others.",
+      "notes": "Main judgment 27 Jan 1999 ([1999] 1 Sri LR 157): proclamation and emergency regulation cancelling the poll were executive action; Art 35 does not oust Art 126 over acts of others relying on presidential acts; ouster in s.8 PSO no bar; regulation not for a s.5 PSO purpose; Arts 12(1) and 14(1)(a) infringed (voting is expression). Enforcement judgment 16 Mar 1999 ([1999] 1 Sri LR 183): Commissioner to fix a poll date not later than 27 Apr 1999."
     },
     {
       "id": "CASE-PREMACHANDRA-1994",
@@ -1395,23 +1427,30 @@
       "citation": "[1994] 2 Sri LR 90",
       "court": "Supreme Court",
       "year": 1994,
+      "decided_on": "1993-08-16",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0019"
+        "SRC-0019",
+        "SRC-0050"
       ],
-      "point": "There are no absolute or unfettered discretions in public law; powers are held in trust for the public; Governors' discretion in appointing Chief Ministers is reviewable."
+      "point": "There are no absolute or unfettered discretions in public law; powers are held in trust for the public; Governors' discretion in appointing Chief Ministers is reviewable.",
+      "notes": "Order of the Court delivered 16 Aug 1993 (reported 1994). The Art 126(3) reference was held improper; only the Art 125 questions were answered. Answers: Art 154F(4) discretion not purely subjective, justiciable, reviewable by the CA for unreasonableness, bad faith, irrelevant considerations or no evidence."
     },
     {
       "id": "CASE-DISSANAYAKE-KALEEL-1993",
       "type": "case",
-      "name": "Dissanayake v Kaleel",
+      "name": "Gamini Dissanayake v Kaleel",
       "citation": "[1993] 2 Sri LR 135",
       "court": "Supreme Court",
       "year": 1993,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Expulsion of MPs from party; Art 99(13)(a) review; natural justice in party disciplinary process."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0053"
+      ],
+      "point": "Art 99(13)(a) review of expulsion of eight UNP MPs who signed the 1991 impeachment notice: the Working Committee validly held delegated disciplinary power; the party has primacy over the individual MP and dissent had to be raised internally first. Majority (Fernando J dissenting) held all expulsions valid and found no breach of natural justice, since the Supreme Court hearing was in substance the antecedent hearing; Fernando J upheld only the expulsions of the two Cabinet ministers (SC 5/91, 8/91).",
+      "notes": "CORRECTION: the earlier point implied a natural-justice finding in the MPs' favour; the majority upheld the expulsions. Fernando J: party rules are the basis of the exercise of Art 14(1)(c) freedom of association; signing an impeachment notice is a proceeding in Parliament. Hearings 31 Oct-13 Nov 1991; decision date not captured from the headnote."
     },
     {
       "id": "CASE-VELMURUGU-1981",
@@ -1420,23 +1459,32 @@
       "citation": "[1981] 1 Sri LR 406",
       "court": "Supreme Court",
       "year": 1981,
+      "decided_on": "1981-11-09",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Early Art 11 torture case; standard of proof (high degree of probability) - note strong dissent of Sharvananda J."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0054"
+      ],
+      "point": "Art 11 torture claim: civil standard but a high degree of probability proportionate to the gravity of the allegation; only executive acts are reviewable under Art 126; scope of State liability for subordinate officers (Wanasundera J: administrative practice). Majority held torture not proved and the acts not attributable to the State; application dismissed.",
+      "notes": "CORRECTION: dissent was by Sharvananda J AND Ratwatte J (record named only Sharvananda J). The dissent would have awarded Rs 10,000 compensation. Decided 9 Nov 1981."
     },
     {
       "id": "CASE-SRIYANI-SILVA-2003",
       "type": "case",
       "name": "Sriyani Silva v Iddamalgoda, OIC Paiyagala Police",
-      "citation": "SC (FR) 471/2000, decided 8 Aug 2003; reported [2003] 2 Sri LR 63 (volume to confirm)",
+      "citation": "SC (FR) 471/2000: [2003] 1 Sri LR 14 (preliminary objections, 10 Dec 2002) and [2003] 2 Sri LR 63 (merits, 8 Aug 2003)",
       "court": "Supreme Court",
       "year": 2003,
+      "decided_on": "2003-08-08",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0017"
+        "SRC-0017",
+        "SRC-0055",
+        "SRC-0056"
       ],
-      "point": "Death in police custody: implied right to life read from Arts 11/13(4); heirs/dependants may invoke Art 126 by purposive construction of Art 126(2)."
+      "point": "Death in police custody: implied right to life read from Arts 11/13(4); heirs/dependants may invoke Art 126 by purposive construction of Art 126(2).",
+      "notes": "RESOLVED citation conflict: there are TWO reported judgments in SC 471/2000, not two variant citations. (1) [2003] 1 Sri LR 14, decided 10 Dec 2002 (S. N. Silva CJ, Bandaranayake J, Edussuriya J dissenting): preliminary objections overruled - the deceased acquired a right to redress; where death is causally linked to the infringement anyone with a legitimate interest (here the widow) may prosecute it under Art 126(2); the original petition was in time; Somawathie v Weerasinghe distinguished. (2) [2003] 2 Sri LR 63, decided 8 Aug 2003 (Fernando J): Arts 11 and 13(4) imply a right to life; Art 126(2) read broadly with Art 4(d); Art 17 is an independent fundamental right; Arts 11, 13(2), 17 infringed. Rs 800,000 compensation and costs to the widow and minor child (Rs 700,000 from the State, Rs 50,000 each from the 1st and 2nd respondents personally)."
     },
     {
       "id": "CASE-SAMAN-LEELADASA-1989",
@@ -1445,13 +1493,15 @@
       "citation": "[1989] 1 Sri LR 1 (SC App 4/88)",
       "court": "Supreme Court",
       "year": 1989,
+      "decided_on": "1988-12-12",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0035"
+        "SRC-0035",
+        "SRC-0057"
       ],
-      "notes": "Precise holding on officer vs State liability not visible in search records - confirm from text.",
-      "point": "State liability for FR infringements by officers (executive or administrative action) even if act not authorised."
+      "point": "Assault of a remand prisoner by a prison guard was executive or administrative action: the test is whether the act was done in the performance (or purported performance) of official duties, not the officer's rank; ostensible-authority acts incidental to employment count even if prohibited. Superior officials are not vicariously liable for subordinates' delicts. The State held liable for Rs 15,000 compensation under Art 11. One-month limit ran only from release from hospital (lex non cogit ad impossibilia).",
+      "notes": "RESOLVED (earlier note asked to confirm officer vs State liability): Amerasinghe J (Ranasinghe CJ agreeing) - State liable to pay Rs 15,000; Fernando J - 1st respondent and State jointly and severally liable. Decided 12 Dec 1988; reported [1989] 1 Sri LR 1."
     },
     {
       "id": "CASE-CHANNA-PEIRIS-1994",
@@ -1460,9 +1510,14 @@
       "citation": "[1994] 1 Sri LR 1",
       "court": "Supreme Court",
       "year": 1994,
+      "decided_on": "1994-06-17",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Arrest and detention under emergency regulations; reasonable suspicion; Art 13(1)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0058"
+      ],
+      "point": "Arrests under Emergency Regulation 18 read with Reg 23(a) violated Art 13(1): the arresting officer must indicate the procedure under which the arrest is made, detention must be in an authorised place (Reg 19(2)), and there was no basis for reasonable suspicion of an attempt to overthrow the government by unlawful means. Vehement or caustic criticism of the government and calls to 'topple' it by democratic means are not per se unlawful.",
+      "notes": "Judgment of Amerasinghe J, 17 June 1994 (hearing 17 Feb 1994). Arts 12, 14(1)(g) and (h) claims not established."
     },
     {
       "id": "CASE-WICKREMABANDU-1990",
@@ -1471,9 +1526,14 @@
       "citation": "[1990] 2 Sri LR 348",
       "court": "Supreme Court",
       "year": 1990,
+      "decided_on": "1990-04-06",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Review of preventive detention orders under emergency regulations; limits of subjective satisfaction."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0059"
+      ],
+      "point": "Emergency regulations restricting Arts 13(1)-(2) within Art 15(7) do not override the Constitution; restrictions clearly unreasonable fall outside Art 15(7), but the test is not wholly objective and the court will not usurp the authorities' discretion; preventive detention for national security or public order is not per se unreasonable in a grave emergency, though its abuse remains reviewable.",
+      "notes": "Decided 6 Apr 1990 (cited in Dissanayake v Kaleel as 'Wickremabahu v Herath SC 27/1988, SCM 6.4.1990' - the petitioner's name is spelt variously; keep record name per the law report heading)."
     },
     {
       "id": "CASE-JOSEPH-PERERA-1992",
@@ -1482,23 +1542,34 @@
       "citation": "[1992] 1 Sri LR 199 (SC 107-109/86)",
       "court": "Supreme Court",
       "year": 1992,
+      "decided_on": "1987-05-25",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0034"
+        "SRC-0034",
+        "SRC-0060"
       ],
-      "point": "Emergency Regulation 28 (police permission for leaflets/posters) ultra vires the Public Security Ordinance; arrests illegal; freedom of speech not absolute but presidential opinion of necessity does not alone validate a regulation."
+      "point": "Emergency Regulation 28 (police permission to distribute posters, handbills or leaflets) was a prior restraint with no rational or proximate nexus to national security or public order, so it violated Arts 14(1)(a) and 12 and was invalid; unguided executive pre-censorship is unconstitutional. Majority (Sharvananda CJ and Atukorale J dissenting on this point) held the arrests lawful - the test is the officer's knowledge and state of mind at the time - and detention unlawful only from 15.7.1986. Rs 10,000 compensation payable by the State.",
+      "notes": "CORRECTION: the earlier point said Reg 28 was 'ultra vires the PSO' and that the 'arrests were illegal'. The text holds Reg 28 invalid for violating Arts 14(1)(a) and 12, and the majority held the arrests lawful. Decided 25 May 1987; reported [1992] 1 Sri LR 199."
     },
     {
       "id": "CASE-VISUVALINGAM-1983",
       "type": "case",
       "name": "Visuvalingam v Liyanage",
-      "citation": "Citation to confirm (reported 1983/1984 Sri LR)",
+      "citation": "[1984] 2 Sri LR 123 (S.C. Applications Nos. 85/83 and 6/84, decided 14 June 1984)",
       "court": "Supreme Court",
-      "year": 1983,
+      "year": 1984,
+      "decided_on": "1984-06-14",
       "authority_weight": "binding_sc",
-      "verification_status": "requires_investigation",
-      "point": "Freedom of expression includes the right of readers to receive information (closure of the 'Saturday Review')."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0061",
+        "SRC-0062",
+        "SRC-0063",
+        "SRC-0064"
+      ],
+      "point": "Freedom of speech and expression includes the freedom of the recipient, so readers and contributors of the 'Saturday Review' had standing under Art 126 (Rodrigo J dissenting); the recipient's right is subject to Art 15(7); s.8 PSO ouster does not bar relief. Unanimously, the Competent Authority's ban was within the bounds of reasonableness in the emergency, so the applications were dismissed.",
+      "notes": "RESOLVED citation conflict: there are FOUR reported SC judgments titled Visuvalingam v Liyanage: (No. 1) [1983] 1 Sri LR 203/236 - nine judges, decided 20 Oct 1983, on the Sixth Amendment oath and Art 157A(7) time limits; [1983] 2 Sri LR 311 - SC 47/83, 53/83, 61/83, decided 18 Nov 1983, closure of the press and company standing (applications dismissed); [1984] 1 Sri LR 305 - SC 74/83, decided 27 Feb 1984, sealing of the newspaper office (leave refused); and [1984] 2 Sri LR 123 - the readers' and contributors' case this record is about. The record id keeps '1983' for stability. Within the 1983 vol 1 report the case begins before p.236; the 19A determination cites it as (1983) 1 Sri LR 236."
     },
     {
       "id": "CASE-FERNANDO-SLBC-1996",
@@ -1507,9 +1578,14 @@
       "citation": "[1996] 1 Sri LR 157",
       "court": "Supreme Court",
       "year": 1996,
+      "decided_on": "1996-01-30",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Freedom of speech does not include a free-standing right to information (pre-Art 14A position)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0065"
+      ],
+      "point": "Stoppage of the SLBC Non-Formal Education Programme infringed the petitioner's Art 14(1)(a) freedom of speech as a participatory listener; Art 14(1)(a) is not read narrowly - it covers every form of expression, may be invoked with other guarantees (e.g. equality) and includes implied guarantees needed to make it meaningful (e.g. obtaining and recording information). Semble per Fernando J: doubtful that it includes a right to information simpliciter. Relief granted.",
+      "notes": "CORRECTION: the earlier point ('freedom of speech does not include a free-standing right to information') overstated an obiter doubt (semble) as the holding; the petitioner succeeded. Fernando J also treated earlier right-to-receive dicta (Joseph Perera, Visuvalingam) as obiter in part. Decided 30 Jan 1996."
     },
     {
       "id": "CASE-FAIZ-1995",
@@ -1518,23 +1594,31 @@
       "citation": "[1995] 1 Sri LR 372 (SC App 89/91)",
       "court": "Supreme Court",
       "year": 1995,
+      "decided_on": "1993-11-19",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0032"
+        "SRC-0032",
+        "SRC-0066"
       ],
-      "point": "Arrest, detention and ill-treatment by police held violative of Arts 11/13(1)/13(2) (corroborated). The proposition that private acts done with State authority, connivance or acquiescence are executive action is attributed to this case from memory - UNVERIFIED, confirm from text."
+      "point": "Arrest and detention without compliance with s.109 CCP violated Arts 13(1) and 13(2); assault of the petitioner inside a police station by private persons (5th-7th respondents), made possible by police inaction, was 'executive or administrative action' (Art 11), and failure to act against them denied equal protection (Art 12(1)). Responsibility under Art 126 extends to non-executive respondents guilty of impropriety or connivance with the executive. Per Fernando J: a private act is executive action if done with the executive's authority, express or implied from approval, instigation, connivance, acquiescence, participation or inaction where there is a duty to act, or from later ratification.",
+      "notes": "CORRECTION OF A PHASE 2 DOWNGRADE: the 'State authority, connivance or acquiescence' proposition is CONFIRMED from the text (headnote holdings 5-7 and per Fernando J). Goonewardene J dissented on the Art 13(2) detention point. Decided 19 Nov 1993; total Rs 50,000 compensation and Rs 5,000 costs, apportioned among respondents."
     },
     {
       "id": "CASE-GUNARATNE-PB-1986",
       "type": "case",
-      "name": "Gunaratne v People's Bank",
+      "name": "Ariyapala Gunaratne v People's Bank",
       "citation": "[1986] 1 Sri LR 338",
       "court": "Supreme Court",
       "year": 1986,
+      "decided_on": "1986-04-04",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Freedom of association (Art 14(1)(d)) includes freedom not to associate."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0067"
+      ],
+      "point": "Freedom of association (s.18(1)(f), 1972 Constitution) means primarily the freedom to form and join trade unions; a condition requiring an employee to resign union membership to qualify for promotion was inconsistent with it and could not be imposed by contract; the People's Bank, performing public functions, was 'the State' for this purpose. Restrictions only by law on the s.18(2) grounds.",
+      "notes": "MAJOR CORRECTION: the earlier point ('freedom of association includes freedom not to associate', Art 14(1)(d)) is NOT what the case decides. It is a declaratory action under the 1972 Constitution protecting the POSITIVE freedom to join a union. Decided 4 Apr 1986 (Wanasundera J; all agreeing); appeal allowed. Doctrine links to a 'negative freedom of association' need a different authority."
     },
     {
       "id": "CASE-SOMAWATHIE-1990",
@@ -1543,9 +1627,14 @@
       "citation": "[1990] 2 Sri LR 121",
       "court": "Supreme Court",
       "year": 1990,
+      "decided_on": "1990-11-20",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Strict standing under Art 126(2) (application by wife on behalf of detained husband) - later qualified by Sriyani Silva."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0068"
+      ],
+      "point": "Under Art 126(2) a petitioner may complain only of the infringement of his or her own fundamental rights (in person or by an attorney-at-law); a wife had no standing to complain of the infringement of her detained husband's rights. Literal construction (per Amerasinghe J).",
+      "notes": "Kulatunga J dissented on the question of law. Decided 20 Nov 1990; application dismissed. Distinguished in Sriyani Silva [2003] 1 Sri LR 14 (death caused by the infringement)."
     },
     {
       "id": "CASE-WICKRAMATUNGA-1998",
@@ -1554,9 +1643,14 @@
       "citation": "[1998] 1 Sri LR 201",
       "court": "Supreme Court",
       "year": 1998,
+      "decided_on": "1997-12-17",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Art 12(1) and arbitrariness in public administration (political considerations)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0069"
+      ],
+      "point": "Termination of a petroleum dealership by the Ceylon Petroleum Corporation without cause violated Art 12(1): a contractual power to terminate without reasons does not permit termination at whim; a public corporation must act in good faith and reasonably (no unfettered discretion); the CPC, given State control and functions, is an instrumentality of government bound by Art 12 even in the sphere of contract, and a contractual remedy does not exclude Art 126.",
+      "notes": "CORRECTION: the earlier point mentioned 'political considerations', which the headnote does not support; the case concerns arbitrariness and Art 12 in State contracts. Decided 17 Dec 1997; reported [1998] 1 Sri LR 201."
     },
     {
       "id": "CASE-SENARATH-2007",
@@ -1565,9 +1659,14 @@
       "citation": "[2007] 1 Sri LR 59",
       "court": "Supreme Court",
       "year": 2007,
+      "decided_on": "2007-05-03",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Misuse of public funds / public trust; personal liability and the limits of presidential immunity after leaving office."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0070"
+      ],
+      "point": "Benefits secured by an outgoing President for herself (land, funds, staff) beyond the Presidents' Entitlements Act No. 4 of 1986 violated equality before the law: organs of government are custodians of power and of public property for the People; there is a positive component in the right to equality; public-interest standing to challenge such abuse; the Act, as an exception to equality, is construed strictly. Application allowed; the former President ordered to pay Rs 100,000 costs personally.",
+      "notes": "CORRECTION: the earlier point referred to 'the limits of presidential immunity after leaving office'; immunity is not discussed in the reported judgment. Personal liability is limited to costs. Decided 3 May 2007 (S. N. Silva CJ)."
     },
     {
       "id": "CASE-KEHELIYA-2026",
@@ -1604,26 +1703,32 @@
       "citation": "SC (FR) 884/99; [2000] 3 Sri LR 243",
       "court": "Supreme Court",
       "year": 2000,
+      "decided_on": "2000-06-02",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0018"
+        "SRC-0018",
+        "SRC-0071"
       ],
-      "point": "Imminent infringement of FR by proposed phosphate mining agreement; public trust doctrine, sustainable development, precautionary principle, intergenerational equity."
+      "point": "Imminent infringement of FR by a proposed phosphate mining agreement at Eppawela; the State's disposal of natural resources must respect environmental law and sustainable development (balancing the needs of present and future generations); Stockholm principles and Rio Principle 15 (precautionary approach) used as guides; public trust doctrine discussed. Under Art 126(4) the respondents were directed to desist from entering into any contract on the deposit until a comprehensive exploration and study was done.",
+      "notes": "Decided 2 June 2000 (Amerasinghe J). The phrase 'intergenerational equity' does not appear; the judgment speaks of future generations. Report OCR is letter-spaced; searches run on normalised text."
     },
     {
       "id": "CASE-BANDARA-1994",
       "type": "case",
-      "name": "Bandara v Premachandra",
+      "name": "Bandara v Premachandra, Secretary, Ministry of Lands, Irrigation and Mahaweli Development",
       "citation": "[1994] 1 Sri LR 301",
       "court": "Supreme Court",
       "year": 1994,
+      "decided_on": "1993-08-16",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0019"
+        "SRC-0019",
+        "SRC-0072"
       ],
-      "point": "Cited as an early articulation of the public trust doctrine in public administration."
+      "point": "Termination of probationer survey trainees by the Surveyor-General on account of trade-union activity (work-to-rule, sick notes) violated Art 12; misconduct had to be dealt with under the Establishments Code. Relief ordered.",
+      "notes": "MAJOR CORRECTION: the record cited this case as 'an early articulation of the public trust doctrine'. The reported judgment ([1994] 1 Sri LR 301) contains no public-trust reasoning. It is an Art 12 / trade-union termination case. Its links as key authority for the public-trust doctrines (T-CON-03-04, T-ADM-01-03, S-ADM-01) have been removed. Decided 16 Aug 1993."
     },
     {
       "id": "CASE-SUGATHAPALA-2008",
@@ -1633,22 +1738,29 @@
       "court": "Supreme Court",
       "year": 2008,
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Alienation of public land for private benefit; public trust doctrine; Art 12(1)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0073"
+      ],
+      "point": "Alienation of State land (Waters Edge) for private benefit violated Art 12(1): land and economic assets are administered under the stringent trusteeship of the Public Trust Doctrine for the benefit of all citizens; public-interest standing under Arts 17, 12 and 126; the time limit ran from when the project's nature became manifest; the President cannot shield officials acting against the Constitution or public trust (per Tilakawardane J).",
+      "notes": "Judgment of Tilakawardane J (S. N. Silva CJ and Ratnayake J agreeing); relief granted, declarations and orders issued. Hearing 29 May 2008; decision date not captured."
     },
     {
       "id": "CASE-NANAYAKKARA-CHOKSY-2008",
       "type": "case",
       "name": "Vasudeva Nanayakkara v Choksy (John Keells / Lanka Marine Services case)",
-      "citation": "[2008] 1 Sri LR (page to confirm)",
+      "citation": "[2008] 1 Sri LR 134 (SC FR 209/2007)",
       "court": "Supreme Court",
       "year": 2008,
+      "decided_on": "2008-07-21",
       "authority_weight": "binding_sc",
-      "verification_status": "corroborated",
+      "verification_status": "verified_primary",
       "sources": [
-        "SRC-0019"
+        "SRC-0019",
+        "SRC-0074"
       ],
-      "point": "Privatisation of state assets; public trust; Art 12(1)."
+      "point": "Sale of 90% of shares in Lanka Marine Services Ltd to John Keells Holdings by the PERC Chairman without lawful authority, without a Government Valuer's valuation and in a biased, non-transparent process violated Art 12(1); public-interest standing; under Art 126 the Court may assess severability of the executive action and grant just and equitable relief rather than automatic restoration of the status quo ante.",
+      "notes": "RESOLVED page: [2008] 1 Sri LR 134. Decided 21 July 2008. The judgment uses custodianship language for public property; the phrase 'public trust' does not appear in the report."
     },
     {
       "id": "CASE-EFL-UDA-2009",
@@ -1657,9 +1769,14 @@
       "citation": "[2009] 1 Sri LR 123",
       "court": "Supreme Court",
       "year": 2009,
+      "decided_on": "2005-11-23",
       "authority_weight": "binding_sc",
-      "verification_status": "unverified",
-      "point": "Public trust; right of access to information recognised as implicit in Art 14(1)(a) (pre-14A)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0075"
+      ],
+      "point": "Right of access to information is implicit in Art 14(1)(a) where the matter should be in the public domain and the public interest outweighs confidentiality (pre-Art 14A); the UDA as an organ of government must secure and advance FR under Art 4(d); a bare denial of official information infringed Art 14(1)(a), and the arbitrary refusal infringed Art 12(1). Application allowed; Rs 50,000 costs.",
+      "notes": "CORRECTION: decided 23 Nov 2005 (reported 2009). The earlier point attributed 'public trust' to this case; the reported text does not mention it."
     },
     {
       "id": "CASE-MUNDY-2004",
@@ -1693,9 +1810,14 @@
       "citation": "(1951) 53 NLR 25",
       "court": "Supreme Court of Ceylon",
       "year": 1951,
+      "decided_on": "1951-09-28",
       "authority_weight": "persuasive_lk",
-      "verification_status": "unverified",
-      "point": "Citizenship legislation and Soulbury s.29 (decided before Kodakan Pillai PC)."
+      "verification_status": "verified_primary",
+      "sources": [
+        "SRC-0046"
+      ],
+      "point": "s.3(1)(a) Parliamentary Elections Amendment Act 1949 read with the Citizenship Act 1948 not discriminatory against the Indian community under s.29 Soulbury; clear words make practical effect and motive irrelevant; certiorari lies for error of law on the face.",
+      "notes": "Decided 28 Sep 1951; applications allowed (Revising Officer's order quashed). Kodakan Pillai was the 2nd respondent; the PC affirmed in 1953."
     },
     {
       "id": "CASE-WEDNESBURY-1948",
@@ -2572,8 +2694,7 @@
         "CP-ART-004"
       ],
       "authorities": [
-        "CASE-PREMACHANDRA-1994",
-        "CASE-BANDARA-1994"
+        "CASE-PREMACHANDRA-1994"
       ],
       "related": [
         "T-ADM-01-03"
@@ -2737,7 +2858,7 @@
       "id": "T-CON-04-06",
       "type": "doctrine",
       "name": "Freedom of assembly and association (Art 14(1)(b)-(d))",
-      "summary": "Includes negative freedom not to associate; trade union rights.",
+      "summary": "Trade union rights: the freedom to form and join a union cannot be waived by contract or made a condition of promotion (Gunaratne v People's Bank, decided under the 1972 Constitution). Whether Art 14(1)(c)-(d) include a negative freedom not to associate is an open question with no verified Sri Lankan authority yet.",
       "basis": [
         "CP-ART-014"
       ],
@@ -3412,7 +3533,6 @@
       ],
       "key_authorities": [
         "CASE-PREMACHANDRA-1994",
-        "CASE-BANDARA-1994",
         "CASE-BULANKULAMA-2000"
       ],
       "connections": [
@@ -3466,7 +3586,6 @@
         "CP-ART-012"
       ],
       "authorities": [
-        "CASE-BANDARA-1994",
         "CASE-PREMACHANDRA-1994",
         "CASE-BULANKULAMA-2000",
         "CASE-SUGATHAPALA-2008",
@@ -7076,13 +7195,6 @@
     },
     {
       "from": "T-CON-03-04",
-      "to": "CASE-BANDARA-1994",
-      "type": "KEY_AUTHORITY",
-      "basis": "judicial",
-      "note": null
-    },
-    {
-      "from": "T-CON-03-04",
       "to": "T-ADM-01-03",
       "type": "RELATED_TO",
       "basis": "suggested",
@@ -8798,13 +8910,6 @@
     },
     {
       "from": "S-ADM-01",
-      "to": "CASE-BANDARA-1994",
-      "type": "KEY_AUTHORITY",
-      "basis": "judicial",
-      "note": null
-    },
-    {
-      "from": "S-ADM-01",
       "to": "CASE-BULANKULAMA-2000",
       "type": "KEY_AUTHORITY",
       "basis": "judicial",
@@ -8906,13 +9011,6 @@
       "to": "CP-ART-012",
       "type": "HAS_BASIS",
       "basis": "legislative",
-      "note": null
-    },
-    {
-      "from": "T-ADM-01-03",
-      "to": "CASE-BANDARA-1994",
-      "type": "KEY_AUTHORITY",
-      "basis": "judicial",
       "note": null
     },
     {

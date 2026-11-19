@@ -39,7 +39,7 @@ sources:
     title: "Parliament of Sri Lanka - news item: Twenty-Second Amendment to the Constitution presented to Parliament"
     url: https://www.parliament.lk/en/home/parliament-news/view/5355
     source_class: primary_official
-    accessed_via: direct_fetch
+    accessed_via: full_text
     accessed: 2026-11-19
     notes: "Read in full (session 3). Bill presented 18 Aug 2026 with the Judicature (Amendment) Bill; 14-day Art 121 petition window and 21-day determination period stated."
 
@@ -282,13 +282,13 @@ sources:
     notes: "parliament.lk hosts SC determinations at /uploads/bills/gbills/scdet/<id>.pdf - use for Bill determinations."
 
   # --- Session 3 (19 Nov 2026): first direct reads of official hosts ---
-  # accessed_via: direct_fetch = the full document was downloaded and read in this project.
+  # accessed_via: full_text = the full document was downloaded and read in this project.
 
   - id: SRC-0038
     title: "The Constitution of the Democratic Socialist Republic of Sri Lanka (as amended up to 31st October 2022), Revised Edition 2023, Parliament Secretariat"
     url: https://www.parliament.lk/files/pdf/constitution.pdf
     source_class: primary_official
-    accessed_via: direct_fetch
+    accessed_via: full_text
     accessed: 2026-11-19
     notes: "306 pp, text layer; server Last-Modified 5 Feb 2025; sha256 4ff29ec67b4a27fe9a66636bb65ca06e75dc228cc3b915a5c8817665cb23e2ac. Consolidated to the 21st Amendment; does NOT include the 22nd Amendment (2026). Footnotes identify the amending section for each change."
 
@@ -296,7 +296,7 @@ sources:
     title: "Parliament of Sri Lanka - Announcements by the Hon. Speaker, 22.09.2026: Supreme Court determination on the Twenty-Second Amendment to the Constitution and Judicature (Amendment) Bills"
     url: https://www.parliament.lk/en/home/parliament-news/view/5415
     source_class: primary_official
-    accessed_via: direct_fetch
+    accessed_via: full_text
     accessed: 2026-11-19
     notes: "No referendum required under Art 83. Clause 2 proviso wording changed (attainment of 67), and a second proviso added exempting the sitting Chief Justice from the six-year term limit. Judicature (Amendment) Bill: not inconsistent, simple majority. Full determination ordered printed in Hansard of 22 Sep 2026 (not yet read)."
 
@@ -304,7 +304,7 @@ sources:
     title: "Parliament of Sri Lanka - news: Twenty Second Amendment to the Constitution Bill passed with a special majority (25 Sep 2026)"
     url: https://www.parliament.lk/en/home/parliament-news/view/5432
     source_class: primary_official
-    accessed_via: direct_fetch
+    accessed_via: full_text
     accessed: 2026-11-19
     notes: "Second and third readings 158-63; committee-stage amendments to Clause 2 passed 158-63. Judicature (Amendment) Bill passed (third reading 158-62)."
 
@@ -312,6 +312,280 @@ sources:
     title: "Parliament of Sri Lanka - news: Speaker endorses the Twenty Second Amendment to the Constitution Bill and Judicature (Amendment) Bill (25 Sep 2026)"
     url: https://www.parliament.lk/en/home/parliament-news/view/5433
     source_class: primary_official
-    accessed_via: direct_fetch
+    accessed_via: full_text
     accessed: 2026-11-19
     notes: "Certificate endorsed 25 Sep 2026. 22A: SC 65 to 67, CA 63 to 65; amends Art 137 (CA judges 19 to 24). Judicature (Amendment) Act No. 23 of 2026: HC 61 to 63; District Judges and Magistrates 60 to 62; max HC judges 110 to 120."
+
+  # Session 3: judgment texts read in full (LankaLaw reproductions of SLLR/NLR reports)
+
+  - id: SRC-0042
+    title: Liyanage v The Queen - (1965) 68 NLR 265 (PC); [1967] 1 AC 259 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2025/11/LIYANAGE-AND-OTHERS-v.-THE-QUEEN-1966-68-NLR-265.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 c7a6675a3629d903c55c8948df5358676b2bd48716b82e4a7867b79545499952.
+
+  - id: SRC-0043
+    title: Bribery Commissioner v Ranasinghe - (1964) 66 NLR 73 (PC); [1965] AC 172 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/023-NLR-NLR-V-66-THE-BRIBERY-COMMISSIONER-Appellant-and-P.-RANASINGHE-Respondent.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 c4bc4b7c456e69401b3c817727268c75aee84c83d9559a6a39a7c8441147c397.
+
+  - id: SRC-0044
+    title: Ibralebbe v The Queen - (1963) 65 NLR 433 (PC); [1964] AC 900 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/091-NLR-NLR-V-65-M.-B.-IBRALEBBE-alias-Rasa-Wattan-and-another-Petitioners-and-THE-QUEEN-Resp.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 38f1a145eda2adefce64fbda55b329d6f26363b3955f7c6486e758353c2a7f92.
+
+  - id: SRC-0045
+    title: Kodakan Pillai v Mudanayake - (1953) 54 NLR 433 (PC) - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/104-NLR-NLR-V-54-G.-S.-N.-KODAKAN-PILLAI-Appellant-and-P.-B-.-MUDANAYAAKE-et-al-Respondent.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 1a455a1a519e860d45f8c67dd2ff9c92ccd060dc4d1148deb1e5a2fb828a0d10.
+
+  - id: SRC-0046
+    title: Mudanayake v Sivagnanasunderam - (1951) 53 NLR 25 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/007-NLR-NLR-V-53-MUDANAYAKE-et-al.-Petitioners-and-SIVAGNANASUNDERAM-et-al.-Respondents.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 6f6ff169da2218de974443b6770409c217d58bc125c3620f0bc5d3511c087df5.
+
+  - id: SRC-0047
+    title: In re the Thirteenth Amendment to the Constitution and the Provincial Councils Bill - [1987] 2 Sri LR 312 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/029-SLLR-SLLR-1987-2-IN-THE-THIRTEENTH-AMENDMENT-TO-THE-CONSTITIUTION-AND-THE-PROVINCIAL-COUNCILS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 2a31ea19bc5813c846476e6b86851ad9fe6f3070b2a0af26f8d571f981be0eba.
+
+  - id: SRC-0048
+    title: In re the Nineteenth Amendment to the Constitution (2002 Bill) - [2002] 3 Sri LR 85 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/011-SLLR-SLLR-2002-3-IN-RE-THE-NINETEENTH-AMENDMENT-TO-THE-CONSTITUTION.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 0891925c50b930cddc1302fdc10ca28fa78e3befd5f9be9b1026f394db9c8388.
+
+  - id: SRC-0049
+    title: Mallikarachchi v Shiva Pasupati, Attorney General - [1985] 1 Sri LR 74 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/009-SLLR-SLLR-1985-V1-MALLIKARACHCHI-v.-SHIVA-PASUPATI-ATTORNEY-GENERAL.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 830614ca912a705d606ae6cb6764ed2bc32f5a293f0295d0f7ea0d2480406b53.
+
+  - id: SRC-0050
+    title: Premachandra v Major Montague Jayawickrema (Provincial Governors' case) - [1994] 2 Sri LR 90 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/006-SLLR-SLLR-1994-V2-PREMACHANDRA-V.-MAJOR-MONTAGUE-JAYAWICJREMA-AND-ANOTHER-PROVINCIAL-GOVERNO.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 574e8e79480bf548c136c9b2c36fb98e52f17ca53674f3af846b306d0c8450c5.
+
+  - id: SRC-0051
+    title: Karunathilaka v Dayananda Dissanayake, Commissioner of Elections - [1999] 1 Sri LR 157 (SC App 509/98); enforcement order [1999] 1 Sri LR 183 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/020-SLLR-SLLR-1999-V-1-KARUNATHILAKA-AND-ANOTHER-v.-DAYANANDA-DISSANAYAKE-COMMISSIONER-OF-ELECTI.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 65323670e5d27c62b90f1d7e0b05bc1a1a290ee4e004f741ef1ec306bad4f0cc.
+
+  - id: SRC-0052
+    title: Karunathilaka v Dayananda Dissanayake, Commissioner of Elections - companion report
+    url: https://lankalaw.net/wp-content/uploads/2024/12/021-SLLR-SLLR-1999-V-1-KARUNATHILAKA-AND-ANOTHER-v.-DAYANANDA-DISSANAYAKE-COMMISSIONER-OF-ELECTI.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 6485a4121eef70e3a5f693fe20325db082e237095f6338a9e35b2f4640645b25.
+
+  - id: SRC-0053
+    title: Gamini Dissanayake v Kaleel - [1993] 2 Sri LR 135 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/016-SLLR-SLLR-1993-2-GAMINI-DISSANAYAKE-PETITIONER-IN-SC-491-v.-M.-C.-M.-KALEEL-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 400947b8d63e19436eee32f0fbc2aded4a890d3edf6fcacea59ebfa6a52cb44a.
+
+  - id: SRC-0054
+    title: Velmurugu v Attorney General - [1981] 1 Sri LR 406 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/038-SLLR-SLLR-1981-1-VELMURUGU-v.-THE-ATTORNEY-GENERAL-AND-ANOTHER.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 2e174b2d47177ad46c396be0af44770c885a943173364c639efa460361940242.
+
+  - id: SRC-0055
+    title: 'Sriyani Silva v Iddamalgoda, OIC Paiyagala Police - SC (FR) 471/2000: [2003] 1 Sri LR 14 (preliminary objections, 10 Dec 2002) and [2003] 2 Sri LR 63 (merits, 8 Aug 2003) - law report text'
+    url: https://lankalaw.net/wp-content/uploads/2024/12/008-SLLR-SLLR-2003-V-2-SRIYANI-SILVA-v.-IDDAMALGODA-OFFICER-IN-CHARGE-POLICE-STATION-PAIYAGALA-.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 3161549e1b6a2c4f5df9d31c28aa08f691ee663a46de3815f764239736ebe2a0.
+
+  - id: SRC-0056
+    title: Sriyani Silva v Iddamalgoda, OIC Paiyagala Police - companion report
+    url: https://lankalaw.net/wp-content/uploads/2024/12/003-SLLR-SLLR-2003-1-SRIYANI-SILVA-WIFE-OF-JAGATH-KUMARA-DECEASED-v.-IDDAMALGODA-OFFICER-.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 e14cb2b9db8ae1e37bf47fbc9b872b81f8db788bd02c398e1da80fd89e4dd57a.
+
+  - id: SRC-0057
+    title: Saman v Leeladasa - [1989] 1 Sri LR 1 (SC App 4/88) - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/001-SLLR-SLLR-1989-V-1-SAMAN-v.-LEELADASA-AND-ANOTHER.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 fc3852ae21eb5656412ee9dabc085e62869a445bfbd07ab81d6602b73ff58883.
+
+  - id: SRC-0058
+    title: Channa Pieris v Attorney General (Ratawesi Peramuna case) - [1994] 1 Sri LR 1 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/001-SLLR-SLLR-1994-V1-CHANNA-PIERIS-AND-OTHERS-v.-ATTORNEY-GENERAL-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 3641b5654cfd542320490fb3178aca7725d6a2090f7440fd3d54092012e7ba60.
+
+  - id: SRC-0059
+    title: Wickremabandu v Herath - [1990] 2 Sri LR 348 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/041-SLLR-SLLR-1990-V-2-WICKREMABANDU-v.-HERATH-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 46d7781b68011c27e7b8d3cb0f5a1d20b9f98728cb6d50a0978a6188d09a33ec.
+
+  - id: SRC-0060
+    title: Joseph Perera v Attorney General - [1992] 1 Sri LR 199 (SC 107-109/86) - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/027-SLLR-SLLR-1992-V-1-JOSEPH-PERERA-ALIAS-BRUTEN-PERERA-v.-THE-ATTORNEY-GENERAL-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 d5a24acb2f9d584dddf26954f7142db793d490a1e20af5a374e6862ca546fbc3.
+
+  - id: SRC-0061
+    title: Visuvalingam v Liyanage - [1984] 2 Sri LR 123 (S.C. Applications Nos. 85/83 and 6/84, decided 14 June 1984) - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/010-SLLR-SLLR-1984-2-VISUVALINGAM-AND-OTHERS-v.-LIYANAGE-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 7a56b9f3831a34b8c0037e8381584341094ef6e01cd1fb46367fe3632304ad97.
+
+  - id: SRC-0062
+    title: Visuvalingam v Liyanage [1983] 2 Sri LR 311 (SC 47/83, 53/83, 61/83; 18 Nov 1983) - related report
+    url: https://lankalaw.net/wp-content/uploads/2024/12/030-SLLR-SLLR-1983-2-VISUVALINGAM-AND-OTHERS-v.-LIYANAGE-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 856db6cd59e232b1f664a6489f3f9ee30501f74e0a0ddbd81170cb653bd273ba. Read to resolve the citation conflict.
+
+  - id: SRC-0063
+    title: Visuvalingam v Liyanage [1984] 1 Sri LR 305 (SC 74/83; 27 Feb 1984) - related report
+    url: https://lankalaw.net/wp-content/uploads/2024/12/045-SLLR-1984-V1-VISUVALINGAM-AND-OTHERS-v.-LIYANAGE-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 d42dbd0bbc8ab7d7047029350cb02e024742dd9e9940e882768364c7820553e1. Read to resolve the citation conflict.
+
+  - id: SRC-0064
+    title: Visuvalingam v Liyanage (No. 1) [1983] 1 Sri LR (nine judges; 20 Oct 1983) - related report
+    url: https://lankalaw.net/wp-content/uploads/2024/12/002-SLLR-SLLR-1983-1-VISUVANAGAM-AND-OTHERS-v.-LIYANAGE-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 054b5b0f956821fb61ea1e3194b800f62014bc04a57c7acc9a15e01300e4eaa5. Read to resolve the citation conflict.
+
+  - id: SRC-0065
+    title: Fernando v Sri Lanka Broadcasting Corporation - [1996] 1 Sri LR 157 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/007-SLLR-SLLR-1996-1-FERNANDO-V.-THE-SRI-LANKA-BROADCASTING-CORPORATION-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 29c240098cd00a8cfe570739ef3aaf093bc998db5e4300dd1fff2f60c2ac4758.
+
+  - id: SRC-0066
+    title: Faiz v Attorney General - [1995] 1 Sri LR 372 (SC App 89/91) - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/035-SLLR-SLLR-1995-V-1-FAIZ-v.-ATTORNEY-GENERAL-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 aaf3a0c06d57c97d4e75aa6e78dcd30f0e3a3b76647823a2b2fd76a7400e822c.
+
+  - id: SRC-0067
+    title: Ariyapala Gunaratne v People's Bank - [1986] 1 Sri LR 338 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/033-SLLR-SLLR-1986-V-1-ARIYAPALA-GUNARATNE-v.-THE-PEOPLES-BANK.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 ae94c52f252505053ede9e048aea84df397a995243c5e10e39321f1031f6270c.
+
+  - id: SRC-0068
+    title: Somawathie v Weerasinghe - [1990] 2 Sri LR 121 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/009-SLLR-SLLR-1990-2-SOMAWATHIE-v.-WEERASINGHE-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 e3bdf43dee89655e61918acf78e54f2d3f2c0f3839a917f918594dbbb3136248.
+
+  - id: SRC-0069
+    title: Wickrematunga v Ratwatte - [1998] 1 Sri LR 201 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/027-SLLR-SLLR-1998-1-WICKREMATUNGA-v.-ANURUDDHA-RATWATTE-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 79c4b223846971926c579f7db4b8b4e25d42c1a507675ca326ae7d96f143db36.
+
+  - id: SRC-0070
+    title: Senarath v Chandrika Kumaratunga - [2007] 1 Sri LR 59 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/007-SLLR-SLLR-2007-V-1-SENARATH-AND-OTHERS-v.-CHANDRIKA-BANDARANAYAKE-KUMARATUNGA-AND-OTHERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 1c56ffb8bd06d23a1b45a27f4cac4039d73277bd8e831433aa01ba10fc8a4583.
+
+  - id: SRC-0071
+    title: Bulankulama v Secretary, Ministry of Industrial Development (Eppawela case) - SC (FR) 884/99; [2000] 3 Sri LR 243 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/024-SLLR-SLLR-2000-V-3-BULANKULAMA-AND-OTHERS-v.-SECTRETARY-MINISTRY-OF-INDUSTRIAL-DEVELOPMENT-A.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 8bfd607ce014d14903e188915175191733310eac3c89db610e45c11386c22140.
+
+  - id: SRC-0072
+    title: Bandara v Premachandra, Secretary, Ministry of Lands, Irrigation and Mahaweli Development - [1994] 1 Sri LR 301 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/010-SLLR-SLLR-1994-V1-BANDARA-AND-ANOTHER-v.-PREMACHANDRA-SECRETARY-MINISTRY-OF-LANDS-IRR.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 1a208ef0cb97b56a38ed18cd494ea107f5a8a2b6f61fe535ad849b418d42160b.
+
+  - id: SRC-0073
+    title: Sugathapala Mendis v Chandrika Kumaratunga (Waters Edge case) - [2008] 2 Sri LR 339 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/037-SLLR-SLLR-2008-V-2-SUGATHAPALA-MENDIS-AND-ANOTHER-v.-CHANDRIKA-KUMARATUNGA-AND-OTHERS-WATERS.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 bdce9ff9642873294cc4c7caa37d3af8950b1db23728a50ab7f7d3eb2ea87efc.
+
+  - id: SRC-0074
+    title: Vasudeva Nanayakkara v Choksy (John Keells / Lanka Marine Services case) - [2008] 1 Sri LR 134 (SC FR 209/2007) - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/014-SLLR-SLLR-2008-V-1-VASUDEVA-NANAYAKKARA-v.-CHOKSY-AND-OTHERS-JOHN-KEELLS-CASE.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 68796e00cd61d38c64981b7ba7d7a6c106ddbb9825c0b362694f7122d66a7e35.
+
+  - id: SRC-0075
+    title: Environmental Foundation Ltd v Urban Development Authority (Galle Face Green case) - [2009] 1 Sri LR 123 - law report text
+    url: https://lankalaw.net/wp-content/uploads/2024/12/016-SLLR-SLLR-2009-V-1-ENVIRONMENTAL-FOUNDATION-LIMITED-vs-URBAN-DEVELOPMENT-AUTHORITY-OF-SRI-LAN.pdf
+    source_class: primary_reproduced
+    accessed_via: full_text
+    accessed: '2026-11-19'
+    notes: LankaLaw reproduction of the printed law report (OCR text layer); sha256 fc22645cc4afe82662f8c23bda406b68cbef1572cc9d29691b4f9f1ad7803c8a.

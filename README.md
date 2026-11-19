@@ -7,7 +7,7 @@ A long-term research, education and knowledge-graph project mapping Sri Lankan l
 | Phase | Scope | Status |
 |---|---|---|
 | 1 | Legal landscape and master taxonomy | **Done (structural)**: see `docs/PHASE_1_REPORT.md` |
-| 2 | Case law, legislation and doctrine databases | **In progress**: database built and tested; verification ongoing (`docs/PHASE_2_PROGRESS.md`) |
+| 2 | Case law, legislation and doctrine databases | **In progress**: database built and tested; 44/46 provisions and 29/41 cases verified against primary text (`docs/PHASE_2_PROGRESS.md`) |
 | 3 | Knowledge graph and relationship architecture | Not started |
 | 4 | Functional dashboard | Not started |
 | 5 | Curriculum and daily briefing protocol | Not started |

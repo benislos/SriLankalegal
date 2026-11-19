@@ -62,5 +62,7 @@ A record can come from a reliable source and still be unverified if we have only
 
 ## 6. Known weaknesses at v0.1
 
-- In session 1, official hosts could not be fetched directly from the build container (see the Phase 1 report), so **no record is yet `verified_primary`**.
+- In session 1, official hosts could not be fetched directly from the build container (see the Phase 1 report), so no record was `verified_primary`. **Session 3 (19 Nov 2026)** read the official consolidated Constitution and 29 Tier 1 law reports in full: 44 provisions and 29 cases are now `verified_primary` (`accessed_via: full_text`).
+- Law-report texts come from LankaLaw reproductions with OCR text layers. OCR errors in names, numbers and pinpoints are possible, so pinpoints should be checked against the page images before being quoted.
+- A `CP-` record's `verified_primary` status is as of the consolidated text date (`as_of`). Later amendments (e.g. 22A, 2026) must be checked separately.
 - Search-engine summaries were used for corroboration. They can paraphrase inaccurately, which is why such records are capped at `corroborated`.
