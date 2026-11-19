@@ -1,0 +1,167 @@
+discipline:
+  id: D-EMR
+  name: Specialised and Emerging Public Law Areas
+  status: active
+  description: >
+    Public-law fields that are newer, fast-moving or specialised. Many have very recent statutes
+    (2016-2025) and thin case law, so status and verification flags matter most here.
+
+subjects:
+  - id: S-EMR-01
+    name: Digital Rights, Data Protection and Online Regulation
+    tier: 2
+    tier_basis: "High contemporary relevance; new statutes (RTI 2016, PDPA 2022, OSA 2024) with contested constitutionality."
+    profile:
+      meaning: "Online speech regulation (Online Safety Act 2024), personal data protection (PDPA 2022 as amended 2025), cybercrime (Computer Crime Act 2007), ICCPR Act speech offences, and access to information."
+      significance: "Defines the limits of state power over online expression and data; tests Art 14(1)(a) and Art 15 restrictions."
+      history: "RTI Act 2016; PDPA 2022 (first comprehensive data law in South Asia); OSA 2024 passed despite SC determination on Bill (details to verify); amendment committee 2025; repeal PMB 2025."
+      foundations: "Arts 14(1)(a), 14A, 15; statutes listed."
+      practice: "Challenges to OSA orders; DPA compliance; RTI appeals to the RTI Commission and Court of Appeal."
+    legislative_basis: [ACT-OSA-2024, ACT-PDPA-2022, ACT-CCA-2007, ACT-RTI-2016, ACT-ICCPR-2007, CP-ART-014, CP-ART-014A, CP-ART-015]
+    key_authorities: [CASE-JOSEPH-PERERA-1992]
+    connections: [S-CON-04, S-HRI-02, S-CRJ-02]
+    open_questions:
+      - "SC determination(s) on the Online Safety Bill (2024) - locate primary text and record which clauses were held inconsistent."
+      - "Status of Government amendments to the OSA (watch item)."
+      - "Is there an implied constitutional right to privacy in Sri Lanka?"
+    doctrines:
+      - {id: T-EMR-01-01, name: "Data protection principles and the DPA", summary: "Lawful processing, data subject rights, regulator powers.", basis: [ACT-PDPA-2022], authorities: [], related: [T-EMR-01-03]}
+      - {id: T-EMR-01-02, name: "Regulation of online speech", summary: "Prohibited statements, Online Safety Commission powers, restrictions under Art 15.", basis: [ACT-OSA-2024, ACT-ICCPR-2007, CP-ART-015], authorities: [], related: [T-CON-04-05, T-CON-04-13]}
+      - {id: T-EMR-01-03, name: "RTI vs privacy", summary: "Balancing disclosure of public information against personal data exemptions.", basis: [ACT-RTI-2016, ACT-PDPA-2022], authorities: [], related: [{to: T-CON-04-12, type: QUALIFIES, basis: legislative, note: "Privacy exemptions qualify the Art 14A right"}]}
+
+  - id: S-EMR-02
+    name: Environmental and Climate Justice
+    tier: 2
+    tier_basis: "Strong Sri Lankan jurisprudence (Eppawela) and growing litigation."
+    profile:
+      meaning: "Environmental protection through FR (implied right to life, equality), public trust, EIA under the National Environmental Act, and DPSP Art 27(14)/duty Art 28(f) (verify numbering)."
+      significance: "Sri Lankan courts have imported international environmental principles (precaution, intergenerational equity) through constitutional review."
+      history: "NEA 1980; EIA regime (1988 amendment - verify); Eppawela (2000); Southern Expressway (2004)."
+      foundations: "NEA; public trust; Art 126/140."
+      practice: "PIL challenges to projects; EIA compliance; CEA decisions."
+    legislative_basis: [ACT-NEA-1980, CP-ART-027-029, CP-ART-126]
+    key_authorities: [CASE-BULANKULAMA-2000, CASE-MUNDY-2004, CASE-EFL-UDA-2009]
+    connections: [S-ADM-01, S-CON-10, S-HRI-01]
+    open_questions: ["Climate litigation in Sri Lanka - any reported cases? (research)"]
+    doctrines:
+      - {id: T-EMR-02-01, name: "Environmental public trust and sustainable development", summary: "Natural resources held in trust; precautionary principle; intergenerational equity.", basis: [ACT-NEA-1980], authorities: [CASE-BULANKULAMA-2000], related: [T-ADM-01-03, T-CON-04-11]}
+      - {id: T-EMR-02-02, name: "Environmental impact assessment", summary: "EIA obligations for prescribed projects; public participation.", basis: [ACT-NEA-1980], authorities: [CASE-MUNDY-2004], related: [T-ADM-04-01]}
+
+  - id: S-EMR-03
+    name: Public Finance and Fiscal Accountability
+    tier: 2
+    tier_basis: "Elevated by the 2022 economic crisis and IMF programme; new statutes 2023-24."
+    profile:
+      meaning: "Parliamentary control of public finance (Art 148), Appropriation Acts, audit (Auditor-General; National Audit Act 2018), Public Finance Management Act 2024, Central Bank Act 2023, debt and fiscal rules."
+      significance: "Legal accountability for fiscal decisions; the 2023 FR case on responsibility for the economic crisis (to verify) is a landmark."
+      history: "2022 default; IMF Extended Fund Facility; CBSL Act 2023; PFMA 2024."
+      foundations: "Chapter XVII of the Constitution; statutes listed."
+      practice: "Bill challenges to tax/fiscal laws; audit queries; FR on fiscal mismanagement."
+    legislative_basis: [CP-ART-148-154, ACT-PFMA-2024, ACT-CBSL-2023, ACT-NAA-2018]
+    key_authorities: []
+    connections: [S-CRJ-03, S-ADM-07]
+    open_questions: ["Locate and verify the 2023 SC judgment holding former officials responsible for the economic crisis (FR petitions incl. TISL) - high priority."]
+    doctrines:
+      - {id: T-EMR-03-01, name: "Parliamentary control of public finance", summary: "No taxation or expenditure without parliamentary authority.", basis: [CP-ART-148-154], authorities: [], related: [S-CON-06]}
+
+  - id: S-EMR-04
+    name: Labour Law Involving Public Authorities
+    tier: 3
+    tier_basis: "Specialised; overlaps with public service law and future Labour discipline."
+    profile:
+      meaning: "Employment in public corporations and state enterprises, industrial disputes involving the State, trade union rights, and minimum wage regimes."
+      significance: "Boundary between public service law (PSC/Art 12) and labour law (Labour Tribunals, IDA)."
+      history: "Industrial Disputes Act 1950; National Minimum Wage of Workers Act 2025 (reported)."
+      foundations: "Industrial Disputes Act; Art 14(1)(d)."
+      practice: "Labour tribunal applications by employees of public corporations."
+    legislative_basis: [ACT-IDA-1950, CP-ART-014]
+    key_authorities: [CASE-GUNARATNE-PB-1986]
+    connections: [S-ADM-06, S-LAB-PLAN]
+    open_questions: []
+    doctrines:
+      - {id: T-EMR-04-01, name: "Public corporation employees: writ, FR or labour tribunal?", summary: "Choice of forum for state-sector employment disputes.", basis: [ACT-IDA-1950, CP-ART-140], authorities: [], related: [T-ADM-02-01]}
+
+  - id: S-EMR-05
+    name: Electoral Law
+    tier: 2
+    tier_basis: "Franchise is part of sovereignty (Art 3); recurrent litigation over postponement and delimitation."
+    profile:
+      meaning: "Franchise, Election Commission, presidential, parliamentary, provincial and local elections, election petitions, delimitation."
+      significance: "Democratic legitimacy; PC elections unheld for years; 2025 local authorities elections under special provisions."
+      history: "1978 proportional representation; mixed system for local/provincial elections (2012/2017); Local Authorities Elections (Special Provisions) Act 2025."
+      foundations: "Chapters XIV/XIVA; election statutes."
+      practice: "Election petitions (Court of Appeal/SC); FR on postponement."
+    legislative_basis: [CP-ART-088-104, ACT-PEA-1981, ACT-PRESEA-1981, ACT-PCE-1988, ACT-LAEO-1946]
+    key_authorities: [CASE-KARUNATHILAKA-1999]
+    connections: [S-CON-07, S-CON-09]
+    open_questions: ["2023 SC order on release of funds for local government elections (FR) - verify."]
+    doctrines:
+      - {id: T-EMR-05-01, name: "Franchise as sovereignty and the duty to hold elections", summary: "Executive may not frustrate elections.", basis: [CP-ART-003, CP-ART-088-104], authorities: [CASE-KARUNATHILAKA-1999], related: [T-CON-07-03]}
+
+  - id: S-EMR-07
+    name: Land Acquisition and State Land
+    tier: 2
+    tier_basis: "Frequent writ litigation; connects property rights (no express constitutional right to property) with public purpose."
+    profile:
+      meaning: "Compulsory acquisition under the Land Acquisition Act (public purpose, s.2 notices, urgency proviso, compensation), divesting, alienation of state land, and military-held land in the North and East."
+      significance: "In the absence of a constitutional property right, review rests on statute, natural justice and Art 12."
+      history: "Land Acquisition Act 1950; National Involuntary Resettlement Policy (2001 - verify)."
+      foundations: "LAA No. 9 of 1950."
+      practice: "Writs to quash s.2/s.38 orders; compensation appeals."
+    legislative_basis: [ACT-LAA-1950]
+    key_authorities: [CASE-MUNDY-2004]
+    connections: [S-CIV-04, S-HRI-03, S-LND-PLAN]
+    open_questions: ["Leading SC/CA authorities on 'public purpose' and urgency proviso - Phase 2."]
+    doctrines:
+      - {id: T-EMR-07-01, name: "Public purpose and procedural requirements in acquisition", summary: "Statutory steps, urgency, and judicial review of acquisition.", basis: [ACT-LAA-1950], authorities: [], related: [T-ADM-03-04, T-CIV-04-01]}
+
+  - id: S-EMR-08
+    name: Local Government Law
+    tier: 3
+    tier_basis: "Specialised but closest tier of governance to citizens."
+    profile:
+      meaning: "Municipal Councils, Urban Councils and Pradeshiya Sabhas: powers, by-laws, finance, and central/provincial supervision."
+      significance: "Planning, licensing and public health decisions affecting daily life."
+      history: "Colonial ordinances; Pradeshiya Sabhas Act 1987; local government as provincial subject (Ninth Schedule)."
+      foundations: "Local government statutes; 13A."
+      practice: "Writ review of local authority decisions."
+    legislative_basis: [ACT-MCO-1947, CP-ART-154A-154T]
+    key_authorities: []
+    connections: [S-CON-07, S-EMR-05]
+    open_questions: []
+    doctrines:
+      - {id: T-EMR-08-01, name: "Review of local authority by-laws and licensing", summary: "Ultra vires and reasonableness of by-laws.", basis: [ACT-MCO-1947], authorities: [], related: [T-ADM-03-01]}
+
+  - id: S-EMR-09
+    name: Education and Health Governance
+    tier: 3
+    tier_basis: "Sectoral applications of public law; growing FR litigation (school admissions, university discipline, health procurement)."
+    profile:
+      meaning: "Regulation of school admissions, universities (Universities Act 1978, UGC), and health services/medicine procurement."
+      significance: "High-volume Art 12 litigation on school admissions; 2026 reported procurement case on health ministry."
+      history: "Universities Act 1978; free education policy; NMRA (verify)."
+      foundations: "Sectoral statutes; Art 12; DPSP."
+      practice: "Admissions FR applications; university disciplinary review."
+    legislative_basis: [ACT-UNIVERSITIES-1978, CP-ART-012]
+    key_authorities: [CASE-KEHELIYA-2026]
+    connections: [S-ADM-04, S-CRJ-03]
+    open_questions: []
+    doctrines:
+      - {id: T-EMR-09-01, name: "School admissions and equality", summary: "Admission circulars applied consistently; Art 12 review.", basis: [CP-ART-012], authorities: [], related: [T-CON-04-04]}
+
+  - id: S-EMR-10
+    name: Regulatory Governance and Corporate Accountability
+    tier: 3
+    tier_basis: "Emerging; links public law with commercial law."
+    profile:
+      meaning: "Independent regulators (utilities, telecommunications, securities, data protection, online safety), regulatory independence, and the reach of public-law obligations to corporations."
+      significance: "Accountability of state-owned and private actors performing public functions."
+      history: "Growth of regulators since the 1990s; reported 2026 FR decision against a private developer."
+      foundations: "Sectoral statutes; Companies Act."
+      practice: "Review of regulator decisions; FR against private actors."
+    legislative_basis: [ACT-COMPANIES-2007, ACT-PDPA-2022, ACT-OSA-2024]
+    key_authorities: [CASE-SEAGULL-2026, CASE-FAIZ-1995]
+    connections: [S-COM-PLAN, S-CON-04]
+    open_questions: ["Does Art 126 now reach private actors? Verify Seagull and identify ratio."]
+    doctrines:
+      - {id: T-EMR-10-01, name: "Public functions performed by private actors", summary: "When private bodies become amenable to writ or FR.", basis: [CP-ART-126, CP-ART-140], authorities: [CASE-FAIZ-1995, CASE-SEAGULL-2026], related: [T-CON-04-01, T-ADM-02-01]}

@@ -1,0 +1,98 @@
+discipline:
+  id: D-HRI
+  name: Human Rights and International Law
+  status: active
+  description: >
+    International law's reception into Sri Lankan law, international human rights obligations and
+    oversight mechanisms, and comparative constitutional jurisprudence. Will later expand into a
+    separate general Public International Law discipline (D-INT, planned).
+
+subjects:
+  - id: S-HRI-01
+    name: Reception of International Law (Dualism, Incorporation, Customary Law)
+    tier: 1
+    tier_basis: "Determines whether international norms are usable in domestic litigation at all."
+    profile:
+      meaning: "Sri Lanka is treated as dualist for treaties: ratified treaties bind the State internationally but create domestic rights only when incorporated by legislation. Status of customary international law in domestic courts is less settled."
+      significance: "Shapes the use of ICCPR, CAT and other treaties in FR and criminal cases."
+      history: "Singarasa (2006) on ICCPR and OP1; ICCPR Act 2007 as partial incorporation; 2008 advisory opinion on ICCPR compliance (to verify); earlier courts used treaties as interpretive aids (Bulankulama)."
+      foundations: "No general constitutional incorporation clause; Art 27(15) DPSP; Art 157 (investment treaties); Art 13(6) refers to general principles of international law."
+      practice: "Argue treaties as interpretive aids; rely on incorporating statutes (CAT Act, ICCPR Act)."
+    legislative_basis: [CP-ART-027-029, CP-ART-157, CP-ART-013, ACT-ICCPR-2007, ACT-CAT-1994]
+    key_authorities: [CASE-SINGARASA-2006, CASE-BULANKULAMA-2000]
+    connections: [S-FND-03, S-CON-04]
+    open_questions:
+      - "Status of the 2008 SC advisory opinion (Art 129 reference) on ICCPR rights - locate primary text."
+      - "Is customary international law part of the law of Sri Lanka without legislation?"
+    doctrines:
+      - {id: T-HRI-01-01, name: "Dualism and treaty incorporation", summary: "Treaties require legislation for domestic effect; treaty-making as executive act.", basis: [ACT-ICCPR-2007], authorities: [CASE-SINGARASA-2006], related: [{to: T-FND-03-03, type: LIMITS, basis: judicial, note: "Singarasa limits interpretive use of unincorporated treaties"}]}
+      - {id: T-HRI-01-02, name: "Individual communications and OP1", summary: "Effect of UN Human Rights Committee views; accession held unconstitutional.", basis: [TRT-ICCPR-OP1], authorities: [CASE-SINGARASA-2006], related: [T-CON-03-01]}
+
+  - id: S-HRI-02
+    name: International Human Rights Treaty Obligations
+    tier: 2
+    tier_basis: "Essential context for FR interpretation and accountability debates; not directly enforceable."
+    profile:
+      meaning: "Obligations under ICCPR, ICESCR, CAT, CRC, CEDAW, CPED, CRPD and anti-corruption treaties; implementing legislation where it exists."
+      significance: "Gaps between treaty standards and domestic law (e.g. absence of express right to life, PTA, OSA) drive reform debates and international scrutiny."
+      history: "Accessions mainly 1980-2016; incorporating statutes: CAT Act 1994, ICCPR Act 2007, CPED Act (2018, verify)."
+      foundations: "Treaty texts; implementing statutes."
+      practice: "Comparative arguments; treaty-body general comments as persuasive material."
+    legislative_basis: [TRT-ICCPR, TRT-ICESCR, TRT-CAT, TRT-CRC, TRT-CEDAW, TRT-CPED, TRT-CRPD, ACT-ICCPR-2007, ACT-CAT-1994]
+    key_authorities: [CASE-SINGARASA-2006]
+    connections: [S-CON-04, S-CRJ-01, S-CRJ-02]
+    open_questions: ["Ratification dates for each treaty to be verified against UN Treaty Collection."]
+    doctrines:
+      - {id: T-HRI-02-01, name: "ICCPR and the ICCPR Act 2007", summary: "Partial incorporation; s.3 offences re advocacy of hatred (verify) - increasingly used against speech.", basis: [ACT-ICCPR-2007, TRT-ICCPR], authorities: [], related: [T-CON-04-05, T-EMR-01-02]}
+      - {id: T-HRI-02-02, name: "Torture prohibition and CAT Act 1994", summary: "Criminalisation of torture; High Court jurisdiction; weak enforcement record.", basis: [ACT-CAT-1994, TRT-CAT], authorities: [], related: [T-CON-04-08, T-CRJ-01-03]}
+
+  - id: S-HRI-03
+    name: Enforced Disappearances, Transitional Justice and International Accountability
+    tier: 2
+    tier_basis: "Major contemporary relevance (post-war accountability, UNHRC process)."
+    profile:
+      meaning: "Domestic mechanisms (OMP, Office for Reparations, ONUR), habeas corpus for disappeared persons, and international processes (UNHRC resolutions, OHCHR accountability project)."
+      significance: "Shapes Sri Lanka's international relations and domestic reform agenda."
+      history: "LLRC (2011); UNHRC resolutions from 2012; 30/1 co-sponsorship (2015) and withdrawal (2020); OMP (2016), OR (2018); NPP-era positions (to verify)."
+      foundations: "OMP Act 2016; OR Act 2018; habeas corpus Art 141."
+      practice: "Habeas corpus applications; OMP interim reports; reparations claims."
+    legislative_basis: [ACT-OMP-2016, ACT-OR-2018, CP-ART-141, TRT-CPED]
+    key_authorities: []
+    connections: [S-CRJ-03, S-EMR-07]
+    open_questions: ["Proposed truth-and-reconciliation commission legislation - status as of 2026."]
+    doctrines:
+      - {id: T-HRI-03-01, name: "Habeas corpus and enforced disappearance", summary: "Burden on State to account for persons last seen in custody.", basis: [CP-ART-141, TRT-CPED], authorities: [], related: [T-ADM-02-05]}
+
+  - id: S-HRI-04
+    name: National Human Rights Institutions and UN Oversight Mechanisms
+    tier: 3
+    tier_basis: "Institutional knowledge supporting advocacy; not primary sources of law."
+    profile:
+      meaning: "HRCSL (inquiries, recommendations, Paris Principles accreditation), UN treaty bodies, Universal Periodic Review, Special Procedures."
+      significance: "Soft-law outputs shape legislation (e.g. OSA, PTA reform) and litigation narratives."
+      history: "HRCSL Act 1996; UPR cycles 2008 onwards (dates to verify)."
+      foundations: "HRCSL Act No. 21 of 1996."
+      practice: "HRCSL complaints as alternative/complement to Art 126; reports as evidence."
+    legislative_basis: [ACT-HRCSL-1996]
+    key_authorities: []
+    connections: [S-ADM-08, S-HRI-02]
+    open_questions: ["Current HRCSL GANHRI accreditation status."]
+    doctrines:
+      - {id: T-HRI-04-01, name: "HRCSL complaints and the Art 126 time limit", summary: "Pending HRCSL inquiry may suspend the one-month period (statutory provision to verify).", basis: [ACT-HRCSL-1996, CP-ART-126], authorities: [], related: [T-CON-04-03]}
+
+  - id: S-HRI-05
+    name: Comparative Constitutional Jurisprudence
+    tier: 3
+    tier_basis: "Persuasive only; used to fill gaps and challenge local doctrine."
+    profile:
+      meaning: "Use of Indian, English, South African and other jurisprudence by Sri Lankan courts; methodological caution about transplants."
+      significance: "Sri Lankan courts routinely cite Indian (Art 21/14) and English public-law authorities."
+      history: "Heavy English influence pre-1972; Indian influence on equality and PIL from the 1980s."
+      foundations: "Persuasive authority only."
+      practice: "Always confirm the Sri Lankan textual base before importing (e.g. no express right to life; no post-enactment review)."
+    legislative_basis: []
+    key_authorities: [CASE-KESAVANANDA-1973, CASE-MANEKA-1978, CASE-GCHQ-1985]
+    connections: [S-ADM-03, S-CON-02]
+    open_questions: []
+    doctrines:
+      - {id: T-HRI-05-01, name: "Basic structure doctrine (comparative)", summary: "Indian implied limits on amendment; uncertain resonance in Sri Lanka given Art 83.", basis: [], authorities: [CASE-KESAVANANDA-1973], related: [T-CON-02-05]}

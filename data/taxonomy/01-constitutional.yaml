@@ -1,0 +1,242 @@
+discipline:
+  id: D-CON
+  name: Constitutional Law
+  status: active
+  description: >
+    The 1978 Second Republican Constitution (as amended through the 22nd Amendment, 2026), its
+    history, structure of state power, fundamental rights, devolution, and the institutions that
+    hold power to account.
+
+subjects:
+  - id: S-CON-01
+    name: Constitutional History and Development
+    tier: 1
+    tier_basis: "Sri Lankan constitutional doctrine is explicable only through its sequence of constitutions and amendments; frequently relied on in judgments."
+    profile:
+      meaning: "Colebrooke-Cameron reforms (1833) -> Donoughmore Constitution (1931, universal franchise) -> Soulbury Constitution (1946/47; Independence 1948) -> First Republican Constitution (1972, autochthonous, parliamentary supremacy, no judicial review of Acts) -> Second Republican Constitution (1978, executive presidency) -> 22 amendments to date."
+      significance: "Explains the oscillation of executive power (18A/20A expanding; 17A/19A/21A restraining), the absence of post-enactment review, and the unitary-state/devolution tension."
+      history: "Key break-points: Liyanage (1965) on implied separation of powers; 1972 rupture of legal continuity; 1978 presidentialism; 1987 Indo-Lanka Accord and 13A; 2015 19A reforms; 2022 Aragalaya and 21A; 2026 22A on judicial retirement age; promised new constitution not yet begun (Nov 2026)."
+      foundations: "Autochthony; sovereignty of the People (Art 3)."
+      practice: "Historical provisions (e.g. Soulbury s.29) remain relevant to precedent and to the interpretation of continuity provisions."
+    legislative_basis: [CP-1978, AMD-13, AMD-17, AMD-18, AMD-19, AMD-20, AMD-21, AMD-22]
+    key_authorities: [CASE-LIYANAGE-1965, CASE-RANASINGHE-1964, CASE-IBRALEBBE-1963, CASE-KODAKAN-PILLAI-1953]
+    connections: [S-FND-01, S-CON-02, S-CON-03]
+    open_questions:
+      - "Whether and how the NPP government's promised new constitution will proceed (no drafting process visible as of Nov 2026 - SRC-0013)."
+    doctrines:
+      - {id: T-CON-01-01, name: "Soulbury Constitution and minority protection (s.29)", summary: "Entrenched non-discrimination clause; its limited judicial enforcement.", basis: [], authorities: [CASE-KODAKAN-PILLAI-1953, CASE-MUDANAYAKE-1951, CASE-RANASINGHE-1964], related: [T-CON-04-04]}
+      - {id: T-CON-01-02, name: "Autochthony and the 1972 break in legal continuity", summary: "The 1972 Constitution adopted outside the Soulbury amendment procedure to sever colonial legal roots.", basis: [], authorities: [], related: [S-FND-01]}
+      - {id: T-CON-01-03, name: "The executive presidency (1978) and its amendment cycles", summary: "Pendulum of 17A/18A/19A/20A/21A over presidential power and independent institutions.", basis: [AMD-17, AMD-18, AMD-19, AMD-20, AMD-21], authorities: [], related: [S-CON-03, S-CON-09]}
+
+  - id: S-CON-02
+    name: Sovereignty, Constitutional Supremacy and Constitutional Amendment
+    tier: 1
+    tier_basis: "Defines the legal limits on Parliament and the method of constitutional change; underpins all constitutional review."
+    profile:
+      meaning: "Sovereignty resides in the People (Art 3) and is exercised through organs of government (Art 4). The Constitution is supreme, but judicial control of legislation is only pre-enactment (Arts 120-124); once certified, an Act cannot be questioned (Art 80(3)). Amendment requires a 2/3 majority (Art 82), plus a referendum for entrenched provisions (Art 83)."
+      significance: "Sri Lanka is a hybrid: textual supremacy without post-enactment review. Bill challenges are the central constitutional litigation."
+      history: "1972 Constitution gave Constitutional Court limited pre-enactment review; 1978 transferred this to SC. Doctrine on Arts 3/4 developed in Re 13A (1987) and Re 19A (2002)."
+      foundations: "Arts 3, 4, 80(3), 82-84, 120-124."
+      practice: "Any citizen may petition the SC within a short window after a Bill is placed on the Order Paper; SC determination states majority required (simple, 2/3, or 2/3 plus referendum) and amendments that would cure inconsistency."
+    legislative_basis: [CP-ART-003, CP-ART-004, CP-ART-075-080, CP-ART-082-084, CP-ART-085-087, CP-ART-120-124]
+    key_authorities: [CASE-RE-13A-1987, CASE-RE-19A-2002, CASE-KESAVANANDA-1973]
+    connections: [S-CON-03, S-CON-07, S-ADM-01, T-FND-03-01]
+    open_questions:
+      - "Is there any implied 'basic structure' limit to amendment in Sri Lanka beyond Art 83? (Comparative: Kesavananda.)"
+      - "Current statutory window for Art 121 petitions and availability of urgent Bills (Art 122) after 19A/20A/21A - requires verification."
+    doctrines:
+      - {id: T-CON-02-01, name: "Sovereignty of the People (Arts 3 and 4)", summary: "Powers of government, fundamental rights and franchise as components of inalienable sovereignty.", basis: [CP-ART-003, CP-ART-004], authorities: [CASE-RE-19A-2002], related: [T-CON-03-01]}
+      - {id: T-CON-02-02, name: "Balance of power test (Re 19A)", summary: "Transfer/relinquishment of a power of one organ to another, or removal of a check, may infringe Art 3 and require a referendum.", basis: [CP-ART-003, CP-ART-004, CP-ART-082-084], authorities: [CASE-RE-19A-2002], related: [T-CON-03-01, {to: CASE-RE-13A-1987, type: RELATED_TO, basis: judicial, note: "Both determine referendum requirements"}]}
+      - {id: T-CON-02-03, name: "Pre-enactment constitutional review of Bills", summary: "Arts 120-123: SC determines constitutionality of Bills before enactment.", basis: [CP-ART-120-124], authorities: [], related: [T-CON-06-02]}
+      - {id: T-CON-02-04, name: "Bar on post-enactment review (Art 80(3) / Art 124)", summary: "Certified Acts are immune from judicial challenge; contrasts with administrative review of subordinate legislation.", basis: [CP-ART-075-080, CP-ART-120-124], authorities: [], related: [{to: T-ADM-03-01, type: CONTRADICTS, basis: suggested, note: "Ultra vires review applies to delegated legislation but not to Acts - tension to investigate"}]}
+      - {id: T-CON-02-05, name: "Entrenched provisions and the referendum (Art 83)", summary: "Arts 1, 2, 3, 6, 7, 8, 9, 10, 11 and term-extension provisions require a referendum to amend (list to verify against current text).", basis: [CP-ART-082-084, CP-ART-085-087], authorities: [CASE-RE-13A-1987], related: [T-CON-11-02]}
+      - {id: T-CON-02-06, name: "Unitary State (Art 2) and its meaning", summary: "Whether devolution is compatible with unitary character.", basis: [CP-ART-001-002], authorities: [CASE-RE-13A-1987], related: [S-CON-07]}
+
+  - id: S-CON-03
+    name: Separation of Powers and Executive Power
+    tier: 1
+    tier_basis: "Central to the Sri Lankan constitutional crises (2018 dissolution; 2022) and to the reviewability of presidential acts."
+    profile:
+      meaning: "Distribution of legislative, executive and judicial power (Art 4); the executive President as Head of State, Government and Commander-in-Chief; the Cabinet; presidential immunity (Art 35) and its limits."
+      significance: "Determines whether presidential acts are justiciable and how far the executive can act without Parliament."
+      history: "Liyanage (1965) implied separation of judicial power; 1978 concentrated power in the President; 19A introduced FR review of presidential acts via the AG; 20A re-expanded presidential power; 21A partly reversed it."
+      foundations: "Arts 4, 30-53, 70; public trust conception of power."
+      practice: "Challenges to presidential acts proceed as FR applications against the Attorney-General (Art 35 proviso, as amended - verify current text)."
+    legislative_basis: [CP-ART-004, CP-ART-030-041, CP-ART-033, CP-ART-035, CP-ART-042-053, CP-ART-070]
+    key_authorities: [CASE-LIYANAGE-1965, CASE-SAMPANTHAN-2018, CASE-MALLIKARACHCHI-1985, CASE-KARUNATHILAKA-1999, CASE-PREMACHANDRA-1994, CASE-SENARATH-2007]
+    connections: [S-ADM-01, S-CON-05, S-CON-06]
+    open_questions:
+      - "Exact scope of the Art 35 proviso after 20A and 21A."
+      - "Justiciability of Cabinet policy decisions vs. their implementation."
+    doctrines:
+      - {id: T-CON-03-01, name: "Separation of judicial power", summary: "Legislature and executive cannot usurp judicial power; ad hominem legislation directed at pending cases is invalid (Soulbury era).", basis: [CP-ART-004], authorities: [CASE-LIYANAGE-1965], related: [S-CON-05]}
+      - {id: T-CON-03-02, name: "Presidential immunity and its limits", summary: "From absolute immunity (Mallikarachchi) to personal immunity not shielding others' acts (Karunathilaka) to FR review via AG (19A).", basis: [CP-ART-035], authorities: [CASE-MALLIKARACHCHI-1985, CASE-KARUNATHILAKA-1999, CASE-SAMPANTHAN-2018, CASE-SENARATH-2007], related: [{to: T-ADM-01-02, type: QUALIFIES, basis: judicial, note: "Rule of law limits even the highest executive"}]}
+      - {id: T-CON-03-03, name: "Dissolution and prorogation of Parliament", summary: "Art 33(2)(c) read subject to Art 70.", basis: [CP-ART-033, CP-ART-070], authorities: [CASE-SAMPANTHAN-2018], related: [S-CON-06]}
+      - {id: T-CON-03-04, name: "No unfettered discretion / public trust in executive power", summary: "All public power is held in trust for the People and is reviewable.", basis: [CP-ART-003, CP-ART-004], authorities: [CASE-PREMACHANDRA-1994, CASE-BANDARA-1994], related: [T-ADM-01-03]}
+      - {id: T-CON-03-05, name: "Cabinet collective responsibility", summary: "Cabinet responsible and answerable to Parliament (Art 42).", basis: [CP-ART-042-053], authorities: [], related: [S-CON-06]}
+
+  - id: S-CON-04
+    name: Fundamental Rights and Constitutional Remedies
+    tier: 1
+    tier_basis: "Most litigated constitutional jurisdiction; Art 12(1) also functions as Sri Lanka's principal vehicle of administrative law review."
+    profile:
+      meaning: "Chapter III rights (Arts 10-14A), restrictions (Art 15), and the Supreme Court's sole and exclusive jurisdiction under Art 126 against infringement or imminent infringement by executive or administrative action, with relief that is just and equitable."
+      significance: "Direct, speedy, apex-court remedy; source of the right-to-life, public trust, legitimate expectation and arbitrariness doctrines in Sri Lanka."
+      history: "1972 Constitution had rights without effective remedy; 1978 created Art 126; jurisprudence expanded in the 1980s-2000s (state action, standing, compensation); Art 14A added 2015."
+      foundations: "Arts 10-17, 126; Art 16 saving of existing law; Art 15 restrictions; absence of an express right to life."
+      practice: "Petition within one month of the infringement (Art 126(2)); leave to proceed stage; relief includes declarations, compensation (state and personal), directions."
+    legislative_basis: [CP-ART-010, CP-ART-011, CP-ART-012, CP-ART-013, CP-ART-014, CP-ART-014A, CP-ART-015, CP-ART-016, CP-ART-017, CP-ART-126]
+    key_authorities: [CASE-SRIYANI-SILVA-2003, CASE-FAIZ-1995, CASE-SAMAN-LEELADASA-1989, CASE-VELMURUGU-1981, CASE-BULANKULAMA-2000, CASE-JOSEPH-PERERA-1992, CASE-WICKRAMATUNGA-1998]
+    connections: [S-ADM-01, S-HRI-02, S-CRJ-01, S-EMR-01]
+    open_questions:
+      - "Horizontal application to private actors (reported Seagull Property Developers 2026 - verify)."
+      - "Personal liability of ministers for Art 12 violations (reported Rambukwella 2026 - verify)."
+      - "Interaction of RTI (Art 14A) with personal data protection."
+    doctrines:
+      - {id: T-CON-04-01, name: "Art 126 jurisdiction: executive or administrative action", summary: "State action requirement; extended to private conduct with state authority, connivance or acquiescence.", basis: [CP-ART-126], authorities: [CASE-FAIZ-1995, CASE-SAMAN-LEELADASA-1989, CASE-SEAGULL-2026], related: [T-ADM-02-01]}
+      - {id: T-CON-04-02, name: "Existing law and Art 16", summary: "Pre-1978 laws inconsistent with Chapter III remain valid; limits FR review of colonial-era statutes and personal laws.", basis: [CP-ART-016], authorities: [], related: [T-FND-01-04, T-FND-01-03]}
+      - {id: T-CON-04-03, name: "Standing and time limit under Art 126(2)", summary: "Petition by aggrieved person or attorney-at-law; one-month rule and its exceptions; heirs' standing.", basis: [CP-ART-126], authorities: [CASE-SOMAWATHIE-1990, CASE-SRIYANI-SILVA-2003], related: [T-FND-03-01]}
+      - {id: T-CON-04-04, name: "Equality and non-discrimination (Art 12)", summary: "Reasonable classification; arbitrariness as inequality; affirmative action (12(4)).", basis: [CP-ART-012], authorities: [CASE-WICKRAMATUNGA-1998, CASE-KARUNATHILAKA-1999], related: [{to: T-ADM-03-03, type: DERIVES_FROM, basis: academic, note: "Arbitrariness doctrine imports administrative-law irrationality into Art 12"}]}
+      - {id: T-CON-04-05, name: "Freedom of speech and expression (Art 14(1)(a))", summary: "Includes right to receive information; subject to Art 15(2)/(7) restrictions.", basis: [CP-ART-014, CP-ART-015], authorities: [CASE-VISUVALINGAM-1983, CASE-JOSEPH-PERERA-1992, CASE-FERNANDO-SLBC-1996, CASE-EFL-UDA-2009], related: [T-EMR-01-02]}
+      - {id: T-CON-04-06, name: "Freedom of assembly and association (Art 14(1)(b)-(d))", summary: "Includes negative freedom not to associate; trade union rights.", basis: [CP-ART-014], authorities: [CASE-GUNARATNE-PB-1986], related: [S-EMR-04]}
+      - {id: T-CON-04-07, name: "Freedom of thought, conscience and religion (Art 10, 14(1)(e))", summary: "Absolute freedom of thought/conscience (Art 10) vs. restrictable manifestation; interplay with Art 9.", basis: [CP-ART-009, CP-ART-010, CP-ART-014], authorities: [], related: [T-CON-11-02]}
+      - {id: T-CON-04-08, name: "Freedom from torture (Art 11)", summary: "Non-derogable; standard of proof; state and personal compensation.", basis: [CP-ART-011, ACT-CAT-1994], authorities: [CASE-VELMURUGU-1981, CASE-SRIYANI-SILVA-2003, CASE-SAMAN-LEELADASA-1989], related: [T-CRJ-01-03, T-HRI-02-02]}
+      - {id: T-CON-04-09, name: "Personal liberty, arrest and detention (Art 13(1)-(2))", summary: "Arrest according to procedure established by law; reasons; production before judge.", basis: [CP-ART-013, ACT-CCPA-1979], authorities: [CASE-CHANNA-PEIRIS-1994, CASE-WICKREMABANDU-1990], related: [T-CRJ-01-01]}
+      - {id: T-CON-04-10, name: "Fair trial, presumption of innocence and non-retroactivity (Art 13(3)-(6))", summary: "Due process guarantees in criminal proceedings; Art 13(6) international-law exception.", basis: [CP-ART-013], authorities: [], related: [T-CRJ-01-05]}
+      - {id: T-CON-04-11, name: "Implied right to life", summary: "Derived from Arts 11 and 13(4) though not expressly enumerated.", basis: [CP-ART-011, CP-ART-013], authorities: [CASE-SRIYANI-SILVA-2003], related: [T-EMR-02-01]}
+      - {id: T-CON-04-12, name: "Right of access to information (Art 14A)", summary: "Constitutional right since 2015, implemented by RTI Act 2016; earlier implied from Art 14(1)(a).", basis: [CP-ART-014A, ACT-RTI-2016], authorities: [CASE-EFL-UDA-2009, CASE-FERNANDO-SLBC-1996], related: [{to: CASE-FERNANDO-SLBC-1996, type: MODIFIES, basis: legislative, note: "Art 14A (19A, 2015) constitutionally supersedes the Fernando v SLBC position; this is legislative change, not judicial overruling"}, T-EMR-01-03]}
+      - {id: T-CON-04-13, name: "Permissible restrictions (Art 15)", summary: "Restrictions 'prescribed by law' for listed purposes; proportionality in Sri Lankan review is underdeveloped.", basis: [CP-ART-015], authorities: [CASE-JOSEPH-PERERA-1992], related: [T-ADM-03-07, S-CON-08]}
+      - {id: T-CON-04-14, name: "Remedies: just and equitable relief and compensation", summary: "Declarations, compensation against state and individual officers, directions; personal liability of ministers.", basis: [CP-ART-126], authorities: [CASE-SAMAN-LEELADASA-1989, CASE-SENARATH-2007, CASE-KEHELIYA-2026], related: [T-CRJ-03-01]}
+      - {id: T-CON-04-15, name: "Public interest litigation", summary: "Relaxed standing for issues of public importance (environment, public assets, governance).", basis: [CP-ART-126, CP-ART-140], authorities: [CASE-BULANKULAMA-2000, CASE-NANAYAKKARA-CHOKSY-2008, CASE-SUGATHAPALA-2008], related: [T-ADM-02-06, T-EMR-02-01]}
+
+  - id: S-CON-05
+    name: The Judiciary and Judicial Independence
+    tier: 1
+    tier_basis: "Precondition for every remedy; subject of the latest constitutional amendment (22A, 2026)."
+    profile:
+      meaning: "Constitutional protection of judicial power, appointment (President with Constitutional Council approval for superior courts), tenure, removal by address of Parliament (Art 107), the Judicial Service Commission."
+      significance: "The 2012-13 impeachment of Chief Justice Bandaranayake and the 2026 retirement-age amendment illustrate live tensions."
+      history: "Liyanage; 17A/19A/21A appointment controls; impeachment controversy 2012-13 (SC/CA rulings on Standing Order 78A - to be researched); 22A (2026)."
+      foundations: "Arts 105-117; Art 4(c)."
+      practice: "Challenges to appointments, transfers and disciplinary control of lower-court judges; contempt jurisdiction."
+    legislative_basis: [CP-ART-105-117, CP-ART-107, CP-ART-041A-041J, AMD-22, ACT-JUDICATURE-AMD-2026, ACT-CONTEMPT-2024]
+    key_authorities: [CASE-LIYANAGE-1965]
+    connections: [S-CON-03, S-CON-09, S-FND-02]
+    open_questions:
+      - "Primary-source research needed: SC Reference on Standing Order 78A (2013) and Court of Appeal writ decision in the Bandaranayake impeachment."
+      - "Does extending incumbent judges' tenure (22A) engage judicial independence concerns? (BASL opposed; SC determined 2/3 majority sufficient.)"
+    doctrines:
+      - {id: T-CON-05-01, name: "Security of tenure and removal of superior court judges", summary: "Art 107 address procedure; due-process requirements in removal.", basis: [CP-ART-107], authorities: [], related: [S-CON-06]}
+      - {id: T-CON-05-02, name: "Judicial appointments and the Constitutional Council", summary: "Appointment checks restored by 21A.", basis: [CP-ART-041A-041J, AMD-21], authorities: [], related: [S-CON-09]}
+      - {id: T-CON-05-03, name: "Contempt of court", summary: "Constitutional contempt powers of SC/CA and statutory codification (2024 Act - verify).", basis: [CP-ART-105-117, ACT-CONTEMPT-2024], authorities: [], related: [T-CON-04-05]}
+
+  - id: S-CON-06
+    name: Parliament, Legislative Power and Parliamentary Privilege
+    tier: 2
+    tier_basis: "Important structural subject; litigation frequency lower than FR/writs but central to law-making."
+    profile:
+      meaning: "Parliament's plenary legislative power (Art 75), prohibition on abdication (Art 76), delegated legislation, Standing Orders, privileges and immunities, expulsion of MPs (Art 99(13))."
+      significance: "Frames how laws (and regulations, e.g. under the Online Safety Act or PTA) are made and challenged."
+      history: "Parliament (Powers and Privileges) Act 1953; 1978 proportional representation; party-expulsion litigation in the 1990s."
+      foundations: "Arts 62-80, 99; Parliament (Powers and Privileges) Act."
+      practice: "Delegated legislation reviewed for ultra vires; Bills reviewed pre-enactment."
+    legislative_basis: [CP-ART-062-074, CP-ART-075-080, ACT-PPPA-1953]
+    key_authorities: [CASE-DISSANAYAKE-KALEEL-1993]
+    connections: [S-CON-02, S-ADM-03]
+    open_questions: ["Extent to which Standing Orders and parliamentary procedures are justiciable."]
+    doctrines:
+      - {id: T-CON-06-01, name: "Delegation of legislative power (Art 76)", summary: "Parliament may delegate subordinate rule-making but not abdicate legislative power.", basis: [CP-ART-075-080], authorities: [], related: [T-ADM-03-01]}
+      - {id: T-CON-06-02, name: "Parliamentary privilege", summary: "Freedom of speech in Parliament; breach of privilege; jurisdiction of SC over offences against Parliament (verify).", basis: [ACT-PPPA-1953, CP-ART-062-074], authorities: [], related: [T-CON-05-01]}
+      - {id: T-CON-06-03, name: "Expulsion of MPs from party (Art 99(13))", summary: "SC review of party expulsion; natural justice within parties.", basis: [CP-ART-088-104], authorities: [CASE-DISSANAYAKE-KALEEL-1993], related: [T-ADM-04-01]}
+
+  - id: S-CON-07
+    name: Devolution, the Thirteenth Amendment and Provincial Councils
+    tier: 2
+    tier_basis: "High constitutional and political significance; active litigation limited while councils remain unelected (since c. 2017-19)."
+    profile:
+      meaning: "Devolution of power to nine Provincial Councils under Chapter XVIIA and the Ninth Schedule (Provincial, Reserved, Concurrent Lists); Governors as presidential appointees; provincial statutes; Provincial High Courts."
+      significance: "Centre-periphery relations, the national question, land and police powers, and the meaning of the unitary State."
+      history: "Indo-Lanka Accord 1987; Re 13A (1987); North-East merger and its de-merger (2006, verify); land and police powers never fully implemented; elections postponed since 2017 amendments; NPP signalling replacement of the PC system in a new constitution (2026)."
+      foundations: "Arts 154A-154T; Provincial Councils Act No. 42 of 1987."
+      practice: "Disputes over list allocation, Governors' discretion, provincial statute validity, and election postponement."
+    legislative_basis: [CP-ART-154A-154T, CP-ART-154P, AMD-13, ACT-PC-1987, ACT-PCE-1988]
+    key_authorities: [CASE-RE-13A-1987, CASE-PREMACHANDRA-1994, CASE-KARUNATHILAKA-1999]
+    connections: [S-CON-02, S-EMR-05, S-EMR-08]
+    open_questions:
+      - "Legality and remedies for prolonged non-holding of provincial council elections."
+      - "Constitutional route to abolish or replace PCs (would it require a referendum?)."
+    doctrines:
+      - {id: T-CON-07-01, name: "Division of legislative competence (Ninth Schedule lists)", summary: "Provincial, Reserved and Concurrent Lists; consultation for concurrent subjects.", basis: [CP-ART-154A-154T], authorities: [CASE-RE-13A-1987], related: [T-CON-02-06]}
+      - {id: T-CON-07-02, name: "Powers and discretion of Governors", summary: "Governors' discretion is reviewable; no unfettered discretion.", basis: [CP-ART-154A-154T], authorities: [CASE-PREMACHANDRA-1994], related: [T-CON-03-04]}
+      - {id: T-CON-07-03, name: "Electoral rights and postponement of PC elections", summary: "Franchise as part of sovereignty; executive cannot frustrate elections.", basis: [CP-ART-003, ACT-PCE-1988], authorities: [CASE-KARUNATHILAKA-1999], related: [S-EMR-05]}
+
+  - id: S-CON-08
+    name: Emergency Powers and National Security
+    tier: 2
+    tier_basis: "Recurrent in Sri Lankan history (decades under emergency) and in FR jurisprudence on liberty and expression."
+    profile:
+      meaning: "Proclamation of emergency and emergency regulations under the Public Security Ordinance (Part II) given constitutional force by Art 155; parliamentary approval; overlap with PTA."
+      significance: "Emergency regulations can override ordinary law (but not the Constitution); key site for testing Art 15 restrictions."
+      history: "Near-continuous emergency 1971-2011; 2018 (Kandy), 2019 (Easter attacks), 2022 (Aragalaya) proclamations."
+      foundations: "Art 155; Public Security Ordinance No. 25 of 1947; Art 15(7)."
+      practice: "FR challenges to arrests and regulations; review of 'subjective satisfaction'."
+    legislative_basis: [CP-ART-155, ACT-PSO-1947, CP-ART-015, ACT-PTA-1979, BILL-PSFT-2026]
+    key_authorities: [CASE-JOSEPH-PERERA-1992, CASE-WICKREMABANDU-1990, CASE-CHANNA-PEIRIS-1994]
+    connections: [S-CRJ-02, S-CON-04, S-HRI-02]
+    open_questions: ["Reviewability of the proclamation itself (vs. regulations made under it)."]
+    doctrines:
+      - {id: T-CON-08-01, name: "Emergency regulations and their constitutional limits", summary: "Regulations cannot override the Constitution; reviewable for consistency with Chapter III.", basis: [CP-ART-155, ACT-PSO-1947], authorities: [CASE-JOSEPH-PERERA-1992], related: [T-CON-04-13]}
+      - {id: T-CON-08-02, name: "Preventive detention and subjective satisfaction", summary: "Courts require objective grounds for detention orders.", basis: [ACT-PSO-1947, ACT-PTA-1979], authorities: [CASE-WICKREMABANDU-1990, CASE-CHANNA-PEIRIS-1994], related: [T-CRJ-02-01]}
+
+  - id: S-CON-09
+    name: Constitutional Council and Independent Commissions
+    tier: 2
+    tier_basis: "Core of post-2001 accountability architecture; repeatedly amended."
+    profile:
+      meaning: "Constitutional Council's role in approving appointments to superior courts, key offices and independent commissions (Public Service, Police, Elections, Human Rights, Bribery, Audit, Finance, Delimitation, Procurement)."
+      significance: "Independence of oversight bodies is the main structural check on the executive presidency."
+      history: "17A (2001) -> Parliamentary Council (18A, 2010) -> restored (19A, 2015) -> Parliamentary Council (20A, 2020) -> restored (21A, 2022)."
+      foundations: "Chapter VIIA and related chapters."
+      practice: "Challenges to appointments made without CC approval; commission decisions reviewed by writ or FR."
+    legislative_basis: [CP-ART-041A-041J, AMD-17, AMD-18, AMD-19, AMD-20, AMD-21, CP-ART-155A-155T]
+    key_authorities: []
+    connections: [S-CON-03, S-ADM-06, S-CRJ-03]
+    open_questions: ["Composition and voting rules of the CC after 21A - verify against current text."]
+    doctrines:
+      - {id: T-CON-09-01, name: "Independence of commissions", summary: "Appointment and removal safeguards; ouster clauses for PSC (Art 61A).", basis: [CP-ART-041A-041J, CP-ART-054-061], authorities: [], related: [T-ADM-03-06, S-ADM-06]}
+
+  - id: S-CON-10
+    name: Directive Principles, Constitutional Conventions and Constitutional Morality
+    tier: 3
+    tier_basis: "Interpretive and normative rather than directly enforceable; advanced reasoning."
+    profile:
+      meaning: "Non-justiciable Directive Principles and Fundamental Duties (Arts 27-29); constitutional conventions (e.g. caretaker conduct, appointment of PM); constitutional morality as a reasoning device."
+      significance: "Used as interpretive aids (e.g. environment, international law respect in Art 27(15)) and in public-trust reasoning."
+      history: "Borrowed from Irish/Indian models via the 1972 and 1978 Constitutions."
+      foundations: "Arts 27-29."
+      practice: "Supporting arguments in FR and writ cases; not stand-alone causes of action."
+    legislative_basis: [CP-ART-027-029]
+    key_authorities: [CASE-BULANKULAMA-2000]
+    connections: [S-EMR-02, S-HRI-01]
+    open_questions: ["How far courts may use DPSPs to give content to Art 12 or public trust."]
+    doctrines:
+      - {id: T-CON-10-01, name: "Non-justiciability of Directive Principles (Art 29)", summary: "DPSPs guide but do not confer enforceable rights.", basis: [CP-ART-027-029], authorities: [], related: [T-FND-03-03]}
+      - {id: T-CON-10-02, name: "Constitutional conventions", summary: "Non-legal rules of political practice; role in 2018 crisis.", basis: [], authorities: [], related: [T-CON-03-03]}
+
+  - id: S-CON-11
+    name: Identity Provisions - Language, Religion and Citizenship
+    tier: 2
+    tier_basis: "Historically central to ethnic conflict and constitutional reform; entrenched provisions."
+    profile:
+      meaning: "Official and national languages (Chapter IV, Sinhala and Tamil official, English link language); Buddhism's foremost place (Art 9); citizenship and statelessness."
+      significance: "Language rights in administration and courts; religion-state relationship (conversion bills, places of worship); historical citizenship laws."
+      history: "Official Language Act 1956; Tamil official language via 13A/16A; Citizenship Act 1948 and Kodakan Pillai; Grant of Citizenship to Persons of Indian Origin Act 2003 (verify)."
+      foundations: "Arts 9, 10, 14(1)(e)-(f), 18-25."
+      practice: "Language-rights complaints (Official Languages Commission); Bill challenges on religious matters."
+    legislative_basis: [CP-ART-009, CP-ART-010, CP-ART-018-025]
+    key_authorities: [CASE-KODAKAN-PILLAI-1953]
+    connections: [S-CON-01, S-HRI-02]
+    open_questions: ["SC determinations on anti-conversion/incorporation Bills (e.g. Teaching Sisters of the Holy Cross, c. 2003) - to research and verify."]
+    doctrines:
+      - {id: T-CON-11-01, name: "Language rights", summary: "Right to use Sinhala or Tamil in dealings with the State and courts.", basis: [CP-ART-018-025], authorities: [], related: [S-CON-07]}
+      - {id: T-CON-11-02, name: "Article 9 and religious freedom", summary: "Foremost place to Buddhism balanced against Arts 10 and 14(1)(e).", basis: [CP-ART-009, CP-ART-010], authorities: [], related: [T-CON-04-07]}

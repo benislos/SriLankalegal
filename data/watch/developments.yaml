@@ -1,0 +1,115 @@
+# JURISPRUDENTIAL DEVELOPMENT WATCH (Part IX s.22)
+# A development is logged here when detected. It changes the status of a taxonomy/authority record
+# ONLY after its legal significance is verified (settled_effect != pending). A new judgment or Bill
+# is not a settled change in law.
+# kind: constitutional_amendment | act | bill | sc_judgment | ca_judgment | sc_determination | regulation | academic
+# settled_effect: pending | in_force | no_change | supersedes:<ID> | modifies:<ID>
+
+developments:
+  - id: DEV-2026-001
+    date: 2026-09-25
+    kind: constitutional_amendment
+    title: "Twenty-Second Amendment to the Constitution passed (158-63); SC determined 2/3 majority sufficient, no referendum"
+    affects: [CP-ART-107, S-CON-05, AMD-22]
+    sources: [SRC-0004, SRC-0005, SRC-0006, SRC-0007]
+    settled_effect: in_force
+    verification_status: corroborated
+    follow_up: "Obtain certified text and SC determination; record exact certification date; update CP-ART-107 text."
+
+  - id: DEV-2026-002
+    date: 2026-09-25
+    kind: act
+    title: "Judicature (Amendment) Act 2026 - lower court retirement ages (HC 63; DJ/Magistrates 62)"
+    affects: [ACT-JUDICATURE-1978, ACT-JUDICATURE-AMD-2026]
+    sources: [SRC-0006]
+    settled_effect: in_force
+    verification_status: corroborated
+    follow_up: "Confirm Act number."
+
+  - id: DEV-2026-003
+    date: 2026-10-06
+    kind: bill
+    title: "Protection of the State from Terrorism Bill tabled (gazetted 22 Sep 2026) to repeal and replace the PTA"
+    affects: [ACT-PTA-1979, BILL-PSFT-2026, S-CRJ-02]
+    sources: [SRC-0008, SRC-0009]
+    settled_effect: pending
+    verification_status: corroborated
+    follow_up: "PTA remains in force. Track Parliament vote and certification."
+
+  - id: DEV-2026-004
+    date: 2026-11-12
+    kind: sc_determination
+    title: "Reported SC determination on the PSFT Bill: certain clauses inconsistent; Bill may pass by simple majority if four amendments adopted"
+    affects: [BILL-PSFT-2026]
+    sources: [SRC-0010]
+    settled_effect: pending
+    verification_status: requires_investigation
+    follow_up: "Single-outlet report. Confirm from Hansard (Speaker's announcement) or the determination itself."
+
+  - id: DEV-2025-001
+    date: 2025-04-30
+    kind: act
+    title: "Proceeds of Crime Act, No. 5 of 2025 certified"
+    affects: [ACT-POCA-2025, S-CRJ-03]
+    sources: [SRC-0014, SRC-0015]
+    settled_effect: in_force
+    verification_status: corroborated
+    follow_up: "Read text; record confiscation mechanisms and Proceeds of Crime Management Authority."
+
+  - id: DEV-2025-002
+    date: 2025-11-04
+    kind: act
+    title: "Personal Data Protection (Amendment) Act, No. 22 of 2025 (amends ss. 1 and 17 of principal Act)"
+    affects: [ACT-PDPA-2022, S-EMR-01]
+    sources: [SRC-0023]
+    settled_effect: modifies:ACT-PDPA-2022
+    verification_status: corroborated
+    follow_up: "Date shown is from the DPA file name (251104) - confirm certification date; read ss.1 and 17 changes."
+
+  - id: DEV-2025-003
+    date: 2025-08-13
+    kind: bill
+    title: "Online Safety Act amendment consultation (Ministry of Justice); repeal PMB presented 8 May 2025"
+    affects: [ACT-OSA-2024, S-EMR-01]
+    sources: [SRC-0011, SRC-0012]
+    settled_effect: pending
+    verification_status: corroborated
+    follow_up: "No enacted amendment found as of Nov 2026. Monitor."
+
+  - id: DEV-2026-005
+    date: 2026-03-27
+    kind: sc_judgment
+    title: "Reported FR judgment holding former Health Minister and officials personally liable (Rs. 275 Mn) under Art 12(1)"
+    affects: [CASE-KEHELIYA-2026, T-CON-04-14, T-CRJ-03-01]
+    sources: [SRC-0028]
+    settled_effect: pending
+    verification_status: requires_investigation
+    follow_up: "Locate judgment on supremecourt.lk; confirm case number and ratio."
+
+  - id: DEV-2026-006
+    date: 2026-03-30
+    kind: sc_judgment
+    title: "Reported FR judgment against Seagull Property Developers (Rs. 10M) - claimed extension of Art 126 to private actors"
+    affects: [CASE-SEAGULL-2026, T-CON-04-01, T-EMR-10-01]
+    sources: [SRC-0029]
+    settled_effect: pending
+    verification_status: requires_investigation
+    follow_up: "Critical: determine whether the court actually held a private party liable under Art 126 or relied on state acquiescence (Faiz line). Do NOT update T-CON-04-01 until read."
+
+  - id: DEV-2026-007
+    date: 2026-02-08
+    kind: bill
+    title: "Private member's Bills on MMDA reform (minimum marriage age 18) presented"
+    affects: [ACT-MMDA-1951, S-FAM-PLAN]
+    sources: [SRC-0027]
+    settled_effect: pending
+    verification_status: corroborated
+
+  - id: DEV-2026-008
+    date: 2026-11-01
+    kind: academic
+    title: "Analyses report no visible process for the promised new constitution; PC system future deferred to new constitution"
+    affects: [S-CON-01, S-CON-07]
+    sources: [SRC-0013, SRC-0031]
+    settled_effect: no_change
+    verification_status: corroborated

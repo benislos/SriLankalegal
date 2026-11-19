@@ -1,0 +1,96 @@
+discipline:
+  id: D-CPR
+  name: Civil Procedure and Civil Justice
+  status: active
+  description: >
+    Procedure governing civil actions in Sri Lankan courts under the Civil Procedure Code, plus
+    interim relief, appeals and revision, finality doctrines, enforcement and ADR.
+
+subjects:
+  - id: S-CPR-01
+    name: Civil Jurisdiction and Institution of Actions
+    tier: 2
+    tier_basis: "Procedural foundation for litigation practice."
+    profile:
+      meaning: "Jurisdiction of District Courts, Commercial High Court and other courts; cause of action; parties; plaint, answer, replication; framing of issues."
+      significance: "Defective pleadings and wrong forum are common causes of failure."
+      history: "Civil Procedure Code 1889 with numerous amendments."
+      foundations: "Civil Procedure Code; Judicature Act."
+      practice: "Plaint contents; answer and claims in reconvention; issues at trial."
+    legislative_basis: [ACT-CPC-1889, ACT-JUDICATURE-1978]
+    key_authorities: []
+    connections: [S-FND-02, S-ADM-02]
+    open_questions: ["Recent CPC amendments (2017 onward) - list and verify."]
+    doctrines:
+      - {id: T-CPR-01-01, name: "Pleadings: plaint, answer, replication", summary: "Content and amendment of pleadings.", basis: [ACT-CPC-1889], authorities: [], related: []}
+      - {id: T-CPR-01-02, name: "Burden and standard of proof in civil cases", summary: "Balance of probabilities; Evidence Ordinance burden provisions.", basis: [ACT-EVIDENCE-1895], authorities: [], related: [T-CON-04-08]}
+
+  - id: S-CPR-02
+    name: Interim Relief - Injunctions and Enjoining Orders
+    tier: 2
+    tier_basis: "High practical importance, including against public bodies."
+    profile:
+      meaning: "Interim injunctions and ex parte enjoining orders under the Judicature Act and CPC; tests of prima facie case, balance of convenience, and equitable considerations."
+      significance: "Often decisive in property, commercial and procurement disputes."
+      history: "English-derived principles adapted to statutory provisions."
+      foundations: "Judicature Act s.54 and CPC (sections to verify)."
+      practice: "Supporting affidavits; undertakings; inquiry."
+    legislative_basis: [ACT-JUDICATURE-1978, ACT-CPC-1889]
+    key_authorities: []
+    connections: [S-ADM-07]
+    open_questions: ["Restrictions on injunctions against the State or public projects - identify statutory limits."]
+    doctrines:
+      - {id: T-CPR-02-01, name: "Test for interim injunction", summary: "Prima facie case, balance of convenience, irreparable harm.", basis: [ACT-JUDICATURE-1978], authorities: [], related: []}
+
+  - id: S-CPR-03
+    name: Appeals and Revision
+    tier: 2
+    tier_basis: "Determines how errors are corrected; frequent technical litigation."
+    profile:
+      meaning: "Final appeals vs. leave to appeal from orders; Civil Appellate High Courts; revisionary jurisdiction of the Court of Appeal (exceptional circumstances)."
+      significance: "The 'final judgment vs order' distinction is a persistent source of dismissals."
+      history: "Competing 'order' and 'application' approaches - leading authorities to verify in Phase 2."
+      foundations: "CPC ss. 754 et seq. (verify); Art 138; High Court of the Provinces (Special Provisions) Act 1990."
+      practice: "Choose correct route and time limits."
+    legislative_basis: [ACT-CPC-1889, CP-ART-138-147, ACT-HCP-SP-1990]
+    key_authorities: []
+    connections: [S-FND-02]
+    open_questions: ["Settled SC test for 'judgment' vs 'order' - verify."]
+    doctrines:
+      - {id: T-CPR-03-01, name: "Final judgment vs interlocutory order", summary: "Determines appeal as of right vs leave.", basis: [ACT-CPC-1889], authorities: [], related: []}
+      - {id: T-CPR-03-02, name: "Revisionary jurisdiction", summary: "Discretionary correction of miscarriages of justice; exceptional circumstances.", basis: [CP-ART-138-147], authorities: [], related: [T-ADM-02-06]}
+
+  - id: S-CPR-04
+    name: Finality - Res Judicata and Estoppel
+    tier: 2
+    tier_basis: "Cross-cutting doctrine affecting public and private litigation."
+    profile:
+      meaning: "Res judicata (CPC s.207 - verify), bar on splitting claims (s.34 - verify), issue estoppel, estoppel by conduct (Evidence Ordinance s.115 - verify)."
+      significance: "Prevents relitigation; interacts with FR/writ multiplicity."
+      history: "Codified in CPC; English issue estoppel received."
+      foundations: "CPC; Evidence Ordinance."
+      practice: "Plea in bar; preliminary issues of law."
+    legislative_basis: [ACT-CPC-1889, ACT-EVIDENCE-1895]
+    key_authorities: []
+    connections: [S-ADM-02]
+    open_questions: ["Does res judicata apply between FR and writ proceedings on the same facts?"]
+    doctrines:
+      - {id: T-CPR-04-01, name: "Res judicata and issue estoppel", summary: "Finality of adjudicated claims and issues.", basis: [ACT-CPC-1889], authorities: [], related: [T-ADM-02-06]}
+
+  - id: S-CPR-05
+    name: Execution of Decrees, Arbitration and ADR
+    tier: 3
+    tier_basis: "Practically important; specialised."
+    profile:
+      meaning: "Execution of money and property decrees; arbitration (Arbitration Act 1995, New York Convention enforcement); mediation boards (compulsory for certain disputes)."
+      significance: "Effectiveness of civil justice; commercial dispute resolution."
+      history: "Arbitration Act 1995 modernised along UNCITRAL Model Law lines (verify); Mediation Boards Act 1988."
+      foundations: "CPC; Arbitration Act; Mediation Boards Act."
+      practice: "Setting aside awards; enforcement; mediation certificates as pre-condition."
+    legislative_basis: [ACT-CPC-1889, ACT-ARBITRATION-1995, ACT-MEDIATION-1988]
+    key_authorities: []
+    connections: [S-COM-PLAN]
+    open_questions: []
+    doctrines:
+      - {id: T-CPR-05-01, name: "Setting aside and enforcement of arbitral awards", summary: "Limited grounds for intervention; public policy.", basis: [ACT-ARBITRATION-1995], authorities: [], related: []}
+      - {id: T-CPR-05-02, name: "Declaratory relief", summary: "Declarations of rights in civil actions and against the State.", basis: [ACT-CPC-1889], authorities: [], related: [T-CON-04-14]}

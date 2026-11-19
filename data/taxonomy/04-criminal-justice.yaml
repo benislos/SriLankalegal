@@ -1,0 +1,71 @@
+discipline:
+  id: D-CRJ
+  name: Criminal Justice and Public Accountability
+  status: active
+  description: >
+    The intersection of criminal process with constitutional rights and state accountability:
+    arrest, detention, bail, torture, prosecution, counter-terrorism law, and anti-corruption.
+    Substantive criminal law is a planned discipline (D-CRM).
+
+subjects:
+  - id: S-CRJ-01
+    name: Arrest, Detention, Bail and Rights of Suspects
+    tier: 1
+    tier_basis: "Daily practical importance; principal source of Art 11/13 litigation."
+    profile:
+      meaning: "Powers of arrest with and without warrant, production before a Magistrate, remand, bail as the rule, access to counsel, custodial safeguards."
+      significance: "Where constitutional liberty meets daily policing."
+      history: "Code of Criminal Procedure Act 1979; Bail Act 1997; CCPA amendments (2022 access to counsel at police stations - verify; 2025 amendment No. 7 - content to verify)."
+      foundations: "Art 13(1)-(2); CCPA; Bail Act."
+      practice: "FR applications for illegal arrest/detention; bail applications; habeas corpus."
+    legislative_basis: [CP-ART-013, ACT-CCPA-1979, ACT-BAIL-1997, CP-ART-141]
+    key_authorities: [CASE-CHANNA-PEIRIS-1994]
+    connections: [S-CON-04, S-ADM-02, S-HRI-02]
+    open_questions: ["Content of Code of Criminal Procedure (Amendment) Act No. 7 of 2025 - verify."]
+    doctrines:
+      - {id: T-CRJ-01-01, name: "Arrest without warrant and reasons for arrest", summary: "Reasonable suspicion; informing grounds; production within prescribed time.", basis: [CP-ART-013, ACT-CCPA-1979], authorities: [CASE-CHANNA-PEIRIS-1994], related: [T-CON-04-09]}
+      - {id: T-CRJ-01-02, name: "Bail as the rule", summary: "Release on bail the general rule; refusal on statutory grounds.", basis: [ACT-BAIL-1997], authorities: [], related: [T-CON-04-10]}
+      - {id: T-CRJ-01-03, name: "Custodial violence and torture accountability", summary: "Art 11, CAT Act prosecutions, compensation, custodial deaths.", basis: [CP-ART-011, ACT-CAT-1994], authorities: [CASE-SRIYANI-SILVA-2003, CASE-VELMURUGU-1981], related: [T-CON-04-08, T-HRI-02-02]}
+      - {id: T-CRJ-01-04, name: "Police powers and accountability", summary: "National Police Commission; disciplinary and criminal accountability of police.", basis: [CP-ART-155A-155T], authorities: [], related: [S-CON-09]}
+      - {id: T-CRJ-01-05, name: "Fair trial rights in criminal proceedings", summary: "Art 13(3)-(5); confession rules (Evidence Ordinance ss. 24-26 - verify) vs PTA s.16.", basis: [CP-ART-013, ACT-EVIDENCE-1895], authorities: [], related: [T-CRJ-02-02]}
+      - {id: T-CRJ-01-06, name: "Victim and witness protection", summary: "Statutory protection authority and rights of victims.", basis: [ACT-VWP-2015], authorities: [], related: [S-CRJ-03]}
+
+  - id: S-CRJ-02
+    name: Counter-Terrorism and National Security Legislation
+    tier: 1
+    tier_basis: "Live legislative development (PTA replacement Bill, Nov 2026) and long history of rights violations."
+    profile:
+      meaning: "PTA 1979 (detention orders, admissibility of confessions to police officers, restrictions on bail), its 2022 amendment, and the 2026 Protection of the State from Terrorism Bill intended to repeal and replace it."
+      significance: "The most contested statute in Sri Lankan human rights law; tests Arts 11-15 and international commitments (EU GSP+)."
+      history: "Enacted 1979 as 'temporary'; 2022 amendments; Counter Terrorism Bill 2023 (not enacted); PSFT Bill gazetted 22 Sep 2026, tabled 6 Oct 2026; SC determination reported Nov 2026."
+      foundations: "PTA No. 48 of 1979; Art 15(7)."
+      practice: "FR challenges to detention; bail; voir dire on confessions."
+    legislative_basis: [ACT-PTA-1979, BILL-PSFT-2026, ACT-PSO-1947, CP-ART-015]
+    key_authorities: [CASE-SINGARASA-2006, CASE-WICKREMABANDU-1990]
+    connections: [S-CON-08, S-HRI-02, S-EMR-01]
+    open_questions:
+      - "Exact text of the SC determination on the PSFT Bill and whether Parliament adopted the amendments (watch item)."
+      - "Transitional provisions for existing PTA detainees and pending cases."
+    doctrines:
+      - {id: T-CRJ-02-01, name: "Detention orders under the PTA", summary: "Ministerial detention orders; judicial oversight; maximum periods after 2022 amendment (verify).", basis: [ACT-PTA-1979], authorities: [], related: [T-CON-08-02]}
+      - {id: T-CRJ-02-02, name: "Admissibility of confessions under the PTA", summary: "Departure from ordinary Evidence Ordinance protections; Singarasa context.", basis: [ACT-PTA-1979, ACT-EVIDENCE-1895], authorities: [CASE-SINGARASA-2006], related: [T-CRJ-01-05]}
+      - {id: T-CRJ-02-03, name: "Definition of terrorism and proscription", summary: "Breadth of offence definitions in PTA and PSFT Bill; legality and overbreadth concerns.", basis: [BILL-PSFT-2026], authorities: [], related: [T-CON-04-13, T-EMR-01-02]}
+
+  - id: S-CRJ-03
+    name: Prosecution, the Attorney-General and Accountability of State Officials
+    tier: 2
+    tier_basis: "Structural importance; frequent public controversy; lower doctrinal density."
+    profile:
+      meaning: "The Attorney-General's dual role (chief prosecutor and legal adviser to government), prosecutorial discretion, anti-corruption investigation (CIABOC), asset recovery, and personal accountability of officials."
+      significance: "Accountability for corruption and abuse of power; central to post-2022 reform agenda and IMF governance commitments."
+      history: "Bribery Act 1954 / CIABOC Act 1994 replaced by Anti-Corruption Act 2023; Proceeds of Crime Act 2025; proposals for an independent prosecutor (verify)."
+      foundations: "Anti-Corruption Act No. 9 of 2023; Proceeds of Crime Act No. 5 of 2025; National Audit Act 2018."
+      practice: "Review of decisions not to prosecute (writ/FR); asset declarations; illicit enrichment prosecutions."
+    legislative_basis: [ACT-ACA-2023, ACT-POCA-2025, ACT-NAA-2018, ACT-CCPA-1979, TRT-UNCAC]
+    key_authorities: [CASE-KEHELIYA-2026, CASE-SENARATH-2007]
+    connections: [S-CON-09, S-ADM-07, S-EMR-03]
+    open_questions: ["Reviewability of the AG's decision to withdraw/not institute prosecutions - identify SC authority."]
+    doctrines:
+      - {id: T-CRJ-03-01, name: "Personal liability of public officials", summary: "FR compensation from officers personally; criminal liability for corruption.", basis: [CP-ART-126, ACT-ACA-2023], authorities: [CASE-SENARATH-2007, CASE-KEHELIYA-2026], related: [T-CON-04-14]}
+      - {id: T-CRJ-03-02, name: "Prosecutorial discretion and independence of the AG", summary: "Limits of AG discretion; conflict between advisory and prosecutorial roles.", basis: [], authorities: [], related: [T-ADM-01-02]}
+      - {id: T-CRJ-03-03, name: "Asset recovery and proceeds of crime", summary: "Conviction- and non-conviction-based confiscation under the 2025 Act (details to verify).", basis: [ACT-POCA-2025], authorities: [], related: [T-CRJ-03-01]}

@@ -1,0 +1,167 @@
+discipline:
+  id: D-ADM
+  name: Administrative Law
+  status: active
+  description: >
+    Judicial and non-judicial control of public power. A distinctive Sri Lankan feature is the dual
+    track: writ review in the Court of Appeal (Art 140) and Provincial High Courts (Art 154P(4)), and
+    rights-based review in the Supreme Court through Art 12(1) under Art 126.
+
+subjects:
+  - id: S-ADM-01
+    name: Foundations of Judicial Review and the Rule of Law
+    tier: 1
+    tier_basis: "Conceptual base for all review; links constitutional structure to administrative remedies."
+    profile:
+      meaning: "Public power exists only within legal limits; courts review legality, not merits. In Sri Lanka, review is grounded in the Constitution (Arts 3, 4, 12, 126, 140) and the received English common law of judicial review."
+      significance: "Defines when a decision can be challenged at all and on what conception of power (public trust)."
+      history: "Inherited English prerogative writs (Courts Ordinance / Charter of Justice); constitutionalised in 1978; public trust doctrine developed from the 1990s."
+      foundations: "Rule of law; no unfettered discretion; public trust; sovereignty of the People."
+      practice: "Framing a challenge: public-law character of the decision, forum, grounds, remedy."
+    legislative_basis: [CP-ART-140, CP-ART-126, CP-ART-003, CP-ART-004]
+    key_authorities: [CASE-PREMACHANDRA-1994, CASE-BANDARA-1994, CASE-BULANKULAMA-2000]
+    connections: [S-CON-03, S-CON-04, T-FND-02-02]
+    open_questions: ["Is the public trust doctrine a free-standing ground of review or a gloss on Art 12 and ultra vires?"]
+    doctrines:
+      - {id: T-ADM-01-01, name: "Legality vs merits distinction", summary: "Courts do not substitute their decision for the administrator's.", basis: [CP-ART-140], authorities: [], related: [T-ADM-03-03]}
+      - {id: T-ADM-01-02, name: "Rule of law and no unfettered discretion", summary: "Every power has legal limits however widely expressed.", basis: [CP-ART-004], authorities: [CASE-PREMACHANDRA-1994, CASE-PADFIELD-1968], related: [T-CON-03-04]}
+      - {id: T-ADM-01-03, name: "Public trust doctrine", summary: "Public power and resources are held in trust for the People; decisions must serve public purposes.", basis: [CP-ART-003, CP-ART-012], authorities: [CASE-BANDARA-1994, CASE-PREMACHANDRA-1994, CASE-BULANKULAMA-2000, CASE-SUGATHAPALA-2008, CASE-NANAYAKKARA-CHOKSY-2008], related: [{to: T-EMR-02-01, type: INFLUENCES, basis: judicial, note: "Eppawela extended public trust to natural resources"}, T-ADM-07-01]}
+      - {id: T-ADM-01-04, name: "Constitutionalisation of administrative law through Art 12(1)", summary: "Arbitrary, unreasonable or unfair administrative action treated as denial of equality, making Art 126 a review forum.", basis: [CP-ART-012, CP-ART-126], authorities: [CASE-WICKRAMATUNGA-1998], related: [T-CON-04-04]}
+
+  - id: S-ADM-02
+    name: Writ Jurisdiction and Public-Law Remedies
+    tier: 1
+    tier_basis: "Most frequently used review procedure in practice; essential procedural knowledge."
+    profile:
+      meaning: "Certiorari (quash), prohibition (restrain), mandamus (compel performance of a public duty), quo warranto (challenge title to office), procedendo, and habeas corpus (Art 141); issued by the Court of Appeal and, for provincial matters, Provincial High Courts."
+      significance: "Writs are the default remedy for unlawful administrative decisions not engaging fundamental rights or where the one-month FR deadline has passed."
+      history: "English prerogative writs; constitutional basis from 1978 (Art 140); PHC writ jurisdiction from 13A."
+      foundations: "Arts 140, 141, 154P(4); Court of Appeal (Appellate Procedure) Rules (verify citation)."
+      practice: "Discretionary remedies: barred by undue delay/laches, availability of alternative remedy, futility, suppression of material facts; necessary parties; amenability (public vs contractual/private functions)."
+    legislative_basis: [CP-ART-140, CP-ART-141, CP-ART-154P, ACT-JUDICATURE-1978]
+    key_authorities: []
+    connections: [S-CON-04, S-CPR-01, S-CRJ-01]
+    open_questions:
+      - "Amenability of state-owned companies and contractual decisions to writs - to research with primary authorities."
+      - "Phase 2 priority: identify leading CA/SC authorities on delay, alternative remedy and suppression."
+    doctrines:
+      - {id: T-ADM-02-01, name: "Amenability: public law vs private law functions", summary: "Writs lie against bodies exercising public functions; contractual matters generally excluded.", basis: [CP-ART-140], authorities: [], related: [T-CON-04-01, T-ADM-07-02]}
+      - {id: T-ADM-02-02, name: "Certiorari and prohibition", summary: "Quashing and restraining orders for decisions affecting rights made in excess/abuse of power.", basis: [CP-ART-140], authorities: [], related: [S-ADM-03]}
+      - {id: T-ADM-02-03, name: "Mandamus", summary: "Compels performance of a public duty owed to the applicant; no mandamus against the President personally (verify) or for discretionary outcome.", basis: [CP-ART-140], authorities: [], related: [T-ADM-03-05]}
+      - {id: T-ADM-02-04, name: "Quo warranto", summary: "Challenges the legal right of a person to hold a public office.", basis: [CP-ART-140], authorities: [], related: [S-CON-09]}
+      - {id: T-ADM-02-05, name: "Habeas corpus", summary: "Production of a detained person; enforced disappearances context.", basis: [CP-ART-141], authorities: [], related: [T-CRJ-01-01, T-HRI-03-01]}
+      - {id: T-ADM-02-06, name: "Discretionary bars: delay, alternative remedy, futility, suppression", summary: "Grounds on which relief may be refused despite illegality.", basis: [CP-ART-140], authorities: [], related: [T-CPR-04-01]}
+
+  - id: S-ADM-03
+    name: Grounds of Judicial Review
+    tier: 1
+    tier_basis: "The substantive content of every review application."
+    profile:
+      meaning: "Illegality (ultra vires, error of law, improper purpose, relevant/irrelevant considerations, fettering, unlawful delegation), irrationality (Wednesbury unreasonableness), procedural impropriety; proportionality as an emerging ground."
+      significance: "Shared grammar between writ review and Art 12 review."
+      history: "English common law (Wednesbury 1948; GCHQ 1985; Anisminic 1969) received and adapted by Sri Lankan courts."
+      foundations: "Ultra vires principle; statutory purpose; rule of law."
+      practice: "Plead grounds precisely; produce the record and reasons."
+    legislative_basis: [CP-ART-140, CP-ART-012]
+    key_authorities: [CASE-WEDNESBURY-1948, CASE-GCHQ-1985, CASE-ANISMINIC-1969, CASE-PADFIELD-1968, CASE-PREMACHANDRA-1994]
+    connections: [S-CON-04, S-ADM-04]
+    open_questions: ["Has proportionality been adopted as an independent ground by the Sri Lankan Supreme Court? Identify primary authority."]
+    doctrines:
+      - {id: T-ADM-03-01, name: "Ultra vires (substantive and procedural)", summary: "Acting outside statutory power or failing mandatory procedure; applies to delegated legislation.", basis: [CP-ART-075-080], authorities: [], related: [T-CON-06-01]}
+      - {id: T-ADM-03-02, name: "Error of law and jurisdictional error", summary: "Errors of law render decisions void and outside ouster protection.", basis: [], authorities: [CASE-ANISMINIC-1969], related: [T-ADM-03-06]}
+      - {id: T-ADM-03-03, name: "Irrationality / Wednesbury unreasonableness", summary: "Decision so unreasonable no reasonable authority could reach it.", basis: [], authorities: [CASE-WEDNESBURY-1948, CASE-GCHQ-1985], related: [T-CON-04-04]}
+      - {id: T-ADM-03-04, name: "Relevant and irrelevant considerations; improper purpose; abuse of power", summary: "Discretion exercised for statutory purposes, taking account of relevant matters only.", basis: [], authorities: [CASE-PADFIELD-1968], related: [T-ADM-01-03]}
+      - {id: T-ADM-03-05, name: "Fettering and failure to exercise discretion; unlawful delegation; acting under dictation", summary: "Rigid policies, abdication or dictation by superiors vitiate decisions.", basis: [], authorities: [], related: [T-ADM-06-01]}
+      - {id: T-ADM-03-06, name: "Ouster and finality clauses", summary: "Narrow construction; Art 61A (PSC) and statutory finality clauses; constitutional FR jurisdiction preserved.", basis: [CP-ART-054-061], authorities: [CASE-ANISMINIC-1969], related: [T-FND-03-02, T-CON-09-01]}
+      - {id: T-ADM-03-07, name: "Proportionality", summary: "Least-restrictive means and fair balance - status in Sri Lanka requires investigation.", basis: [CP-ART-015], authorities: [CASE-GCHQ-1985], related: [T-CON-04-13]}
+      - {id: T-ADM-03-08, name: "Procedural impropriety", summary: "Breach of statutory procedure or natural justice.", basis: [], authorities: [CASE-GCHQ-1985], related: [S-ADM-04]}
+
+  - id: S-ADM-04
+    name: Natural Justice and Procedural Fairness
+    tier: 1
+    tier_basis: "Arises in nearly every disciplinary, licensing and adjudicative public decision."
+    profile:
+      meaning: "Audi alteram partem (fair hearing: notice, disclosure, opportunity to respond) and nemo judex in causa sua (rule against bias); duty to give reasons as an emerging component."
+      significance: "Most successful ground in public service and disciplinary litigation."
+      history: "Ridge v Baldwin revival; Sri Lankan application to universities, public service, development projects (Southern Expressway)."
+      foundations: "Common law presumption that Parliament intends fair procedure; Art 12 equal protection."
+      practice: "Content varies with context; legislative functions traditionally excluded."
+    legislative_basis: [CP-ART-012, CP-ART-140]
+    key_authorities: [CASE-RIDGE-1964, CASE-MUNDY-2004, CASE-DISSANAYAKE-KALEEL-1993]
+    connections: [S-ADM-05, S-ADM-06, S-CRJ-01]
+    open_questions: ["Is there a general duty to give reasons in Sri Lankan administrative law? Identify SC authority."]
+    doctrines:
+      - {id: T-ADM-04-01, name: "Audi alteram partem (right to be heard)", summary: "Notice of case, opportunity to respond, disclosure of adverse material.", basis: [], authorities: [CASE-RIDGE-1964, CASE-MUNDY-2004, CASE-DISSANAYAKE-KALEEL-1993], related: [T-ADM-06-02]}
+      - {id: T-ADM-04-02, name: "Nemo judex in causa sua (rule against bias)", summary: "Actual and apparent bias; pecuniary and personal interest.", basis: [], authorities: [], related: [T-CON-05-01]}
+      - {id: T-ADM-04-03, name: "Duty to give reasons", summary: "Reasons as element of fairness and enabling review; RTI interplay.", basis: [ACT-RTI-2016], authorities: [], related: [T-CON-04-12]}
+
+  - id: S-ADM-05
+    name: Legitimate Expectation
+    tier: 2
+    tier_basis: "Doctrinally important and evolving; links fairness, equality and good administration."
+    profile:
+      meaning: "Protection of expectations induced by public authorities' promises or practices: procedural (right to be consulted/heard) and substantive (to receive the promised benefit)."
+      significance: "Frequently pleaded in public service, land, licensing and investment disputes; overlaps with Art 12."
+      history: "Received from English law (GCHQ); developed in Sri Lankan cases in the 1990s-2000s (authorities to be verified in Phase 2)."
+      foundations: "Fairness; equality; legal certainty."
+      practice: "Clear and unambiguous representation; reliance; overriding public interest."
+    legislative_basis: [CP-ART-012]
+    key_authorities: [CASE-GCHQ-1985]
+    connections: [S-ADM-04, S-ADM-07]
+    open_questions: ["Primary authorities on substantive legitimate expectation in Sri Lanka (candidates from memory require verification before entry)."]
+    doctrines:
+      - {id: T-ADM-05-01, name: "Procedural legitimate expectation", summary: "Expectation of a hearing or consultation before change.", basis: [], authorities: [CASE-GCHQ-1985], related: [T-ADM-04-01]}
+      - {id: T-ADM-05-02, name: "Substantive legitimate expectation", summary: "Expectation of a substantive benefit; balanced against public interest.", basis: [CP-ART-012], authorities: [], related: [T-CON-04-04]}
+
+  - id: S-ADM-06
+    name: Public Service Law and Disciplinary Proceedings
+    tier: 2
+    tier_basis: "High volume of FR and writ litigation (appointments, promotions, transfers, discipline)."
+    profile:
+      meaning: "Constitutional regime for appointment, promotion, transfer, discipline and dismissal of public officers (PSC and delegated authorities), Establishments Code, appeals to the Administrative Appeals Tribunal, and Art 61A's ouster with FR preserved."
+      significance: "The largest single category of Art 12(1) applications."
+      history: "Colonial civil service; 1972 Cabinet control; 17A/19A/21A independent PSC."
+      foundations: "Chapter IX; AAT Act No. 4 of 2002; Establishments Code (administrative rules)."
+      practice: "Schemes of recruitment and marking schemes; disciplinary inquiries; transfer policies."
+    legislative_basis: [CP-ART-054-061, ACT-AAT-2002]
+    key_authorities: []
+    connections: [S-CON-09, S-ADM-04, S-EMR-04]
+    open_questions: ["Legal status of the Establishments Code (rules vs law) - verify."]
+    doctrines:
+      - {id: T-ADM-06-01, name: "Appointments and promotions under Art 12(1)", summary: "Adherence to approved schemes; arbitrariness and political victimisation.", basis: [CP-ART-012, CP-ART-054-061], authorities: [CASE-WICKRAMATUNGA-1998], related: [T-CON-04-04]}
+      - {id: T-ADM-06-02, name: "Disciplinary inquiries and fair procedure", summary: "Charge sheet, inquiry, opportunity to defend, impartial inquirer.", basis: [CP-ART-054-061], authorities: [], related: [T-ADM-04-01]}
+
+  - id: S-ADM-07
+    name: Government Contracts, Procurement, Licensing and Regulatory Decisions
+    tier: 2
+    tier_basis: "Large commercial and governance significance; less settled law."
+    profile:
+      meaning: "Review of state contracting, tender processes, alienation of state land and assets, privatisation, and regulatory licensing decisions."
+      significance: "Corruption prevention; investor protection; public trust over public assets."
+      history: "Public trust cases (Waters Edge, Lanka Marine Services) and procurement litigation; post-2022 governance reforms (Anti-Corruption Act 2023; PFMA 2024)."
+      foundations: "Public trust; Art 12; procurement guidelines; National Procurement Commission (verify current status)."
+      practice: "Tender challenges by writ or FR; interim relief against award."
+    legislative_basis: [CP-ART-012, ACT-PFMA-2024, ACT-ACA-2023]
+    key_authorities: [CASE-SUGATHAPALA-2008, CASE-NANAYAKKARA-CHOKSY-2008, CASE-KEHELIYA-2026]
+    connections: [S-CRJ-03, S-EMR-03, S-COM-PLAN]
+    open_questions: ["Legal force of procurement guidelines; current statute on public procurement (a Public Procurement Bill/Act may exist - verify)."]
+    doctrines:
+      - {id: T-ADM-07-01, name: "Public trust over state assets and land", summary: "State disposal of assets must serve public interest and be transparent.", basis: [CP-ART-012], authorities: [CASE-SUGATHAPALA-2008, CASE-NANAYAKKARA-CHOKSY-2008], related: [T-ADM-01-03]}
+      - {id: T-ADM-07-02, name: "Review of tender and procurement decisions", summary: "Public-law amenability of procurement despite contractual setting.", basis: [CP-ART-140], authorities: [], related: [T-ADM-02-01]}
+
+  - id: S-ADM-08
+    name: Administrative Tribunals, Ombudsman and Commissions of Inquiry
+    tier: 3
+    tier_basis: "Specialised mechanisms; important for completeness and accountability."
+    profile:
+      meaning: "Non-court adjudication and oversight: Administrative Appeals Tribunal, Parliamentary Commissioner for Administration, HRCSL inquiries, RTI Commission appeals, Commissions of Inquiry and Presidential Commissions."
+      significance: "Accessible remedies; quasi-judicial bodies subject to review; Presidential Commissions' findings and civic disability."
+      history: "Commissions of Inquiry Act 1948; Special Presidential Commissions of Inquiry Law 1978 (civic disability controversy)."
+      foundations: "Statutory bodies; natural justice applies."
+      practice: "Exhaustion vs. direct review; evidential status of commission findings."
+    legislative_basis: [ACT-AAT-2002, ACT-OMBUDSMAN-1981, ACT-COI-1948, ACT-SPCOI-1978, ACT-HRCSL-1996, ACT-RTI-2016]
+    key_authorities: []
+    connections: [S-ADM-04, S-HRI-04]
+    open_questions: ["Legal effect of Presidential Commission of Inquiry findings on subsequent prosecutions."]
+    doctrines:
+      - {id: T-ADM-08-01, name: "Review of tribunals and commissions", summary: "Quasi-judicial bodies bound by natural justice; findings reviewable by writ.", basis: [ACT-COI-1948, ACT-SPCOI-1978], authorities: [], related: [T-ADM-04-01]}

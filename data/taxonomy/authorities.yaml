@@ -1,0 +1,217 @@
+# AUTHORITIES REGISTER (Taxonomy Level 4 pointers)
+# These are Phase-1 *pointer records*: enough to identify an authority and anchor the taxonomy.
+# Full case profiles (facts, ratio, obiter, treatment) and full statute records (amendment history,
+# provisions) are built in Phase 2 and MUST NOT be inferred from these pointers.
+#
+# verification_status (see docs/VERIFICATION_FRAMEWORK.md):
+#   verified_primary       - official/reproduced full text read and the recorded details checked against it
+#   corroborated           - existence, citation and core point corroborated this project by a primary-host
+#                            record (seen via search index) or >=2 independent secondary sources; text not read
+#   unverified             - from researcher knowledge; NOT yet checked in this project. Do not cite onward.
+#   requires_investigation - conflicting information, doubtful citation, or status in flux
+#
+# authority_weight (for cases): binding_sc | binding_pc_historical | persuasive_lk | persuasive_comparative
+# status (for legislation): in_force | in_force_amended | repealed | bill_pending | requires_verification
+
+constitutional_provisions:
+  # The 1978 Constitution as amended. Amendment numbers flagged where they changed a provision.
+  # NOTE: the official consolidated text (parliament.lk) could not be fetched in session 1; article
+  # subject-matter below is from researcher knowledge unless marked corroborated.
+  - {id: CP-1978, title: "Constitution of the Democratic Socialist Republic of Sri Lanka, 1978 (as amended to the 22nd Amendment, 2026)", verification_status: corroborated, sources: [SRC-0004, SRC-0006, SRC-0030]}
+  - {id: CP-ART-001-002, title: "Arts 1-2 - Free, sovereign, independent Republic; unitary State", verification_status: unverified}
+  - {id: CP-ART-003, title: "Art 3 - Sovereignty is in the People and is inalienable (powers of government, fundamental rights, franchise)", verification_status: unverified}
+  - {id: CP-ART-004, title: "Art 4 - Manner of exercise of sovereignty (legislative, executive, judicial power; fundamental rights; franchise)", verification_status: unverified}
+  - {id: CP-ART-009, title: "Art 9 - Foremost place to Buddhism, subject to Arts 10 and 14(1)(e)", verification_status: unverified}
+  - {id: CP-ART-010, title: "Art 10 - Freedom of thought, conscience and religion", verification_status: unverified}
+  - {id: CP-ART-011, title: "Art 11 - Freedom from torture and cruel, inhuman or degrading treatment or punishment (not subject to Art 15 restrictions)", verification_status: corroborated, sources: [SRC-0017]}
+  - {id: CP-ART-012, title: "Art 12 - Right to equality; equal protection of the law; non-discrimination; affirmative action (12(4))", verification_status: corroborated, sources: [SRC-0028]}
+  - {id: CP-ART-013, title: "Art 13 - Freedom from arbitrary arrest, detention and punishment; fair trial; presumption of innocence; non-retroactivity; 13(4) no death/imprisonment except by court order", verification_status: corroborated, sources: [SRC-0017]}
+  - {id: CP-ART-014, title: "Art 14 - Freedoms of speech and expression, assembly, association, trade union, religion, culture, occupation, movement", verification_status: unverified}
+  - {id: CP-ART-014A, title: "Art 14A - Right of access to information (inserted by 19th Amendment, 2015)", verification_status: corroborated, sources: [SRC-0023]}
+  - {id: CP-ART-015, title: "Art 15 - Permissible restrictions on fundamental rights (national security, public order, racial/religious harmony, etc.)", verification_status: unverified}
+  - {id: CP-ART-016, title: "Art 16 - Existing written and unwritten law valid notwithstanding inconsistency with Chapter III", verification_status: unverified}
+  - {id: CP-ART-017, title: "Art 17 - Entitlement to apply to the Supreme Court under Art 126", verification_status: corroborated, sources: [SRC-0017]}
+  - {id: CP-ART-018-025, title: "Chapter IV (Arts 18-25) - Official and national languages; language rights", verification_status: unverified}
+  - {id: CP-ART-027-029, title: "Chapter VI (Arts 27-29) - Directive Principles of State Policy and Fundamental Duties; Art 29 non-justiciability", verification_status: unverified}
+  - {id: CP-ART-030-041, title: "Chapter VII (Arts 30-41) - The President: election, term, powers, immunity (Art 35)", verification_status: unverified}
+  - {id: CP-ART-033, title: "Art 33 - Duties and powers of the President (incl. 33(2)(c) summon, prorogue, dissolve Parliament)", verification_status: corroborated, sources: [SRC-0022]}
+  - {id: CP-ART-035, title: "Art 35 - Immunity of the President from suit; proviso permitting FR applications against the Attorney-General (19th Amendment) - current wording requires verification after 20A/21A", verification_status: requires_investigation}
+  - {id: CP-ART-041A-041J, title: "Chapter VIIA - Constitutional Council (restored by 21st Amendment, 2022) and Independent Commissions (Schedule)", verification_status: unverified}
+  - {id: CP-ART-042-053, title: "Chapter VIII - Cabinet of Ministers; collective responsibility to Parliament", verification_status: unverified}
+  - {id: CP-ART-054-061, title: "Chapter IX - Public Service; Public Service Commission; Art 61A ouster of courts (save Art 126)", verification_status: unverified}
+  - {id: CP-ART-062-074, title: "Chapters X-XI - Parliament: composition, term, sessions, dissolution (Art 70), Standing Orders, privileges (Art 67)", verification_status: unverified}
+  - {id: CP-ART-070, title: "Art 70 - Prorogation and dissolution of Parliament (time-bar on dissolution as amended)", verification_status: corroborated, sources: [SRC-0022]}
+  - {id: CP-ART-075-080, title: "Chapter XII - Legislative power: Art 75 (law-making), Art 76 (no abdication; delegated legislation), Art 80(3) (no inquiry into validity of Act after certification)", verification_status: unverified}
+  - {id: CP-ART-082-084, title: "Chapter XII - Amendment of the Constitution: Art 82 procedure, Art 83 entrenched provisions requiring referendum, Art 84 inconsistent Bills", verification_status: unverified}
+  - {id: CP-ART-085-087, title: "Chapter XIII - The Referendum", verification_status: unverified}
+  - {id: CP-ART-088-104, title: "Chapter XIV/XIVA - Franchise and elections; Election Commission", verification_status: unverified}
+  - {id: CP-ART-105-117, title: "Chapter XV - The Judiciary: courts, independence, appointment and removal of judges (Art 107), Judicial Service Commission", verification_status: unverified}
+  - {id: CP-ART-107, title: "Art 107 - Appointment, tenure and removal of judges of SC/CA (retirement ages amended by 22nd Amendment, 2026: SC 67, CA 65)", verification_status: corroborated, sources: [SRC-0005, SRC-0006]}
+  - {id: CP-ART-118-134, title: "Chapter XVI - The Supreme Court: jurisdictions (constitutional, FR, appellate, consultative, election petitions, breach of privileges)", verification_status: unverified}
+  - {id: CP-ART-120-124, title: "Arts 120-124 - Pre-enactment constitutional review of Bills; urgent Bills (Art 122 - availability changed by 19A/20A, verify); bar on other review (Art 124)", verification_status: requires_investigation}
+  - {id: CP-ART-125, title: "Art 125 - Exclusive jurisdiction of SC on interpretation of the Constitution (references from lower courts)", verification_status: unverified}
+  - {id: CP-ART-126, title: "Art 126 - Sole and exclusive FR jurisdiction of the SC; executive or administrative action; one-month time limit; just and equitable relief", verification_status: corroborated, sources: [SRC-0017, SRC-0018]}
+  - {id: CP-ART-129, title: "Art 129 - Consultative jurisdiction of the SC (references by the President)", verification_status: unverified}
+  - {id: CP-ART-138-147, title: "Chapter XVII - Court of Appeal: appellate and revisionary jurisdiction (Art 138), writs (Art 140), habeas corpus (Art 141)", verification_status: unverified}
+  - {id: CP-ART-140, title: "Art 140 - Writ jurisdiction of the Court of Appeal (certiorari, prohibition, mandamus, procedendo, quo warranto)", verification_status: unverified}
+  - {id: CP-ART-141, title: "Art 141 - Habeas corpus jurisdiction of the Court of Appeal", verification_status: unverified}
+  - {id: CP-ART-148-154, title: "Chapter XVII - Finance: parliamentary control of public finance (Art 148), Consolidated Fund, Auditor-General (Art 153-154)", verification_status: unverified}
+  - {id: CP-ART-154A-154T, title: "Chapter XVIIA - Provincial Councils (13th Amendment, 1987); Ninth Schedule: Provincial, Reserved and Concurrent Lists", verification_status: unverified}
+  - {id: CP-ART-154P, title: "Art 154P - High Court of the Province: criminal, appellate, revisionary and writ jurisdiction (154P(4))", verification_status: unverified}
+  - {id: CP-ART-155, title: "Art 155 - Public Security: emergency regulations under the Public Security Ordinance; parliamentary approval", verification_status: unverified}
+  - {id: CP-ART-155A-155T, title: "Chapter XVIIIA/B - National Police Commission; Election Commission and other independent commissions (as amended)", verification_status: requires_investigation}
+  - {id: CP-ART-157, title: "Art 157 - Treaties for the promotion and protection of foreign investment", verification_status: unverified}
+  - {id: CP-ART-157A, title: "Art 157A - Prohibition on advocacy of a separate State (6th Amendment, 1983)", verification_status: unverified}
+  - {id: CP-ART-168, title: "Art 168 - Continuance of existing laws", verification_status: unverified}
+
+amendments:
+  - {id: AMD-06, title: "Sixth Amendment to the Constitution (1983) - Art 157A, oath against separatism", year: 1983, verification_status: unverified}
+  - {id: AMD-13, title: "Thirteenth Amendment to the Constitution (1987) - Provincial Councils, Tamil as official language", year: 1987, verification_status: unverified}
+  - {id: AMD-17, title: "Seventeenth Amendment (2001) - Constitutional Council and independent commissions", year: 2001, verification_status: unverified}
+  - {id: AMD-18, title: "Eighteenth Amendment (2010) - removed presidential term limit; Parliamentary Council replaced Constitutional Council", year: 2010, verification_status: unverified}
+  - {id: AMD-19, title: "Nineteenth Amendment (2015) - restored term limits and Constitutional Council; Art 14A; Art 35 proviso", year: 2015, verification_status: unverified}
+  - {id: AMD-20, title: "Twentieth Amendment (2020) - re-expanded presidential power; Parliamentary Council", year: 2020, verification_status: unverified}
+  - {id: AMD-21, title: "Twenty-First Amendment (2022) - restored Constitutional Council and independence of commissions", year: 2022, verification_status: corroborated, sources: [SRC-0030]}
+  - {id: AMD-22, title: "Twenty-Second Amendment (2026) - retirement age of SC judges 65->67, CA judges 63->65; passed 25 Sep 2026 (158-63); SC determined 2/3 majority sufficient, no referendum", year: 2026, verification_status: corroborated, sources: [SRC-0004, SRC-0005, SRC-0006, SRC-0007], notes: "Exact certification date not yet confirmed."}
+
+legislation:
+  - {id: ACT-JUDICATURE-1978, title: "Judicature Act, No. 2 of 1978", status: in_force_amended, verification_status: unverified, notes: "Judicature (Amendment) Act 2026 (lower-court retirement ages) companion to 22A - number not yet confirmed."}
+  - {id: ACT-JUDICATURE-AMD-2026, title: "Judicature (Amendment) Act, 2026 (High Court judges retire at 63; District Judges and Magistrates at 62)", status: requires_verification, verification_status: corroborated, sources: [SRC-0006]}
+  - {id: ACT-HCP-SP-1990, title: "High Court of the Provinces (Special Provisions) Act, No. 19 of 1990", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-INTERPRETATION-1901, title: "Interpretation Ordinance, No. 21 of 1901", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-CIVIL-LAW-1852, title: "Civil Law Ordinance, No. 5 of 1852 (introduction of English law in maritime and commercial matters)", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PSO-1947, title: "Public Security Ordinance, No. 25 of 1947", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PTA-1979, title: "Prevention of Terrorism (Temporary Provisions) Act, No. 48 of 1979 (amended 2022)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0008, SRC-0009], notes: "Still in force as of 19 Nov 2026. Replacement Bill pending - see BILL-PSFT-2026."}
+  - {id: BILL-PSFT-2026, title: "Protection of the State from Terrorism Bill (gazetted 22 Sep 2026; tabled 6 Oct 2026)", status: bill_pending, verification_status: corroborated, sources: [SRC-0008, SRC-0009, SRC-0010], notes: "Name varies in reporting ('Safeguarding the State from Terrorism'). Reported SC determination (~12-13 Nov 2026) requiring amendments - single-outlet report, requires_investigation."}
+  - {id: ACT-PC-1987, title: "Provincial Councils Act, No. 42 of 1987", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PCE-1988, title: "Provincial Councils Elections Act, No. 2 of 1988 (amended 2017; elections not held since councils' terms expired)", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-RTI-2016, title: "Right to Information Act, No. 12 of 2016", status: in_force, verification_status: corroborated, sources: [SRC-0023]}
+  - {id: ACT-PDPA-2022, title: "Personal Data Protection Act, No. 9 of 2022 (amended by Act No. 22 of 2025)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0023]}
+  - {id: ACT-OSA-2024, title: "Online Safety Act, No. 9 of 2024", status: in_force, verification_status: corroborated, sources: [SRC-0011, SRC-0012], notes: "Government amendment process (committee 2025; consultation Aug 2025) - no enacted amendment found as of Nov 2026; repeal PMB (590/2025) not shown to have advanced."}
+  - {id: ACT-CCA-2007, title: "Computer Crime Act, No. 24 of 2007", status: in_force, verification_status: unverified}
+  - {id: ACT-ACA-2023, title: "Anti-Corruption Act, No. 9 of 2023 (amended by Act No. 28 of 2023; further amendment Bill gazetted 2026)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0024]}
+  - {id: ACT-POCA-2025, title: "Proceeds of Crime Act, No. 5 of 2025 (passed 8 Apr 2025; certified 30 Apr 2025)", status: in_force, verification_status: corroborated, sources: [SRC-0014, SRC-0015]}
+  - {id: ACT-HRCSL-1996, title: "Human Rights Commission of Sri Lanka Act, No. 21 of 1996", status: in_force, verification_status: corroborated, sources: [SRC-0026]}
+  - {id: ACT-ICCPR-2007, title: "International Covenant on Civil and Political Rights (ICCPR) Act, No. 56 of 2007", status: in_force, verification_status: corroborated, sources: [SRC-0025]}
+  - {id: ACT-CAT-1994, title: "Convention against Torture and other Cruel, Inhuman or Degrading Treatment or Punishment Act, No. 22 of 1994", status: in_force, verification_status: corroborated, sources: [SRC-0026]}
+  - {id: ACT-CCPA-1979, title: "Code of Criminal Procedure Act, No. 15 of 1979 (amended inter alia 2025)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0016], notes: "MoJ lists a 2025 Code of Criminal Procedure (Amendment) Act as No. 7 of 2025 - content to be verified."}
+  - {id: ACT-PENAL-1883, title: "Penal Code (Ordinance No. 2 of 1883)", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-EVIDENCE-1895, title: "Evidence Ordinance, No. 14 of 1895", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-BAIL-1997, title: "Bail Act, No. 30 of 1997", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-VWP-2015, title: "Assistance to and Protection of Victims of Crime and Witnesses Act, No. 4 of 2015 (amended 2023 - verify)", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-CPC-1889, title: "Civil Procedure Code (Ordinance No. 2 of 1889)", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PRESCRIPTION-1871, title: "Prescription Ordinance, No. 22 of 1871", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-FRAUDS-1840, title: "Prevention of Frauds Ordinance, No. 7 of 1840", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-TRUSTS-1917, title: "Trusts Ordinance, No. 9 of 1917", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PARTITION-1977, title: "Partition Law, No. 21 of 1977", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-KANDYAN-1938, title: "Kandyan Law Declaration and Amendment Ordinance, No. 39 of 1938", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-THESAWALAMAI-1806, title: "Thesawalamai Code (Regulation of 1806) and Jaffna Matrimonial Rights and Inheritance Ordinance, No. 1 of 1911", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-MMDA-1951, title: "Muslim Marriage and Divorce Act, No. 13 of 1951", status: in_force_amended, verification_status: corroborated, sources: [SRC-0027], notes: "Reform Bills (incl. PMB Feb 2026) pending; no enacted 2025-26 amendment found."}
+  - {id: ACT-ARBITRATION-1995, title: "Arbitration Act, No. 11 of 1995", status: in_force, verification_status: unverified}
+  - {id: ACT-MEDIATION-1988, title: "Mediation Boards Act, No. 72 of 1988", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-LAA-1950, title: "Land Acquisition Act, No. 9 of 1950", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-NEA-1980, title: "National Environmental Act, No. 47 of 1980", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PPPA-1953, title: "Parliament (Powers and Privileges) Act, No. 21 of 1953", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-COI-1948, title: "Commissions of Inquiry Act, No. 17 of 1948", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-SPCOI-1978, title: "Special Presidential Commissions of Inquiry Law, No. 7 of 1978", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-AAT-2002, title: "Administrative Appeals Tribunal Act, No. 4 of 2002", status: in_force, verification_status: unverified}
+  - {id: ACT-OMBUDSMAN-1981, title: "Parliamentary Commissioner for Administration Act, No. 17 of 1981", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-OMP-2016, title: "Office on Missing Persons (Establishment, Administration and Discharge of Functions) Act, No. 14 of 2016", status: in_force, verification_status: unverified}
+  - {id: ACT-OR-2018, title: "Office for Reparations Act, No. 34 of 2018", status: in_force, verification_status: unverified}
+  - {id: ACT-NAA-2018, title: "National Audit Act, No. 19 of 2018 (amended 2025)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0016]}
+  - {id: ACT-PFMA-2024, title: "Public Finance Management Act, No. 44 of 2024", status: in_force, verification_status: unverified}
+  - {id: ACT-CBSL-2023, title: "Central Bank of Sri Lanka Act, No. 16 of 2023", status: in_force, verification_status: unverified}
+  - {id: ACT-PEA-1981, title: "Parliamentary Elections Act, No. 1 of 1981", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-PRESEA-1981, title: "Presidential Elections Act, No. 15 of 1981", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-LAEO-1946, title: "Local Authorities Elections Ordinance, No. 53 of 1946 (and Local Authorities Elections (Special Provisions) Act 2025)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0014]}
+  - {id: ACT-MCO-1947, title: "Municipal Councils Ordinance, No. 29 of 1947; Urban Councils Ordinance, No. 61 of 1939; Pradeshiya Sabhas Act, No. 15 of 1987", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-IDA-1950, title: "Industrial Disputes Act, No. 43 of 1950", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-COMPANIES-2007, title: "Companies Act, No. 7 of 2007 (amended 2025)", status: in_force_amended, verification_status: corroborated, sources: [SRC-0014]}
+  - {id: ACT-UNIVERSITIES-1978, title: "Universities Act, No. 16 of 1978", status: in_force_amended, verification_status: unverified}
+  - {id: ACT-CONTEMPT-2024, title: "Contempt of a Court, Tribunal or Institution Act, No. 8 of 2024 (title and number to verify)", status: requires_verification, verification_status: requires_investigation}
+
+treaties:
+  - {id: TRT-ICCPR, title: "International Covenant on Civil and Political Rights (1966) - Sri Lanka accession 1980 (verify)", verification_status: unverified}
+  - {id: TRT-ICCPR-OP1, title: "First Optional Protocol to the ICCPR - Sri Lanka accession 1997; held unconstitutional in Singarasa (2006)", verification_status: corroborated, sources: [SRC-0021]}
+  - {id: TRT-ICESCR, title: "International Covenant on Economic, Social and Cultural Rights (1966)", verification_status: unverified}
+  - {id: TRT-CAT, title: "Convention against Torture (1984) - Sri Lanka accession 1994", verification_status: corroborated, sources: [SRC-0026]}
+  - {id: TRT-CRC, title: "Convention on the Rights of the Child (1989)", verification_status: unverified}
+  - {id: TRT-CEDAW, title: "Convention on the Elimination of All Forms of Discrimination against Women (1979)", verification_status: unverified}
+  - {id: TRT-CPED, title: "International Convention for the Protection of All Persons from Enforced Disappearance (2006)", verification_status: unverified}
+  - {id: TRT-CRPD, title: "Convention on the Rights of Persons with Disabilities (2006)", verification_status: unverified}
+  - {id: TRT-UNCAC, title: "UN Convention against Corruption (2003)", verification_status: unverified}
+
+cases:
+  # ---- Privy Council / Soulbury era (historical binding, now persuasive) ----
+  - {id: CASE-LIYANAGE-1965, name: "Liyanage v The Queen", citation: "(1965) 68 NLR 265 (PC); [1967] 1 AC 259", court: "Privy Council", year: 1965, authority_weight: binding_pc_historical, verification_status: corroborated, sources: [SRC-0020], point: "Implied separation of judicial power under the Soulbury Constitution; ad hominem retroactive legislation directed at pending trials usurped judicial power.", notes: "Judgment date given variously as 1965/1966."}
+  - {id: CASE-RANASINGHE-1964, name: "Bribery Commissioner v Ranasinghe", citation: "(1964) 66 NLR 73 (PC); [1965] AC 172", court: "Privy Council", year: 1964, authority_weight: binding_pc_historical, verification_status: unverified, point: "Legislature must comply with manner-and-form requirements of the Constitution; appointment of judicial officers."}
+  - {id: CASE-IBRALEBBE-1963, name: "Ibralebbe v The Queen", citation: "(1963) 65 NLR 433 (PC); [1964] AC 900", court: "Privy Council", year: 1963, authority_weight: binding_pc_historical, verification_status: unverified, point: "Retention of Privy Council appeals compatible with Ceylon's sovereignty."}
+  - {id: CASE-KODAKAN-PILLAI-1953, name: "Kodakan Pillai v Mudanayake", citation: "(1953) 54 NLR 433 (PC)", court: "Privy Council", year: 1953, authority_weight: binding_pc_historical, verification_status: unverified, point: "Citizenship legislation and s.29 Soulbury Constitution (minority protection) - disenfranchisement of Indian Tamils upheld."}
+  # ---- Supreme Court: constitutional structure ----
+  - {id: CASE-RE-13A-1987, name: "In re the Thirteenth Amendment to the Constitution and the Provincial Councils Bill", citation: "[1987] 2 Sri LR 312", court: "Supreme Court", year: 1987, authority_weight: binding_sc, verification_status: unverified, point: "13th Amendment did not alter the unitary character of the State (split bench); no referendum required."}
+  - {id: CASE-RE-19A-2002, name: "In re the Nineteenth Amendment to the Constitution (2002 Bill)", citation: "[2002] 3 Sri LR 85", court: "Supreme Court", year: 2002, authority_weight: binding_sc, verification_status: unverified, point: "Art 3/4 read together: transferring or relinquishing a power of one organ to another violates sovereignty and requires a referendum ('balance of power')."}
+  - {id: CASE-SAMPANTHAN-2018, name: "Sampanthan v Attorney General (Dissolution case)", citation: "SC FR 351/2018 (and connected), decided 13 Dec 2018", court: "Supreme Court (7 judges)", year: 2018, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0022], point: "Presidential power of dissolution under Art 33(2)(c) is subject to Art 70; proclamation dissolving Parliament quashed; justiciability of presidential acts via Art 35 proviso."}
+  - {id: CASE-MALLIKARACHCHI-1985, name: "Mallikarachchi v Shiva Pasupati, Attorney General", citation: "[1985] 1 Sri LR 74", court: "Supreme Court", year: 1985, authority_weight: binding_sc, verification_status: unverified, point: "Absolute presidential immunity under the original Art 35 (pre-19A position)."}
+  - {id: CASE-KARUNATHILAKA-1999, name: "Karunathilaka v Dayananda Dissanayake, Commissioner of Elections", citation: "[1999] 1 Sri LR 157", court: "Supreme Court", year: 1999, authority_weight: binding_sc, verification_status: unverified, point: "Postponement of provincial council elections violated Art 12(1)/14(1)(a); Art 35 immunity is personal and does not shield the act of others."}
+  - {id: CASE-PREMACHANDRA-1994, name: "Premachandra v Major Montague Jayawickrema (Provincial Governors' case)", citation: "[1994] 2 Sri LR 90", court: "Supreme Court", year: 1994, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0019], point: "There are no absolute or unfettered discretions in public law; powers are held in trust for the public; Governors' discretion in appointing Chief Ministers is reviewable."}
+  - {id: CASE-DISSANAYAKE-KALEEL-1993, name: "Dissanayake v Kaleel", citation: "[1993] 2 Sri LR 135", court: "Supreme Court", year: 1993, authority_weight: binding_sc, verification_status: unverified, point: "Expulsion of MPs from party; Art 99(13)(a) review; natural justice in party disciplinary process."}
+  # ---- Fundamental rights ----
+  - {id: CASE-VELMURUGU-1981, name: "Velmurugu v Attorney General", citation: "[1981] 1 Sri LR 406", court: "Supreme Court", year: 1981, authority_weight: binding_sc, verification_status: unverified, point: "Early Art 11 torture case; standard of proof (high degree of probability) - note strong dissent of Sharvananda J."}
+  - {id: CASE-SRIYANI-SILVA-2003, name: "Sriyani Silva v Iddamalgoda, OIC Paiyagala Police", citation: "SC (FR) 471/2000, decided 8 Aug 2003; reported [2003] 2 Sri LR 63 (volume to confirm)", court: "Supreme Court", year: 2003, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0017], point: "Death in police custody: implied right to life read from Arts 11/13(4); heirs/dependants may invoke Art 126 by purposive construction of Art 126(2)."}
+  - {id: CASE-SAMAN-LEELADASA-1989, name: "Saman v Leeladasa", citation: "[1989] 1 Sri LR 1", court: "Supreme Court", year: 1989, authority_weight: binding_sc, verification_status: unverified, point: "State liability for FR infringements by officers (executive or administrative action) even if act not authorised."}
+  - {id: CASE-CHANNA-PEIRIS-1994, name: "Channa Pieris v Attorney General (Ratawesi Peramuna case)", citation: "[1994] 1 Sri LR 1", court: "Supreme Court", year: 1994, authority_weight: binding_sc, verification_status: unverified, point: "Arrest and detention under emergency regulations; reasonable suspicion; Art 13(1)."}
+  - {id: CASE-WICKREMABANDU-1990, name: "Wickremabandu v Herath", citation: "[1990] 2 Sri LR 348", court: "Supreme Court", year: 1990, authority_weight: binding_sc, verification_status: unverified, point: "Review of preventive detention orders under emergency regulations; limits of subjective satisfaction."}
+  - {id: CASE-JOSEPH-PERERA-1992, name: "Joseph Perera v Attorney General", citation: "[1992] 1 Sri LR 199", court: "Supreme Court", year: 1992, authority_weight: binding_sc, verification_status: unverified, point: "Emergency regulation requiring police permission for distribution of leaflets struck down; freedom of speech; reviewability of emergency regulations."}
+  - {id: CASE-VISUVALINGAM-1983, name: "Visuvalingam v Liyanage", citation: "Citation to confirm (reported 1983/1984 Sri LR)", court: "Supreme Court", year: 1983, authority_weight: binding_sc, verification_status: requires_investigation, point: "Freedom of expression includes the right of readers to receive information (closure of the 'Saturday Review')."}
+  - {id: CASE-FERNANDO-SLBC-1996, name: "Fernando v Sri Lanka Broadcasting Corporation", citation: "[1996] 1 Sri LR 157", court: "Supreme Court", year: 1996, authority_weight: binding_sc, verification_status: unverified, point: "Freedom of speech does not include a free-standing right to information (pre-Art 14A position)."}
+  - {id: CASE-FAIZ-1995, name: "Faiz v Attorney General", citation: "[1995] 1 Sri LR 372", court: "Supreme Court", year: 1995, authority_weight: binding_sc, verification_status: unverified, point: "'Executive or administrative action' includes acts of private persons done with the authority, connivance or acquiescence of the State."}
+  - {id: CASE-GUNARATNE-PB-1986, name: "Gunaratne v People's Bank", citation: "[1986] 1 Sri LR 338", court: "Supreme Court", year: 1986, authority_weight: binding_sc, verification_status: unverified, point: "Freedom of association (Art 14(1)(d)) includes freedom not to associate."}
+  - {id: CASE-SOMAWATHIE-1990, name: "Somawathie v Weerasinghe", citation: "[1990] 2 Sri LR 121", court: "Supreme Court", year: 1990, authority_weight: binding_sc, verification_status: unverified, point: "Strict standing under Art 126(2) (application by wife on behalf of detained husband) - later qualified by Sriyani Silva."}
+  - {id: CASE-WICKRAMATUNGA-1998, name: "Wickrematunga v Ratwatte", citation: "[1998] 1 Sri LR 201", court: "Supreme Court", year: 1998, authority_weight: binding_sc, verification_status: unverified, point: "Art 12(1) and arbitrariness in public administration (political considerations)."}
+  - {id: CASE-SENARATH-2007, name: "Senarath v Chandrika Kumaratunga", citation: "[2007] 1 Sri LR 59", court: "Supreme Court", year: 2007, authority_weight: binding_sc, verification_status: unverified, point: "Misuse of public funds / public trust; personal liability and the limits of presidential immunity after leaving office."}
+  - {id: CASE-KEHELIYA-2026, name: "Transparency International Sri Lanka v Rambukwella (immunoglobulin procurement case)", citation: "SC FR (number to confirm), decided March 2026", court: "Supreme Court", year: 2026, authority_weight: binding_sc, verification_status: requires_investigation, sources: [SRC-0028], point: "Reported: former Health Minister and officials personally liable (Rs. 275 Mn) for Art 12(1) violation in procurement."}
+  - {id: CASE-SEAGULL-2026, name: "Seagull Property Developers FR case", citation: "SC FR (number to confirm), decided 30 Mar 2026", court: "Supreme Court", year: 2026, authority_weight: binding_sc, verification_status: requires_investigation, sources: [SRC-0029], point: "Reported (single commentary) as extending Art 126 relief to private developers - characterisation unverified."}
+  # ---- Administrative law and public trust ----
+  - {id: CASE-BULANKULAMA-2000, name: "Bulankulama v Secretary, Ministry of Industrial Development (Eppawela case)", citation: "SC (FR) 884/99; [2000] 3 Sri LR 243", court: "Supreme Court", year: 2000, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0018], point: "Imminent infringement of FR by proposed phosphate mining agreement; public trust doctrine, sustainable development, precautionary principle, intergenerational equity."}
+  - {id: CASE-BANDARA-1994, name: "Bandara v Premachandra", citation: "[1994] 1 Sri LR 301", court: "Supreme Court", year: 1994, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0019], point: "Cited as an early articulation of the public trust doctrine in public administration."}
+  - {id: CASE-SUGATHAPALA-2008, name: "Sugathapala Mendis v Chandrika Kumaratunga (Waters Edge case)", citation: "[2008] 2 Sri LR 339", court: "Supreme Court", year: 2008, authority_weight: binding_sc, verification_status: unverified, point: "Alienation of public land for private benefit; public trust doctrine; Art 12(1)."}
+  - {id: CASE-NANAYAKKARA-CHOKSY-2008, name: "Vasudeva Nanayakkara v Choksy (John Keells / Lanka Marine Services case)", citation: "[2008] 1 Sri LR (page to confirm)", court: "Supreme Court", year: 2008, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0019], point: "Privatisation of state assets; public trust; Art 12(1)."}
+  - {id: CASE-EFL-UDA-2009, name: "Environmental Foundation Ltd v Urban Development Authority (Galle Face Green case)", citation: "[2009] 1 Sri LR 123", court: "Supreme Court", year: 2009, authority_weight: binding_sc, verification_status: unverified, point: "Public trust; right of access to information recognised as implicit in Art 14(1)(a) (pre-14A)."}
+  - {id: CASE-MUNDY-2004, name: "Heather Therese Mundy v Central Environmental Authority (Southern Expressway case)", citation: "SC Appeal 58/2003 (and connected), decided 20 Jan 2004", court: "Supreme Court", year: 2004, authority_weight: binding_sc, verification_status: unverified, point: "Natural justice owed to affected landowners when route altered post-EIA; compensation; procedural fairness in development decisions."}
+  - {id: CASE-SINGARASA-2006, name: "Nallaratnam Singarasa v Attorney General", citation: "SC Spl (LA) 182/99, decided 15 Sep 2006", court: "Supreme Court", year: 2006, authority_weight: binding_sc, verification_status: corroborated, sources: [SRC-0021], point: "Dualism: ICCPR binding internationally but not domestically enforceable without legislation; accession to ICCPR-OP1 by President unconstitutional."}
+  - {id: CASE-MUDANAYAKE-1951, name: "Mudanayake v Sivagnanasunderam", citation: "(1951) 53 NLR 25", court: "Supreme Court of Ceylon", year: 1951, authority_weight: persuasive_lk, verification_status: unverified, point: "Citizenship legislation and Soulbury s.29 (decided before Kodakan Pillai PC)."}
+  # ---- Comparative (persuasive) ----
+  - {id: CASE-WEDNESBURY-1948, name: "Associated Provincial Picture Houses Ltd v Wednesbury Corporation", citation: "[1948] 1 KB 223", court: "Court of Appeal (England & Wales)", year: 1948, authority_weight: persuasive_comparative, verification_status: unverified, point: "Unreasonableness so great that no reasonable authority could have come to it."}
+  - {id: CASE-GCHQ-1985, name: "Council of Civil Service Unions v Minister for the Civil Service (GCHQ)", citation: "[1985] AC 374", court: "House of Lords", year: 1984, authority_weight: persuasive_comparative, verification_status: unverified, point: "Grounds of review: illegality, irrationality, procedural impropriety (proportionality anticipated); legitimate expectation."}
+  - {id: CASE-RIDGE-1964, name: "Ridge v Baldwin", citation: "[1964] AC 40", court: "House of Lords", year: 1963, authority_weight: persuasive_comparative, verification_status: unverified, point: "Revival of natural justice in administrative decisions affecting rights."}
+  - {id: CASE-ANISMINIC-1969, name: "Anisminic Ltd v Foreign Compensation Commission", citation: "[1969] 2 AC 147", court: "House of Lords", year: 1968, authority_weight: persuasive_comparative, verification_status: unverified, point: "Errors of law go to jurisdiction; ouster clauses do not protect nullities."}
+  - {id: CASE-PADFIELD-1968, name: "Padfield v Minister of Agriculture, Fisheries and Food", citation: "[1968] AC 997", court: "House of Lords", year: 1968, authority_weight: persuasive_comparative, verification_status: unverified, point: "Discretion must be used to promote the policy and objects of the statute."}
+  - {id: CASE-KESAVANANDA-1973, name: "Kesavananda Bharati v State of Kerala", citation: "(1973) 4 SCC 225", court: "Supreme Court of India", year: 1973, authority_weight: persuasive_comparative, verification_status: unverified, point: "Basic structure doctrine - comparative point for Sri Lankan debates on implied limits to amendment."}
+  - {id: CASE-MANEKA-1978, name: "Maneka Gandhi v Union of India", citation: "(1978) 1 SCC 248", court: "Supreme Court of India", year: 1978, authority_weight: persuasive_comparative, verification_status: unverified, point: "Procedure established by law must be fair, just and reasonable; interrelation of rights."}
+
+institutions:
+  - {id: INST-SC, name: "Supreme Court of Sri Lanka", basis: [CP-ART-118-134]}
+  - {id: INST-CA, name: "Court of Appeal", basis: [CP-ART-138-147]}
+  - {id: INST-HCP, name: "High Court of the Provinces (Provincial High Courts)", basis: [CP-ART-154P, ACT-HCP-SP-1990]}
+  - {id: INST-PARL, name: "Parliament of Sri Lanka", basis: [CP-ART-062-074]}
+  - {id: INST-PRES, name: "President of the Republic", basis: [CP-ART-030-041]}
+  - {id: INST-CABINET, name: "Cabinet of Ministers", basis: [CP-ART-042-053]}
+  - {id: INST-AG, name: "Attorney-General's Department", basis: [CP-ART-041A-041J]}
+  - {id: INST-CC, name: "Constitutional Council", basis: [CP-ART-041A-041J, AMD-21]}
+  - {id: INST-JSC, name: "Judicial Service Commission", basis: [CP-ART-105-117]}
+  - {id: INST-PSC, name: "Public Service Commission", basis: [CP-ART-054-061]}
+  - {id: INST-NPC, name: "National Police Commission", basis: [CP-ART-155A-155T]}
+  - {id: INST-EC, name: "Election Commission", basis: [CP-ART-088-104]}
+  - {id: INST-HRCSL, name: "Human Rights Commission of Sri Lanka", basis: [ACT-HRCSL-1996]}
+  - {id: INST-CIABOC, name: "Commission to Investigate Allegations of Bribery or Corruption", basis: [ACT-ACA-2023]}
+  - {id: INST-NAO, name: "Auditor-General / National Audit Office", basis: [CP-ART-148-154, ACT-NAA-2018]}
+  - {id: INST-RTIC, name: "Right to Information Commission", basis: [ACT-RTI-2016]}
+  - {id: INST-DPA, name: "Data Protection Authority", basis: [ACT-PDPA-2022]}
+  - {id: INST-OSC, name: "Online Safety Commission", basis: [ACT-OSA-2024]}
+  - {id: INST-PCS, name: "Provincial Councils and Governors", basis: [CP-ART-154A-154T, ACT-PC-1987]}
+  - {id: INST-OMBUDSMAN, name: "Parliamentary Commissioner for Administration (Ombudsman)", basis: [ACT-OMBUDSMAN-1981]}
+  - {id: INST-AAT, name: "Administrative Appeals Tribunal", basis: [ACT-AAT-2002]}
+  - {id: INST-OMP, name: "Office on Missing Persons", basis: [ACT-OMP-2016]}
+  - {id: INST-OR, name: "Office for Reparations", basis: [ACT-OR-2018]}
+  - {id: INST-CEA, name: "Central Environmental Authority", basis: [ACT-NEA-1980]}
+  - {id: INST-BASL, name: "Bar Association of Sri Lanka", basis: []}

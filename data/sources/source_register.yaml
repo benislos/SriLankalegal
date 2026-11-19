@@ -1,0 +1,237 @@
+# SOURCE REGISTER
+# Every source consulted during research is logged here with an ID.
+# source_class (per Research Integrity Framework, docs/VERIFICATION_FRAMEWORK.md):
+#   primary_official   - official legislation, gazette, court judgment hosted by state/court
+#   primary_reproduced - judgment/Act text reproduced by a non-official host (LawNet mirrors, ADB, UMN)
+#   secondary_scholarly- journals, theses, books, institutional analysis
+#   secondary_news     - newspapers, news sites, blogs
+#   ngo_ig             - NGO / intergovernmental organisation publications
+# accessed_via: how the source was reached in a given session. "search_index" means only the
+#   search-engine record/snippet was seen, NOT the full document. This matters: a search snippet
+#   corroborates, it does not verify the text of a provision or a ratio.
+
+sources:
+  - id: SRC-0001
+    title: "Supreme Court of Sri Lanka - judgment repository (supremecourt.lk/wp-content/uploads/judgements/)"
+    url: https://supremecourt.lk/
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "URL pattern for FR judgments: supremecourt.lk/wp-content/uploads/judgements/sc_fr_<no>_<year>.pdf. Host not reachable from build container in session 1."
+
+  - id: SRC-0002
+    title: "LawNet (Ministry of Justice) - Sri Lanka Law Reports and NLR PDFs"
+    url: https://www.lawnet.gov.lk/
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "Hosts SLLR/NLR scans named e.g. 006-SLLR-SLLR-1994-V2-PREMACHANDRA-V.-MAJOR-MONTAGUE-JAYAWICJREMA... Treated as reproduction of the official law report."
+
+  - id: SRC-0003
+    title: "Department of Government Printing - documents.gov.lk (Acts, Bills, Gazettes)"
+    url: https://documents.gov.lk/
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "URL patterns: /view/acts/<year>/<month>/<no>-<year>_E.pdf ; /view/bills/... ; /view/extra-gazettes/..."
+
+  - id: SRC-0004
+    title: "Parliament of Sri Lanka - news item: Twenty-Second Amendment to the Constitution presented to Parliament"
+    url: https://www.parliament.lk/en/home/parliament-news/view/5355
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0005
+    title: "Ada Derana - Sri Lanka's Parliament approves 22nd Amendment to Constitution"
+    url: https://adaderana.lk/news/cmuh0dp2y0003356pdjlousfp
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0006
+    title: "Sunday Times (27 Sep 2026) - Two Bills aimed at extending retirement age of judges come into force"
+    url: https://www.sundaytimes.lk/260927/news/two-bills-aimed-at-extending-retirement-age-of-judges-come-into-force-658452.html
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0007
+    title: "ConstitutionNet - The 22nd Amendment: retirement age of judges, judicial independence and constitutional culture"
+    url: https://constitutionnet.org/news/voices/sri-lanka-increase-retirement-age-judges-judicial-independence
+    source_class: secondary_scholarly
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0008
+    title: "Newswire (23 Sep 2026) - Protection of the State from Terrorism Bill gazetted to replace PTA"
+    url: https://www.newswire.lk/2026/09/23/protection-of-the-state-from-terrorism-bill-gazetted-to-replace-pta/
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0009
+    title: "Amnesty International (Oct 2026) - Sri Lanka: New counterterrorism bill risks perpetuating past abuses"
+    url: https://www.amnesty.org/en/latest/news/2026/10/sri-lanka-new-counterterrorism-bill-risks-perpetuating-past-abuses/
+    source_class: ngo_ig
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0010
+    title: "Lanka Newspapers (13 Nov 2026) - Supreme Court clears path for anti-terror bill with four key amendments"
+    url: https://www.lankanewspapers.com/2026/11/13/supreme-court-clears-path-for-anti-terror-bill-with-four-key-amendments
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "Single, less-established outlet. Must be confirmed against the Speaker's announcement of the SC determination in Hansard."
+
+  - id: SRC-0011
+    title: "ICJ - Sri Lanka: ICJ calls for repeal or substantial revision of Online Safety Act (Sep 2025)"
+    url: https://www.icj.org/sri-lanka-icj-calls-for-repeal-or-substantial-revision-of-online-safety-act/
+    source_class: ngo_ig
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0012
+    title: "Online Safety (Repeal) private member's Bill (2025) - documents.gov.lk bills 590-2025"
+    url: https://www.documents.gov.lk/view/bills/2025/5/590-2025_E.pdf
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0013
+    title: "Carnegie Endowment (Nov 2026) - Promises Made, Promises Unmet: The NPP's Struggle to Reform Sri Lanka"
+    url: https://carnegieendowment.org/research/2026/11/promises-made-promises-unmet-the-npps-struggle-to-reform-sri-lanka
+    source_class: secondary_scholarly
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0014
+    title: "Parliament of Sri Lanka - Handbook of Parliament (table of 2025 Acts incl. Proceeds of Crime Act No. 5 of 2025)"
+    url: https://www.parliament.lk/en/home/parliament-news/view/5001
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0015
+    title: "Proceeds of Crime Act, No. 5 of 2025 (official text)"
+    url: https://www.documents.gov.lk/view/acts/2025/4/05-2025_E.pdf
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0016
+    title: "Ministry of Justice - Legislative updates (list of Acts with certification dates)"
+    url: https://moj.gov.lk/index.php/en/legislative-updates
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0017
+    title: "Sriyani Silva v Iddamalgoda, SC (FR) 471/2000 - SLLR reproduction (ADB Law & Policy Reform library)"
+    url: https://lpr.adb.org/resource/sriyani-silva-vs-iddamalgoda-officer-charge-police-station-paiyagala-and-others-2003-2-sri
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "Citation variants found: [2003] 2 Sri LR 63 / [2003] 1 Sri LR 63 / 2003 2 Sri LR 6. Volume must be checked against the printed report."
+
+  - id: SRC-0018
+    title: "Bulankulama v Secretary, Ministry of Industrial Development, SC (FR) 884/99 - ADB reproduction"
+    url: https://lpr.adb.org/resource/bulankulama-vs-secretary-ministry-industrial-development-2000-3-sri-lr-243-sri-lanka
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0019
+    title: "Premachandra v Major Montague Jayawickrema [1994] 2 Sri LR 90 - LawNet SLLR PDF"
+    url: https://www.lawnet.gov.lk/wp-content/uploads/2016/11/006-SLLR-SLLR-1994-V2-PREMACHANDRA-V.-MAJOR-MONTAGUE-JAYAWICJREMA-AND-ANOTHER-PROVINCIAL-GOVERNO.pdf
+    source_class: primary_reproduced
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "SC References 2/93 & 3/93; bench G.P.S. de Silva CJ, Bandaranayake J, Fernando J (per search record)."
+
+  - id: SRC-0020
+    title: "Liyanage v The Queen (PC) 68 NLR 265; [1967] 1 AC 259 - later NLR decisions citing it (LawNet) and swarb summary"
+    url: https://swarb.co.uk/liyanage-v-the-queen-pc-1967/
+    source_class: secondary_scholarly
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "Date variants 1965/1966 in commentary; check against the report."
+
+  - id: SRC-0021
+    title: "Singarasa v Attorney General, SC Spl (LA) 182/99 (15 Sep 2006) - HURIGHTS Osaka summary; CPA working papers"
+    url: https://hurights.or.jp/english/human_rights_and_jurisprudence/2011/01/sri-lanka-singarasa-v-attorney-general-2006.html
+    source_class: secondary_scholarly
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0022
+    title: "Sampanthan v Attorney General, SC FR 351/2018 (13 Dec 2018) - Supreme Court listing and CPA case page"
+    url: https://www.cpalanka.org/centre-for-policy-alternatives-v-attorney-general-sc-fr-353-2018-fundamental-rights-application-challenging-the-dissolution-of-parliament
+    source_class: secondary_scholarly
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0023
+    title: "Data Protection Authority of Sri Lanka - Personal Data Protection (Amendment) Act, No. 22 of 2025"
+    url: https://dpa.gov.lk/acts/22-2025_E_251104_201549.pdf
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0024
+    title: "Anti-Corruption Act, No. 9 of 2023 (FAOLEX copy) and Anti-Corruption (Amendment) Act, No. 28 of 2023"
+    url: https://www.documents.gov.lk/view/acts/2023/11/28-2023_E.pdf
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0025
+    title: "ICCPR Act, No. 56 of 2007 (official text)"
+    url: https://documents.gov.lk/view/acts/2007/11/56-2007_E.pdf
+    source_class: primary_official
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0026
+    title: "Convention against Torture ... Act, No. 22 of 1994 (srilankalaw.lk revised statutes; Sri Lanka CAT periodic report CAT/C/LKA/5)"
+    url: https://digitallibrary.un.org/record/857753/files/CAT_C_LKA_5_Add-1-EN.pdf
+    source_class: ngo_ig
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0027
+    title: "Sunday Times (Feb 2026) - Faiszer Mustapha presents dissolution of marriage / MMDA Bills in Parliament"
+    url: https://www.sundaytimes.lk/260208/news/faiszer-mustapha-presents-dissolution-of-marriage-mmda-bills-in-parliament-630962.html
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0028
+    title: "News 1st (27 Mar 2026) - Keheliya & co held personally liable, Rs. 275 Mn, Article 12(1)"
+    url: https://www.newsfirst.lk/2026/03/27/keheliya-co-held-personally-liable-ordered-to-pay-rs-275-mn-as-supreme-court-finds-rights-violations
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0029
+    title: "LankaLaw (Jul 2026) - Seagull Property Developers FR ruling (Article 126 and private actors)"
+    url: https://lankalaw.net/2026/07/02/landmark-sc-ruling-seagull-property-developers-ordered-to-pay-rs-10m-over-unlawful-parking-conversion/
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+    notes: "Characterisation as extending Art 126 to private actors comes from one commentary only; judgment not read."
+
+  - id: SRC-0030
+    title: "Economynext - Sri Lanka passes 21st Amendment to Constitution with 179 votes (2022)"
+    url: https://economynext.com/sri-lanka-passes-21st-amendment-to-constitution-with-179-votes-101372/
+    source_class: secondary_news
+    accessed_via: search_index
+    accessed: 2026-11-19
+
+  - id: SRC-0031
+    title: "International Crisis Group - Sri Lanka's Bumpy Road to a Political Reset (Report 356)"
+    url: https://www.crisisgroup.org/rpt/asia-pacific/sri-lanka/356-sri-lankas-bumpy-road-political-reset
+    source_class: ngo_ig
+    accessed_via: search_index
+    accessed: 2026-11-19

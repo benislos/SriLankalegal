@@ -1,0 +1,96 @@
+discipline:
+  id: D-CIV
+  name: Civil (Private) Law
+  status: active
+  description: >
+    Private law foundations included in the initial scope because public law disputes constantly
+    rest on private-law concepts (state contracts, state liability in delict, land, trusts).
+    Detailed coverage of family/personal laws, land and commercial law moves to planned disciplines.
+
+subjects:
+  - id: S-CIV-01
+    name: Sources and Character of Sri Lankan Private Law
+    tier: 1
+    tier_basis: "Determines the governing rule in every private dispute."
+    profile:
+      meaning: "Roman-Dutch common law, English law reception (commerce, trusts, equity concepts), statutory codifications, and personal laws."
+      significance: "Results differ materially depending on whether Roman-Dutch or English principles apply (e.g. causa vs consideration)."
+      history: "Dutch period; British continuation; Civil Law Ordinance 1852; 20th-century codifications (Trusts Ordinance 1917)."
+      foundations: "See S-FND-01."
+      practice: "Identify governing law before analysing the claim."
+    legislative_basis: [ACT-CIVIL-LAW-1852, ACT-TRUSTS-1917]
+    key_authorities: []
+    connections: [S-FND-01, S-FAM-PLAN]
+    open_questions: ["Modern relevance of Roman-Dutch texts (Voet, Grotius) in SC reasoning - research."]
+    doctrines:
+      - {id: T-CIV-01-01, name: "Equity in a Roman-Dutch system", summary: "Statutory and judicial reception of English equity (trusts; equitable remedies).", basis: [ACT-TRUSTS-1917], authorities: [], related: [S-CIV-05]}
+
+  - id: S-CIV-02
+    name: Contract and the Law of Obligations
+    tier: 2
+    tier_basis: "Core practice area; relevant to government contracts but primarily private."
+    profile:
+      meaning: "Formation (consensus, causa rather than consideration), formalities (Prevention of Frauds Ordinance for land and guarantees), capacity, illegality, breach and remedies; English law for sale of goods and commercial matters."
+      significance: "Underlies state contracts, procurement disputes and commercial litigation."
+      history: "Roman-Dutch causa doctrine retained; English commercial statutes (Sale of Goods Ordinance 1896)."
+      foundations: "Roman-Dutch law; Prevention of Frauds Ordinance."
+      practice: "Notarial execution requirements for land transactions; specific performance as a primary remedy in Roman-Dutch law (verify)."
+    legislative_basis: [ACT-FRAUDS-1840, ACT-CIVIL-LAW-1852]
+    key_authorities: []
+    connections: [S-ADM-07, S-COM-PLAN]
+    open_questions: []
+    doctrines:
+      - {id: T-CIV-02-01, name: "Causa as basis of contractual obligation", summary: "Serious and deliberate agreement suffices; consideration not required.", basis: [], authorities: [], related: [T-FND-01-01]}
+      - {id: T-CIV-02-02, name: "Formalities for land and guarantees (Prevention of Frauds Ordinance)", summary: "Notarial attestation requirements.", basis: [ACT-FRAUDS-1840], authorities: [], related: [S-LND-PLAN]}
+
+  - id: S-CIV-03
+    name: Delict (Aquilian Liability, Negligence, Defamation)
+    tier: 2
+    tier_basis: "Basis of state and private liability; connects to FR compensation."
+    profile:
+      meaning: "Lex Aquilia (patrimonial loss caused by wrongful and culpable conduct, including negligence), actio iniuriarum (intentional injury to personality: defamation, insult, privacy), and English-influenced negligence concepts."
+      significance: "Civil route to compensation against state officers alongside Art 126; defamation interacts with free speech."
+      history: "Roman-Dutch roots; criminal defamation repealed 2002 (verify)."
+      foundations: "Roman-Dutch law."
+      practice: "Animus iniuriandi in defamation; duty of care debates."
+    legislative_basis: []
+    key_authorities: []
+    connections: [S-CON-04, S-EMR-01]
+    open_questions: ["Relationship between delictual damages and FR compensation for the same wrong."]
+    doctrines:
+      - {id: T-CIV-03-01, name: "Aquilian action and negligence", summary: "Wrongfulness, fault, causation, patrimonial loss.", basis: [], authorities: [], related: [T-CON-04-14]}
+      - {id: T-CIV-03-02, name: "Actio iniuriarum and defamation", summary: "Injury to dignity and reputation; defences; interface with Art 14(1)(a).", basis: [], authorities: [], related: [T-CON-04-05]}
+
+  - id: S-CIV-04
+    name: Property and Prescription
+    tier: 2
+    tier_basis: "Frequent litigation; relevant to land acquisition and public land."
+    profile:
+      meaning: "Ownership and possession, acquisitive prescription (Prescription Ordinance s.3: ten years' undisturbed adverse possession - verify), partition actions, servitudes, registration of title."
+      significance: "Land is the most litigated asset; interacts with state land and acquisition."
+      history: "Roman-Dutch property law; Prescription Ordinance 1871; Partition Law 1977."
+      foundations: "Prescription Ordinance; Partition Law."
+      practice: "Rei vindicatio; partition; prescriptive title claims."
+    legislative_basis: [ACT-PRESCRIPTION-1871, ACT-PARTITION-1977]
+    key_authorities: []
+    connections: [S-EMR-07, S-LND-PLAN]
+    open_questions: []
+    doctrines:
+      - {id: T-CIV-04-01, name: "Acquisitive prescription", summary: "Title by adverse possession for the statutory period.", basis: [ACT-PRESCRIPTION-1871], authorities: [], related: [T-EMR-07-01]}
+
+  - id: S-CIV-05
+    name: Trusts, Fiduciary Relationships and Unjust Enrichment
+    tier: 3
+    tier_basis: "Specialised but conceptually important (public trust analogy; constructive trusts in land)."
+    profile:
+      meaning: "Express, constructive and resulting trusts under the Trusts Ordinance; fiduciary duties; enrichment actions (condictiones) from Roman-Dutch law."
+      significance: "Constructive trusts frequently pleaded in land transfers; fiduciary concepts underpin the public trust doctrine."
+      history: "Trusts Ordinance 1917 codified English trust law."
+      foundations: "Trusts Ordinance No. 9 of 1917."
+      practice: "Constructive trust claims over land; recovery of money paid without cause."
+    legislative_basis: [ACT-TRUSTS-1917]
+    key_authorities: []
+    connections: [T-ADM-01-03]
+    open_questions: []
+    doctrines:
+      - {id: T-CIV-05-01, name: "Constructive trusts", summary: "Trusts imposed by law, e.g. where transferee holds for transferor.", basis: [ACT-TRUSTS-1917], authorities: [], related: [{to: T-ADM-01-03, type: RELATED_TO, basis: academic, note: "Fiduciary analogy underlying public trust doctrine"}]}

@@ -1,0 +1,72 @@
+discipline:
+  id: D-FND
+  name: Legal System, Sources and Method
+  status: active
+  description: >
+    The architecture within which every other discipline operates: the plural sources of Sri Lankan
+    law, the court hierarchy and doctrine of precedent, and the techniques of statutory and
+    constitutional interpretation. Not in the original scope list; added because Public Law cannot
+    be learned coherently without it.
+
+subjects:
+  - id: S-FND-01
+    name: Sources of Sri Lankan Law and Legal Pluralism
+    tier: 1
+    tier_basis: "Foundational to every discipline; determines which rule applies to a dispute at all."
+    profile:
+      meaning: "The layered sources of law: the Constitution; Acts and subordinate legislation; Roman-Dutch law as the residuary common law; English law received by statute (e.g. commercial matters) and by judicial borrowing; personal/customary laws (Kandyan, Thesawalamai, Muslim law); judicial precedent; and, through incorporation, international law."
+      significance: "Choice-of-law questions (which personal law, whether Roman-Dutch or English law governs) are outcome-determinative and recur in property, family, contract and delict litigation."
+      history: "Dutch administration of the maritime provinces (1658-1796) left Roman-Dutch law; British rule (1796/1815-1948) preserved it while introducing English law in commerce, procedure and evidence, and codifying Kandyan, Tamil (Thesawalamai) and Muslim customs."
+      foundations: "Continuance of existing law (Art 168, Art 16); Civil Law Ordinance 1852; personal-law statutes."
+      practice: "Every pleading implicitly asserts a governing law; personal-law applicability is pleaded and proved."
+    legislative_basis: [CP-ART-168, CP-ART-016, ACT-CIVIL-LAW-1852, ACT-KANDYAN-1938, ACT-THESAWALAMAI-1806, ACT-MMDA-1951]
+    key_authorities: []
+    connections: [S-CIV-01, S-FAM-PLAN, S-HRI-01]
+    open_questions:
+      - "Scope of English law reception under the Civil Law Ordinance in modern commercial disputes."
+      - "Constitutional status of personal laws inconsistent with Art 12 (shielded by Art 16)."
+    doctrines:
+      - {id: T-FND-01-01, name: "Roman-Dutch law as residuary common law", summary: "Where no statute or personal law applies, Roman-Dutch law governs private-law questions.", basis: [ACT-CIVIL-LAW-1852], authorities: [], related: [S-CIV-01]}
+      - {id: T-FND-01-02, name: "Reception of English law", summary: "Statutory reception in maritime/commercial matters and judicial reception in procedure, evidence and public law.", basis: [ACT-CIVIL-LAW-1852], authorities: [], related: [S-ADM-01]}
+      - {id: T-FND-01-03, name: "Personal and territorial laws (Kandyan law, Thesawalamai, Muslim law)", summary: "Law applicable by reason of personal status, religion or domicile/inhabitancy.", basis: [ACT-KANDYAN-1938, ACT-THESAWALAMAI-1806, ACT-MMDA-1951], authorities: [], related: [{to: T-CON-04-02, type: QUALIFIES, basis: legislative, note: "Art 16 preserves existing personal laws from Chapter III challenge"}]}
+      - {id: T-FND-01-04, name: "Saving of existing law (Art 16 / Art 168)", summary: "Pre-1978 written and unwritten law remains valid even if inconsistent with fundamental rights.", basis: [CP-ART-016, CP-ART-168], authorities: [], related: [T-CON-04-02]}
+
+  - id: S-FND-02
+    name: Court Structure, Jurisdiction and Precedent
+    tier: 1
+    tier_basis: "Determines forum, remedy and the binding force of every authority in the database."
+    profile:
+      meaning: "Hierarchy: Supreme Court (final appellate; constitutional, FR, consultative jurisdictions); Court of Appeal (appellate, revision, writs, habeas corpus); High Courts (incl. Provincial High Courts, Commercial High Court, Civil Appellate High Courts); District Courts; Magistrates' Courts; Primary Courts; tribunals."
+      significance: "Writ vs FR forum choice, appeal routes and stare decisis turn on this structure."
+      history: "Charter of Justice 1833; Privy Council appeals abolished by the Court of Appeal (Special Provisions)/1971 legislation (verify); Court of Appeal created by the 1978 Constitution; Provincial High Courts by 13A (1987)."
+      foundations: "Chapters XV-XVII and Art 154P of the Constitution; Judicature Act No. 2 of 1978."
+      practice: "Supreme Court decisions bind all lower courts; benches of larger number bind smaller; Privy Council decisions on Ceylon law remain highly persuasive."
+    legislative_basis: [CP-ART-105-117, CP-ART-118-134, CP-ART-138-147, CP-ART-154P, ACT-JUDICATURE-1978, ACT-HCP-SP-1990, AMD-22]
+    key_authorities: [CASE-IBRALEBBE-1963]
+    connections: [S-CON-05, S-CPR-01, S-ADM-02]
+    open_questions:
+      - "Exact rules on SC bench size and horizontal precedent (when a fuller bench is constituted)."
+      - "Effect of the 22nd Amendment (2026) on judicial independence and case backlog - contested."
+    doctrines:
+      - {id: T-FND-02-01, name: "Stare decisis in Sri Lanka", summary: "Vertical and horizontal precedent; status of Privy Council and pre-1972 decisions.", basis: [ACT-JUDICATURE-1978], authorities: [], related: [S-CON-05]}
+      - {id: T-FND-02-02, name: "Jurisdictional allocation between SC, CA and Provincial High Courts", summary: "FR exclusively in SC (Art 126); writs in CA (Art 140) and PHC (Art 154P(4)); overlaps and forum choice.", basis: [CP-ART-126, CP-ART-140, CP-ART-154P], authorities: [], related: [T-ADM-02-01, T-CON-04-01]}
+
+  - id: S-FND-03
+    name: Statutory and Constitutional Interpretation
+    tier: 1
+    tier_basis: "Every legislative and constitutional question is ultimately an interpretive question."
+    profile:
+      meaning: "Rules and presumptions for reading statutes (literal, purposive, mischief; presumptions against retrospectivity, ouster of jurisdiction, and in favour of liberty) and the special canons for the Constitution (generous/purposive construction of rights; reading the Constitution as a whole)."
+      significance: "Sri Lanka has no post-enactment review, so interpretation (reading down, presumption of constitutionality) is the main tool for reconciling statutes with rights."
+      history: "Interpretation Ordinance 1901; English canons; post-1978 purposive approach to Chapter III."
+      foundations: "Interpretation Ordinance; Art 125 (SC exclusive interpretation); trilingual texts (Art 23 - Sinhala text prevails in case of inconsistency, verify)."
+      practice: "Arguments on Art 126 standing, time limits and 'executive or administrative action' are interpretive battles."
+    legislative_basis: [ACT-INTERPRETATION-1901, CP-ART-125, CP-ART-018-025]
+    key_authorities: [CASE-SRIYANI-SILVA-2003]
+    connections: [S-CON-04, S-ADM-03]
+    open_questions:
+      - "Use of unincorporated treaties as aids to interpretation after Singarasa."
+    doctrines:
+      - {id: T-FND-03-01, name: "Purposive interpretation of fundamental rights", summary: "Rights provisions read generously; e.g. implied right to life and heirs' standing.", basis: [CP-ART-126], authorities: [CASE-SRIYANI-SILVA-2003], related: [T-CON-04-03]}
+      - {id: T-FND-03-02, name: "Presumption against ouster of jurisdiction", summary: "Courts read finality and ouster clauses narrowly.", basis: [CP-ART-054-061], authorities: [CASE-ANISMINIC-1969], related: [T-ADM-03-06]}
+      - {id: T-FND-03-03, name: "Use of international law in interpretation", summary: "Unincorporated obligations as interpretive aids; contested after Singarasa.", basis: [CP-ART-027-029], authorities: [CASE-SINGARASA-2006, CASE-BULANKULAMA-2000], related: [T-HRI-01-01]}

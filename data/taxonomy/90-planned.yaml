@@ -1,0 +1,24 @@
+# PLANNED DISCIPLINES (Future Expansion, Part I s.3)
+# Placeholders so that cross-links from Public Law can already point at them. The ID scheme
+# (D-XXX / S-XXX-NN / T-XXX-NN-NN) accommodates these without restructuring.
+# Each placeholder subject (S-XXX-PLAN) is replaced by real subjects when the discipline is opened.
+
+planned:
+  - discipline: {id: D-CRM, name: "Criminal Law and Criminal Procedure (substantive and full procedure)", status: planned, description: "Penal Code offences, general principles of liability, defences, sentencing, full CCPA procedure, evidence."}
+    subjects:
+      - {id: S-CRM-PLAN, name: "Criminal Law - to be developed", tier: null}
+  - discipline: {id: D-COM, name: "Commercial and Corporate Law", status: planned, description: "Companies, securities, banking, insolvency, sale of goods, negotiable instruments, intellectual property, competition and consumer law."}
+    subjects:
+      - {id: S-COM-PLAN, name: "Commercial and Corporate Law - to be developed", tier: null}
+  - discipline: {id: D-LND, name: "Land and Property Law", status: planned, description: "Ownership, conveyancing, registration of title (Bim Saviya), partition, servitudes, state land, tenancy, mortgages."}
+    subjects:
+      - {id: S-LND-PLAN, name: "Land and Property Law - to be developed", tier: null}
+  - discipline: {id: D-LAB, name: "Labour Law", status: planned, description: "Industrial disputes, termination of employment, labour tribunals, trade unions, wages, social security."}
+    subjects:
+      - {id: S-LAB-PLAN, name: "Labour Law - to be developed", tier: null}
+  - discipline: {id: D-FAM, name: "Family Law and Personal Laws", status: planned, description: "General marriage and divorce law, Kandyan law, Thesawalamai, Muslim law (MMDA reform), succession, maintenance, children."}
+    subjects:
+      - {id: S-FAM-PLAN, name: "Family and Personal Laws - to be developed", tier: null}
+  - discipline: {id: D-INT, name: "Public International Law", status: planned, description: "Sources, treaties, state responsibility, law of the sea, diplomatic law, international economic law, as distinct from human rights (D-HRI)."}
+    subjects:
+      - {id: S-INT-PLAN, name: "Public International Law - to be developed", tier: null}
